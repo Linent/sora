@@ -1,0 +1,101 @@
+.yith-wcbk-admin-search-form-wrapper {
+    max-width : 500px;
+}
+
+.yith-wcbk-admin-search-form-col-1 {
+    width : 400px;
+    float : left;
+}
+
+.yith-wcbk-admin-search-form-col-2 {
+    min-width : 400px;
+    float     : left;
+}
+
+.yith-wcbk-admin-search-form-clear {
+    clear : both;
+}
+
+.yith-wcbk-admin-search-form-field {
+    margin-top          : 10px;
+    border              : 1px solid #ddd;
+    border-bottom-width : 2px;
+    background          : #fff;
+    min-height          : 35px;
+}
+
+.yith-wcbk-admin-search-form-field.ui-sortable-helper {
+    box-shadow : 1px 3px 20px 0 rgba(100, 100, 100, 0.4);
+}
+
+.yith-wcbk-admin-search-form-field-title {
+    font-weight         : 600;
+    user-select         : none;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    -webkit-user-select : none;
+    -o-user-select      : none;
+    cursor              : move;
+    position            : relative;
+    padding-left        : 8px;
+}
+
+.yith-wcbk-admin-search-form-field-title h2 {
+    margin      : 0 !important;
+    padding     : 8px !important;
+    font-weight : 600 !important;
+    font-size   : 14px !important;
+    display     : inline-block
+}
+
+.yith-wcbk-admin-search-form-field-content {
+    padding    : 10px;
+    border-top : 1px solid #eee;
+}
+
+.yith-wcbk-admin-search-form-field-title span {
+    padding : 8px 3px;
+}
+
+.yith-wcbk-admin-search-form-field-enable {
+    cursor : pointer;
+}
+
+.yith-wcbk-admin-search-form-field-enable.yith-wcbk-enabled {
+    color : #1e8cbe;
+}
+
+.yith-wcbk-admin-search-form-field-enable.yith-wcbk-disabled {
+    color : #bb0035;
+}
+
+.yith-wcbk-admin-search-form-field-toggle {
+    padding  : 8px;
+    position : absolute;
+    top      : 0;
+    right    : 0;
+    cursor   : pointer;
+}
+
+.yith-wcbk-admin-search-form-field-row {
+    padding : 3px 0 5px 0;
+}
+
+.yith-wcbk-admin-search-form-field-row label {
+    vertical-align : text-bottom;
+    margin-right   : 5px;
+}
+
+/* ------ PREVIEW ------- */
+#yith-wcbk-admin-search-form-preview .yith-wcbk-form-section {
+    margin-bottom : 15px;
+}
+
+#yith-wcbk-admin-search-form-preview input[type=text], #yith-wcbk-admin-search-form-preview input[type=number] {
+    width : 150px;
+}
+
+#yith-wcbk-admin-search-form-preview label {
+    width   : 150px;
+    display : inline-block;
+}

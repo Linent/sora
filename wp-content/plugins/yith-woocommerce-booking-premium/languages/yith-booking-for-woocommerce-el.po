@@ -1,0 +1,3946 @@
+# Translation of YITH Booking and Appointment for WooCommerce in Greek
+# This file is distributed under the same license as the YITH Booking and Appointment for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Booking and Appointment for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"booking-premium-official\n"
+"POT-Creation-Date: 2021-01-27 10:06:48+00:00\n"
+"PO-Revision-Date: 2020-10-15 14:55:24+0000\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:64
+msgid "Are you sure you want to delete logs?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τις καταγραφές;"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:65
+#: views/product-tabs/utility/html-availability-rule.php:29
+#: views/product-tabs/utility/html-price-rule.php:54
+msgid "Untitled"
+msgstr "Χωρίς τίτλο"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:66
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+"Οι αλλαγές που δημιουργήσατε θα χαθούν αν πλοηγηθείτε μακριά από αυτή τη "
+"σελίδα."
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:67
+msgid "Copied!"
+msgstr "Αντιγράφηκε!"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:141
+msgid "Export to CSV"
+msgstr "Εξαγωγή σε CSV"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:142
+msgid "Export to ICS"
+msgstr "Εξαγωγή σε ICS"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:203
+msgid ""
+"Are you sure you want to delete this note? This action cannot be undone."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη σημείωση; Αυτή η ενέργεια "
+"δεν θα μπορεί να αλλάξει."
+
+#: includes/assets/class.yith-wcbk-common-assets.php:71
+msgid "select people"
+msgstr "επιλέξετε άτομα"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:72
+msgid "1 person"
+msgstr "1 άτομο"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:73
+msgid "%s persons"
+msgstr "%s άτομα"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:80
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:96
+msgid "Select a duration"
+msgstr "Επιλέξτε διάρκεια"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:97
+msgid "Select a date"
+msgstr "Επιλέξτε μια ημερομηνία"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:98
+msgid "Select a date to choose the time"
+msgstr "Επιλέξτε μια ημερομηνία για επιλογή ώρας"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:99
+#: includes/class.yith-wcbk-ajax.php:578
+#: templates/single-product/add-to-cart/booking-form/dates/time.php:24
+msgid "Select Time"
+msgstr "Επιλέξτε Ώρα"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:100
+#: includes/objects/class.wc-product-booking.php:1765
+msgid "Minimum people: %s"
+msgstr "Ελάχιστος αριθμός ατόμων: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:101
+#: includes/objects/class.wc-product-booking.php:1770
+msgid "Maximum people: %s"
+msgstr "Μέγιστος αριθμός ατόμων: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:102
+msgid "Minimum duration: %s"
+msgstr "Ελάχιστη διάρκεια: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:103
+msgid "Maximum duration: %s"
+msgstr "Μέγιστη διάρκεια: %s"
+
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:29
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:30
+msgid ""
+"Google Calendar Sync - your booking products are being synchronized in the "
+"background."
+msgstr ""
+"Συγχρονισμός Ημερολογίου Google - τα προϊόντα κράτησης συγχρονίζονται στο "
+"φόντο."
+
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:31
+msgid "Google Calendar Sync - synchronization completed!"
+msgstr "Συγχρονισμός Ημερολογίου Google - ο συγχρονισμός ολοκληρώθηκε!"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:38
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:39
+#: plugin-options/settings-options.php:307
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:140
+msgid "1 h"
+msgstr "1 ω"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:141
+msgid "30 min"
+msgstr "30 λεπτά"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:142
+msgid "15 min"
+msgstr "15 λεπτά"
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:46
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:47
+#: views/html-booking-create.php:19 views/html-booking-create.php:108
+msgid "Create Booking"
+msgstr "Δημιουργία Κράτησης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:91
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:93
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:129
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+"Σφάλμα %d: Μη δυνατή η δημιουργία παραγγελίας. Παρακαλώ προσπαθήστε ξανά."
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:185
+msgid "Error in creating booking"
+msgstr "Σφάλμα κατα την δημιουργία κράτησης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:86
+msgid "Booking notes"
+msgstr "Σημειώσεις κράτησης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:92
+msgid "Booking actions"
+msgstr "Ενέργειες κράτησης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:98
+msgid "Booking data"
+msgstr "Δεδομένα κράτησης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:207
+#: includes/class.yith-wcbk-post-types.php:78
+#: includes/class.yith-wcbk-post-types.php:95
+#: templates/myaccount/bookings-table.php:18
+#: templates/myaccount/bookings.php:19
+msgid "Booking"
+msgstr "Κράτηση"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:208
+#: templates/booking/booking-details.php:19
+#: templates/booking/pdf/booking-details.php:9
+#: templates/emails/email-booking-details.php:28
+#: templates/emails/plain/email-booking-details.php:11
+#: templates/myaccount/bookings-table.php:22
+#: templates/myaccount/bookings.php:23
+#: views/calendar/html-booking-calendar-single-booking-data.php:40
+#: views/metaboxes/html-order-related-bookings.php:36
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:209
+#: templates/booking/booking-details.php:43
+#: templates/booking/pdf/booking-details.php:33
+#: templates/emails/email-booking-details.php:56
+#: templates/emails/plain/email-booking-details.php:19
+#: templates/myaccount/bookings.php:20
+#: views/calendar/html-booking-calendar-single-booking-data.php:111
+#: views/html-booking-create.php:63
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:210
+#: templates/booking/pdf/user-info.php:22
+#: views/calendar/html-booking-calendar-single-booking-data.php:128
+#: views/html-booking-create.php:27
+msgid "User"
+msgstr "Χρήστης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:211
+#: includes/class.yith-wcbk-language.php:43
+#: views/calendar/html-booking-calendar-single-booking-data.php:60
+#: views/metaboxes/html-booking-meta-data.php:167
+#: views/metaboxes/html-order-related-bookings.php:28
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:212
+#: includes/class.yith-wcbk-language.php:45
+#: templates/myaccount/bookings-table.php:20
+#: templates/myaccount/bookings.php:21
+#: views/calendar/html-booking-calendar-single-booking-data.php:65
+#: views/metaboxes/html-booking-meta-data.php:173
+#: views/product-tabs/utility/html-availability-rule.php:74
+#: views/product-tabs/utility/html-availability-rule.php:207
+#: views/product-tabs/utility/html-price-rule-condition.php:72
+msgid "From"
+msgstr "Από"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:213
+#: includes/class.yith-wcbk-language.php:54
+#: templates/myaccount/bookings-table.php:21
+#: templates/myaccount/bookings.php:22
+#: views/calendar/html-booking-calendar-single-booking-data.php:69
+#: views/metaboxes/html-booking-meta-data.php:186
+#: views/product-tabs/utility/html-availability-rule.php:96
+#: views/product-tabs/utility/html-availability-rule.php:213
+#: views/product-tabs/utility/html-price-rule-condition.php:128
+msgid "To"
+msgstr "Προς"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:214
+#: includes/class.yith-wcbk-language.php:48
+#: includes/class.yith-wcbk-post-types.php:122
+#: includes/class.yith-wcbk-post-types.php:123
+#: views/calendar/html-booking-calendar-single-booking-data.php:137
+#: views/metaboxes/html-booking-meta-data.php:214
+#: views/metaboxes/html-order-related-bookings.php:43
+#: views/metaboxes/html-search-form-metabox.php:21
+#: views/product-tabs/utility/html-price-rule-condition.php:34
+#: views/product-tabs/utility/html-price-rule.php:46
+msgid "People"
+msgstr "Άτομα"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:223
+#: views/settings-tabs/html-google-calendar.php:123
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:276
+msgid "%s of %s"
+msgstr "%s από %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:299
+#: views/calendar/html-booking-calendar-single-booking-data.php:97
+#: views/html-booking-create.php:35
+msgid "Guest"
+msgstr "Επισκέπτης"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:361
+msgid "Paid"
+msgstr "Πληρώθηκε"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:367
+#: templates/booking/booking-actions.php:33
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:372
+msgid "Reject"
+msgstr "Απόρριψη"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:379
+#: templates/booking/booking-actions.php:26
+msgid "View"
+msgstr "Προβολή"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:388
+#: views/metaboxes/html-booking-meta-actions.php:33
+msgid "Customer PDF"
+msgstr "PDF Πελάτη"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:397
+#: views/metaboxes/html-booking-meta-actions.php:34
+msgid "Admin PDF"
+msgstr "PDF Διαχειριστή"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:415
+msgid "Unpublished"
+msgstr "Αδημοσίευτο"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:418
+msgid "Y/m/d g:i:s a"
+msgstr "Χ/μ/η g:i:s a"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:425
+msgid "%s ago"
+msgstr "πριν %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:427
+msgid "Y/m/d"
+msgstr "Χ/μ/μ"
+
+#: includes/booking/class.yith-wcbk-booking-external.php:206
+msgid "External of #%s product"
+msgstr "Εξωτερικά του προϊόντος #%s"
+
+#: includes/booking/class.yith-wcbk-booking-external.php:273
+msgid "External"
+msgstr "Εξωτερικά"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:348
+msgid "30 minutes"
+msgstr "30 λεπτά"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:349
+msgid "1 hour"
+msgstr "1 ώρα"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:350
+msgid "2 hours"
+msgstr "2 ώρες"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:351
+msgid "6 hours"
+msgstr "6 ώρες"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:352
+msgid "12 hours"
+msgstr "12 ώρες"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:353
+msgid "1 day"
+msgstr "1 ημέρα"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:354
+msgid "2 days"
+msgstr "2 ημέρες"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:355
+msgid "7 days"
+msgstr "7 ημέρες"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:356
+msgid "1 month"
+msgstr "1 μήνας"
+
+#: includes/booking/class.yith-wcbk-booking.php:160
+msgid "Booking successfully created."
+msgstr "Επιτυχής δημιουργία κράτησης."
+
+#: includes/booking/class.yith-wcbk-booking.php:280
+msgid "(All Day)"
+msgstr "(Όλη μέρα)"
+
+#: includes/booking/class.yith-wcbk-booking.php:688
+msgid "by customer"
+msgstr "από τον πελάτη"
+
+#: includes/booking/class.yith-wcbk-booking.php:698
+msgid "Booking status updated to %s."
+msgstr "Η κατάσταση κράτησης ενημερώθηκε σε %s."
+
+#: includes/class.yith-wcbk-ajax.php:94
+#: views/metaboxes/html-booking-meta-notes.php:28
+msgid "Delete note"
+msgstr "Διαγραφή σημείωσης"
+
+#: includes/class.yith-wcbk-ajax.php:109 includes/class.yith-wcbk-ajax.php:127
+#: includes/class.yith-wcbk-ajax.php:139 includes/class.yith-wcbk-ajax.php:157
+#: includes/class.yith-wcbk-ajax.php:169 includes/class.yith-wcbk-ajax.php:187
+msgid "Error: something went wrong"
+msgstr "Σφάλμα: κάτι πήγε στραβά"
+
+#: includes/class.yith-wcbk-ajax.php:120 includes/class.yith-wcbk-ajax.php:150
+#: includes/class.yith-wcbk-ajax.php:177
+msgid "Error: %s"
+msgstr "Σφάλμα: %s"
+
+#: includes/class.yith-wcbk-ajax.php:378
+msgid "No booking available for this search"
+msgstr "Δεν υπάρχει διαθέσιμη κράτηση για αυτή την αναζήτηση"
+
+#: includes/class.yith-wcbk-ajax.php:598
+msgid "No time available"
+msgstr "Δεν υπάρχει διαθέσιμη ώρα"
+
+#: includes/class.yith-wcbk-cart.php:217
+msgid "There was an error in the request, please try again: %s"
+msgstr "Παρουσιάστηκε σφάλμα στο αίτημα, παρακαλώ προσπαθήστε ξανά: %s"
+
+#: includes/class.yith-wcbk-cart.php:235
+msgid "%1$s is not available: %2$s"
+msgstr "Το %1$s δεν είναι διαθέσιμο: %2$s"
+
+#: includes/class.yith-wcbk-cart.php:237
+msgid "%s is not available"
+msgstr "Το %s δεν είναι διαθέσιμο"
+
+#: includes/class.yith-wcbk-cart.php:246
+msgid "Minimum number of people: %s"
+msgstr "Ελάχιστος αριθμός ατόμων: %s"
+
+#: includes/class.yith-wcbk-cart.php:251
+msgid "Maximum number of people: %s"
+msgstr "Μέγιστος αριθμός ατόμων: %s"
+
+#: includes/class.yith-wcbk-cart.php:275
+#: includes/objects/class.wc-product-booking.php:1848
+msgid "Too many people selected (%s remained)"
+msgstr "Έχουν επιλέγει πολλά άτομα (απομένουν %s)"
+
+#: includes/class.yith-wcbk-cart.php:277
+#: includes/objects/class.wc-product-booking.php:1850
+msgid "(%s remained)"
+msgstr "(απομένουν %s)"
+
+#: includes/class.yith-wcbk-cart.php:286
+msgid "View cart"
+msgstr "Προβολή καλαθιού"
+
+#: includes/class.yith-wcbk-cart.php:287
+msgid ""
+"You cannot add another &quot;%1$s&quot; to your cart in the dates you "
+"selected. %2$s"
+msgstr ""
+"Δεν μπορείτε να προσθέσετε άλλο ένα &quot;%1$s&quot; στο καλάθι σας για τις "
+"ημερομηνίες που επιλέξατε. %2$s"
+
+#: includes/class.yith-wcbk-cart.php:459 includes/class.yith-wcbk-cart.php:490
+msgid "%s has been removed from your cart because it can no longer be booked."
+msgstr ""
+"Το %s αφαιρέθηκε από το καλάθι σας γιατί δεν μπορεί να γίνει η κράτηση του "
+"πλέον."
+
+#: includes/class.yith-wcbk-cron.php:68
+msgid "Automatically reject booking after %d day(s) from creating"
+msgstr "Αυτόματη απόρριψη κράτησης μετά από %d ημέρα(ες) από την δημιουργία"
+
+#: includes/class.yith-wcbk-cron.php:93
+msgid "Automatically complete booking after %d day(s) from End Date"
+msgstr ""
+"Αυτόματη ολοκλήρωση κράτησης μετά από %d ημέρα(ες) από την Ημερομηνία Λήξης"
+
+#: includes/class.yith-wcbk-endpoints.php:74
+msgid "Booking endpoints"
+msgstr "Τελικά σημεία κρατήσεων"
+
+#: includes/class.yith-wcbk-endpoints.php:80
+#: includes/class.yith-wcbk-endpoints.php:148
+#: includes/class.yith-wcbk-endpoints.php:216
+#: includes/class.yith-wcbk-post-types.php:77
+msgid "Bookings"
+msgstr "Κρατήσεις"
+
+#: includes/class.yith-wcbk-endpoints.php:81
+msgid "Endpoint for the My Account &rarr; Bookings page"
+msgstr "Το τελικό σημείο για Ο Λογαριασμός Μου &rarr; Σελίδα Κρατήσεων"
+
+#: includes/class.yith-wcbk-endpoints.php:89
+#: includes/functions.yith-wcbk-template.php:302
+msgid "View booking"
+msgstr "Προβολή κράτησης"
+
+#: includes/class.yith-wcbk-endpoints.php:90
+msgid "Endpoint for the My Account &rarr; View Booking page"
+msgstr "Το τελικό σημείο για Ο Λογαριασμός Μου &rarr; Προβολή σελίδας Κράτησης"
+
+#: includes/class.yith-wcbk-endpoints.php:214
+msgid "Bookings (page %d)"
+msgstr "Κρατήσεις (σελίδα %d)"
+
+#: includes/class.yith-wcbk-endpoints.php:277
+msgid "Invalid booking."
+msgstr "Μη έγκυρη κράτηση."
+
+#: includes/class.yith-wcbk-endpoints.php:277
+msgid "View your bookings"
+msgstr "Προβολή των κρατήσεών σας"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:46
+msgid "You must log in before asking for a booking confirmation"
+msgstr "Πρέπει να συνδεθείτε πριν ζητήσετε επιβεβαίωση κράτησης"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:49
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:91
+msgid "Request for booking confirmation sent"
+msgstr "Το αίτημα για την επιβεβαίωση κράτησης εστάλη"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:93
+msgid "Error in requesting booking confirmation"
+msgstr "Ένα σφάλμα ζητά επιβεβαίωση κράτησης"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:116
+msgid "This booking cannot be cancelled. Contact us for more info"
+msgstr ""
+"Αυτή η κράτηση δεν μπορεί να ακυρωθεί. Επικοινωνήστε μαζί μας για "
+"περισσότερες πληροφορίες"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:124
+msgid "Booking %s cancelled"
+msgstr "Η κράτηση %s ακυρώθηκε"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:126
+msgid "Booking %s not cancelled"
+msgstr "Η κράτηση %s δεν ακυρώθηκε"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:155
+msgid "This booking cannot be paid. Contact us for more info"
+msgstr ""
+"Αυτή η κράτηση δεν μπορεί να πληρωθεί. Επικοινωνήστε μαζί μας για "
+"περισσότερες πληροφορίες"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:69
+msgid "Google Calendar Sync"
+msgstr "Συγχρονισμός Ημερολογίου Google"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:86
+#: views/metaboxes/html-booking-meta-actions.php:42
+msgid "not synchronized"
+msgstr "μη συγχρονισμένα"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:90
+#: views/metaboxes/html-booking-meta-actions.php:46
+msgid "synchronized"
+msgstr "συγχρονισμένα"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:213
+msgid "Google Calendar: event successfully created"
+msgstr "Ημερολόγιο Google: η εκδήλωση δημιουργήθηκε με επιτυχία"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:217
+msgid "Google Calendar: event successfully updated"
+msgstr "Ημερολόγιο Google: η εκδήλωση ενημερώθηκε με επιτυχία"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:221
+msgid "Google Calendar: event successfully %s"
+msgstr "Ημερολόγιο Google: η εκδήλωση επιτυχώς %s"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:248
+msgid "Google Calendar: event successfully deleted"
+msgstr "Ημερολόγιο Google: η εκδήλωση διαγράφηκε με επιτυχία"
+
+#: includes/class.yith-wcbk-google-calendar.php:577
+#: includes/class.yith-wcbk-post-types.php:84
+#: includes/class.yith-wcbk-post-types.php:85
+msgid "View Booking"
+msgstr "Προβολή Υπηρεσίας"
+
+#: includes/class.yith-wcbk-language.php:37
+msgid "Additional Services"
+msgstr "Επιπλέον Υπηρεσίες"
+
+#: includes/class.yith-wcbk-language.php:38
+#: includes/functions.yith-wcbk-product.php:66
+#: views/product-tabs/utility/html-availability-rule.php:152
+#: views/product-tabs/utility/html-availability-rule.php:162
+#: views/product-tabs/utility/html-availability-rule.php:187
+#: views/product-tabs/utility/html-availability-rule.php:198
+msgid "Bookable"
+msgstr "Προς κράτηση"
+
+#: includes/class.yith-wcbk-language.php:39
+#: includes/class.yith-wcbk-post-types.php:251
+#: includes/class.yith-wcbk-post-types.php:253
+#: includes/class.yith-wcbk-product-post-type-admin.php:173
+#: views/metaboxes/html-booking-meta-data.php:244
+msgid "Booking Services"
+msgstr "Υπηρεσίες Κράτησης"
+
+#: includes/class.yith-wcbk-language.php:40
+msgid "Check-in"
+msgstr "Τσεκ ιν"
+
+#: includes/class.yith-wcbk-language.php:41
+msgid "Check-out"
+msgstr "Τσεκ άουτ"
+
+#: includes/class.yith-wcbk-language.php:42
+#: views/metaboxes/html-order-related-bookings.php:32
+#: views/metaboxes/html-search-form-metabox.php:20
+msgid "Dates"
+msgstr "Ημερομηνίες"
+
+#: includes/class.yith-wcbk-language.php:44
+msgid "End date"
+msgstr "Ημερομηνία λήξης"
+
+#: includes/class.yith-wcbk-language.php:46
+msgid "Included Services"
+msgstr "Υπηρεσίες που περιλαμβάνονται"
+
+#: includes/class.yith-wcbk-language.php:47
+msgid "Not-bookable"
+msgstr "Χωρίς δυνατότητα κράτησης"
+
+#: includes/class.yith-wcbk-language.php:51
+msgid "Start date"
+msgstr "Ημερομηνία έναρξης"
+
+#: includes/class.yith-wcbk-language.php:52
+#: includes/objects/class.wc-product-booking.php:2328
+#: views/calendar/html-booking-calendar-single-booking-data.php:148
+#: views/metaboxes/html-order-related-bookings.php:68
+#: views/metaboxes/html-search-form-metabox.php:22
+#: views/product-tabs/html-services-tab.php:19
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: includes/class.yith-wcbk-language.php:53
+msgid "Time"
+msgstr "Ώρα"
+
+#: includes/class.yith-wcbk-language.php:55
+msgid "Total people"
+msgstr "Συνολικά άτομα"
+
+#: includes/class.yith-wcbk-orders.php:65
+#: includes/class.yith-wcbk-orders.php:171
+msgid "Related Bookings"
+msgstr "Σχετικές Κρατήσεις"
+
+#: includes/class.yith-wcbk-orders.php:108
+msgid ""
+"Reason: order <a href=\"%s\">#%s</a> has been resumed (probably due to a "
+"failed payment)."
+msgstr ""
+"Αιτία: η παραγγελία <a href=\"%s\">#%s</a> έχει αρχίσει ξανά (πιθανώς λόγω "
+"αποτυχημένης πληρωμής)."
+
+#: includes/class.yith-wcbk-orders.php:141
+msgid ""
+"You are trying to add the following Booking Products to the order: %s. You "
+"cannot add Booking products to orders through this box. To do it, please use "
+"the Create Booking page in Bookings menu"
+msgstr ""
+"Προσπαθείτε να προσθέσετε τα ακόλουθα Προϊόντα Κράτησης στην παραγγελία: %s. "
+"Δεν μπορείτε να προσθέσετε προϊόντα Κράτησης σε παραγγελίες μέσω αυτού του "
+"κουτιού. Για σωστή εκτέλεση, παρακαλώ χρησιμοποιήστε την σελίδα Δημιουργίας "
+"Κράτησης στο μενού Κρατήσεων"
+
+#: includes/class.yith-wcbk-orders.php:435
+msgid "A new booking <a href=\"%s\">#%s</a> has been created from this order"
+msgstr ""
+"Μια νέα κράτηση <a href=\"%s\">#%s</a> δημιουργήθηκε από την παραγγελία"
+
+#: includes/class.yith-wcbk-orders.php:444
+msgid "Booking associated to order <a href=\"%s\">#%s</a>"
+msgstr "Η κράτηση συνδέεται στην παραγγελία <a href=\"%s\">#%s</a>"
+
+#: includes/class.yith-wcbk-orders.php:486
+msgid "Reason: order <a href=\"%s\">#%s</a> has been cancelled."
+msgstr "Αιτία: η παραγγελία <a href=\"%s\">#%s</a> έχει ακυρωθεί."
+
+#: includes/class.yith-wcbk-post-types.php:79
+msgid "Add Booking"
+msgstr "Προσθήκη Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:80
+msgid "Add New Booking"
+msgstr "Προσθήκη Νέας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:81
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: includes/class.yith-wcbk-post-types.php:82
+msgid "Edit Booking"
+msgstr "Επεξεργασία Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:83
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:22
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:22
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:23
+msgid "New Booking"
+msgstr "Νέα Κράτηση"
+
+#: includes/class.yith-wcbk-post-types.php:86
+msgid "Search Bookings"
+msgstr "Αναζήτηση Κρατήσεων"
+
+#: includes/class.yith-wcbk-post-types.php:87
+msgid "No bookings found"
+msgstr "Δεν βρέθηκαν κρατήσεις"
+
+#: includes/class.yith-wcbk-post-types.php:88
+msgid "No bookings found in trash"
+msgstr "Δεν βρέθηκαν κρατήσεις στον κάδο ανακύκλωσης"
+
+#: includes/class.yith-wcbk-post-types.php:89
+msgid "Parent Bookings"
+msgstr "Γονικές Κρατήσεις"
+
+#: includes/class.yith-wcbk-post-types.php:91
+msgid "All Bookings"
+msgstr "Όλες οι Κρατήσεις"
+
+#: includes/class.yith-wcbk-post-types.php:97
+msgid "This is where bookings are stored."
+msgstr "Εδώ αποθηκεύονται οι κρατήσεις."
+
+#: includes/class.yith-wcbk-post-types.php:124
+msgid "Person"
+msgstr "Άτομο"
+
+#: includes/class.yith-wcbk-post-types.php:125
+msgid "Add new type"
+msgstr "Προσθήκη νέου τύπου"
+
+#: includes/class.yith-wcbk-post-types.php:126
+msgid "New type"
+msgstr "Νέος τύπος"
+
+#: includes/class.yith-wcbk-post-types.php:127
+msgid "Edit type"
+msgstr "Επεξεργασία τύπου"
+
+#: includes/class.yith-wcbk-post-types.php:128
+msgid "View this type"
+msgstr "Προβολή τύπου"
+
+#: includes/class.yith-wcbk-post-types.php:129
+msgid "Type not found"
+msgstr "Ο τύπος δεν βρέθηκε"
+
+#: includes/class.yith-wcbk-post-types.php:130
+msgid "Type not found in trash"
+msgstr "Ο τύπος δεν βρέθηκε στον κάδο ανακύκλωσης"
+
+#: includes/class.yith-wcbk-post-types.php:156
+#: includes/class.yith-wcbk-post-types.php:157
+msgid "Search Forms"
+msgstr "Φόρμες Αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:158
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:80
+msgid "Search form"
+msgstr "Φόρμα αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:159
+msgid "Add search form"
+msgstr "Προσθήκη φόρμας αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:160
+msgid "New search form"
+msgstr "Νέα φόρμα αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:161
+msgid "Edit search form"
+msgstr "Επεξεργασία φόρμας αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:162
+msgid "View search form"
+msgstr "Προβολή φόρμας αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:163
+msgid "Search form not found"
+msgstr "Η φόρμα αναζήτησης δεν βρέθηκε"
+
+#: includes/class.yith-wcbk-post-types.php:164
+msgid "Search form not found in trash"
+msgstr "Η φόρμα αναζήτησης δεν βρέθηκε στον κάδο ανακύκλωσης"
+
+#: includes/class.yith-wcbk-post-types.php:190
+#: includes/class.yith-wcbk-post-types.php:191
+#: views/product-tabs/html-costs-tab.php:152
+msgid "Extra Costs"
+msgstr "Επιπλέον Κόστη"
+
+#: includes/class.yith-wcbk-post-types.php:192
+msgid "Extra Cost"
+msgstr "Επιπλέον Κόστος"
+
+#: includes/class.yith-wcbk-post-types.php:193
+msgid "Add New Extra Cost"
+msgstr "Προσθήκη Νέου Επιπλέον Κόστους"
+
+#: includes/class.yith-wcbk-post-types.php:194
+msgid "New Extra Cost"
+msgstr "Νέο Επιπλέον Κόστος"
+
+#: includes/class.yith-wcbk-post-types.php:195
+msgid "Edit Extra Cost"
+msgstr "Επεξεργασία Επιπλέον Κόστους"
+
+#: includes/class.yith-wcbk-post-types.php:196
+msgid "View this extra cost"
+msgstr "Προβολή του επιπλέον κόστους"
+
+#: includes/class.yith-wcbk-post-types.php:197
+msgid "Extra cost not found"
+msgstr "Το επιπλέον κόστος δεν βρέθηκε"
+
+#: includes/class.yith-wcbk-post-types.php:198
+msgid "Extra cost not found in trash"
+msgstr "Το επιπλέον κόστος δεν βρέθηκε στον κάδο ανακύκλωσης"
+
+#: includes/class.yith-wcbk-post-types.php:254
+msgid "Booking Service"
+msgstr "Υπηρεσία Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:256
+msgid "All Booking Services"
+msgstr "Όλες οι Υπηρεσίες Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:257
+msgid "Edit Booking Service"
+msgstr "Επεξεργασία Υπηρεσίας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:258
+msgid "View Booking Service"
+msgstr "Προβολή Υπηρεσίας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:259
+msgid "Update Booking Service"
+msgstr "Ενημέρωση Υπηρεσίας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:260
+msgid "Add New Booking Service"
+msgstr "Προσθήκη Νέας Υπηρεσίας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:261
+msgid "New Booking Service Name"
+msgstr "Όνομα Νέας Υπηρεσίας Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:262
+msgid "Parent Booking Service"
+msgstr "Υπηρεσία Γονικής Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:263
+msgid "Parent Booking Service:"
+msgstr "Υπηρεσία Γονικής Κράτησης:"
+
+#: includes/class.yith-wcbk-post-types.php:264
+msgid "Search Booking Services"
+msgstr "Αναζήτηση Υπηρεσιών Κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:265
+msgid "Separate booking services with commas"
+msgstr "Διαχωρίστε υπηρεσίες κρατήσεων με κόμμα"
+
+#: includes/class.yith-wcbk-post-types.php:266
+msgid "Add or remove booking services"
+msgstr "Πρόσθεση ή αφαίρεση υπηρεσιών κρατήσεων"
+
+#: includes/class.yith-wcbk-post-types.php:267
+msgid "Choose among the most popular booking services"
+msgstr "Επιλέξτε ανάμεσα από τις πιο δημοφιλείς υπηρεσίες κράτησης"
+
+#: includes/class.yith-wcbk-post-types.php:268
+msgid "No booking service found."
+msgstr "Δεν βρέθηκε υπηρεσία κράτησης."
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:86
+msgid "Export Future ICS"
+msgstr "Εξαγωγή Μελλοντικού ICS"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:91
+msgid "Booking Calendar"
+msgstr "Ημερολόγιο Κράτησης"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:149
+#: views/product-tabs/html-settings-tab.php:15
+msgid "Booking Settings"
+msgstr "Ρυθμίσεις Κράτησης"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:155
+msgid "Booking Costs"
+msgstr "Κόστη Διαθεσιμότητας"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:161
+msgid "Booking Availability"
+msgstr "Διαθεσιμότητα Κράτησης"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:167
+#: views/metaboxes/html-booking-meta-data.php:212
+msgid "Booking People"
+msgstr "Άτομα Κράτησης"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:179
+#: views/product-tabs/html-sync-tab.php:15
+msgid "Booking Sync"
+msgstr "Συγχρονισμός Κράτησης"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:47
+msgid "Shortcode"
+msgstr "Μικροκώδικας"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:63
+#: views/settings-tabs/google-calendar-views/html-access-form.php:20
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:33
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή σε πρόχειρο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:85
+msgid "Search form shortcode"
+msgstr "Μικροκώδικας φόρμας αναζήτησης"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:97
+msgid "Search form options"
+msgstr "Επιλογές φόρμας αναζήτησης"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:104
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:107
+#: plugin-options/settings-options.php:94
+msgid "Style"
+msgstr "Στυλ"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:108
+msgid "Select a style for the form."
+msgstr "Επιλέξτε ένα στυλ για την φόρμα."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:111
+#: plugin-options/settings-options.php:132
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:112
+msgid "Informal"
+msgstr "Ανεπίσημο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:113
+msgid "Elegant"
+msgstr "Κομψό"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:114
+msgid "Casual"
+msgstr "Πρόχειρο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:119
+msgid "Background"
+msgstr "Φόντο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:120
+msgid "Select the background color of the form."
+msgstr "Επιλέξτε το χρώμα φόντου της φόρμας."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:125
+msgid "Text"
+msgstr "Κείμενο"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:126
+msgid "Select the label text color of the form."
+msgstr "Επιλέξτε το χρώμα κειμένου επιγραφής της φόρμας."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:131
+msgid "Search button background"
+msgstr "Φόντο κουμπιού αναζήτησης"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:132
+msgid "Select the search button background color."
+msgstr "Επιλέξτε το χρώμα φόντου του κουμπιού αναζήτησης."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:137
+msgid "Search button text"
+msgstr "Κείμενο κουμπιού αναζήτησης"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:138
+msgid "Select the search button text color."
+msgstr "Επιλέξτε το χρώμα του κειμένου του κουμπιού αναζήτησης."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:143
+msgid "Search button on hover"
+msgstr "Κουμπί αναζήτησης στην αιώρηση"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:144
+msgid "Select the search button color on hover."
+msgstr "Επιλέξτε το χρώμα κουμπιού αναζήτησης στην αιώρηση."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:151
+msgid "Options"
+msgstr "Επιλογές"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:154
+msgid "Show results"
+msgstr "Εμφάνιση αποτελεσμάτων"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:155
+msgid "Select where you want to show results."
+msgstr "Επιλέξτε που θέλετε να εμφανίζονται τα αποτελέσματα."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:158
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:159
+msgid "Shop Page"
+msgstr "Σελίδα Καταστήματος"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:87
+#: includes/class.yith-wcbk-service-tax-admin.php:235
+#: includes/class.yith-wcbk-service-tax-admin.php:353
+msgid "Optional"
+msgstr "Προαιρετικό"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:88
+#: includes/class.yith-wcbk-service-tax-admin.php:242
+#: includes/class.yith-wcbk-service-tax-admin.php:360
+msgid "Hidden"
+msgstr "Κρυμμένο"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:89
+msgid "Multiply per units"
+msgstr "Πολλαπλασιασμός επί μονάδων"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:90
+msgid "Multiply per people"
+msgstr "Πολλαπλασιασμός επί ατόμων"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:91
+#: includes/class.yith-wcbk-service-tax-admin.php:272
+#: includes/class.yith-wcbk-service-tax-admin.php:390
+msgid "Has quantity"
+msgstr "Έχει ποσότητα"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:94
+#: includes/class.yith-wcbk-service-tax-admin.php:229
+#: includes/class.yith-wcbk-service-tax-admin.php:346
+msgid "Price"
+msgstr "Τιμή"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:152
+#: includes/class.yith-wcbk-service-tax-admin.php:248
+#: includes/class.yith-wcbk-service-tax-admin.php:366
+msgid "Hidden in search forms"
+msgstr "Κρυμμένο στις φόρμες αναζήτησης"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:232
+#: includes/class.yith-wcbk-service-tax-admin.php:350
+msgid "Select the price for this service."
+msgstr "Επιλέξτε την τιμή για αυτή την υπηρεσία."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:238
+#: includes/class.yith-wcbk-service-tax-admin.php:356
+msgid ""
+"Select if this service is optional (let customers choose to add it or not)."
+msgstr ""
+"Επιλέξτε αν αυτή η υπηρεσία είναι προαιρετική (επιτρέψτε στους πελάτες να "
+"την επιλέξουν ή όχι)."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:245
+#: includes/class.yith-wcbk-service-tax-admin.php:363
+msgid "Select if you want to hide this service to customers."
+msgstr ""
+"Επιλέξτε αν θέλετε να κάνετε απόκρυψη αυτής της υπηρεσίας από τους πελάτες."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:251
+#: includes/class.yith-wcbk-service-tax-admin.php:369
+msgid ""
+"Select if you want to hide this service to customers in Booking Search Forms."
+msgstr ""
+"Επιλέξτε αν θέλετε να κάνετε απόκρυψη αυτής της υπηρεσίας από τους πελάτες "
+"στις Φόρμες Αναζήτησης Κράτησης."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:258
+#: includes/class.yith-wcbk-service-tax-admin.php:376
+msgid "Multiply cost by units selected"
+msgstr "Πολλαπλασιασμός κόστους επί επιλεγμένων μονάδων"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:261
+#: includes/class.yith-wcbk-service-tax-admin.php:379
+msgid ""
+"Select if you want to multiply the cost of this service by the number of "
+"units selected."
+msgstr ""
+"Επιλέξτε αν θέλετε να πολλαπλασιάσατε το κόστος αυτής της υπηρεσίας επί του "
+"επιλεγμένου αριθμού μονάδων."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:265
+#: includes/class.yith-wcbk-service-tax-admin.php:383
+msgid "Multiply cost by people"
+msgstr "Πολλαπλασιασμός κόστους επί ατόμων"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:268
+#: includes/class.yith-wcbk-service-tax-admin.php:386
+msgid ""
+"Select if you want to multiply the cost of this service by the number of "
+"people selected."
+msgstr ""
+"Επιλέξτε αν θέλετε να πολλαπλασιάσατε το κόστος αυτής της υπηρεσίας επί του "
+"επιλεγμένου αριθμού ατόμων."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:275
+#: includes/class.yith-wcbk-service-tax-admin.php:393
+msgid "Select if you want to allow a quantity selection for this service."
+msgstr ""
+"Επιλέξτε αν θέλετε να επιτρέψετε επιλογή ποσότητας για αυτή την υπηρεσία."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:279
+#: includes/class.yith-wcbk-service-tax-admin.php:397
+msgid "Min quantity"
+msgstr "Ελάχιστη ποσότητα"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:282
+#: includes/class.yith-wcbk-service-tax-admin.php:400
+msgid "Choose the minimum quantity for this service."
+msgstr "Επιλέξτε την ελάχιστη ποσότητα για αυτή την υπηρεσία."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:291
+#: includes/class.yith-wcbk-service-tax-admin.php:409
+msgid "Max quantity"
+msgstr "Μέγιστη ποσότητα"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:294
+#: includes/class.yith-wcbk-service-tax-admin.php:412
+msgid "Choose the maximum quantity for this service. Leave empty for unlimited"
+msgstr ""
+"Επιλέξτε την μέγιστη ποσότητα για αυτή την υπηρεσία. Αφήστε το κενό για "
+"απεριόριστο"
+
+#: includes/class.yith-wcbk-theme.php:55
+msgid "Update to version %s"
+msgstr "Ενημέρωση σε έκδοση %s"
+
+#: includes/class.yith-wcbk-theme.php:57
+msgid "A new version of <strong>YITH Booking</strong> theme is now available."
+msgstr ""
+"Μια νέα έκδοση του θέματος <strong>YITH Booking</strong> είναι διαθέσιμη."
+
+#: includes/class.yith-wcbk-theme.php:91
+#: includes/utils/class.yith-wcbk-exporter.php:59
+msgid "Something went wrong."
+msgstr "Κάτι πήγε στραβά."
+
+#: includes/class.yith-wcbk-theme.php:167
+msgid "Sorry, you are not allowed to switch themes for this site."
+msgstr ""
+"Λυπούμαστε, δεν σας επιτρέπεται να αλλάξετε θέματα για αυτό τον ιστότοπο."
+
+#: includes/class.yith-wcbk-theme.php:171
+msgid "The requested theme does not exist."
+msgstr "Το ζητούμενο θέμα δεν υπάρχει."
+
+#: includes/class.yith-wcbk-theme.php:183
+#: includes/class.yith-wcbk-theme.php:210
+msgid "Theme package not found in <code>%s</code>."
+msgstr "Το πακέτο θέματος δεν βρέθηκε στο <code>%s</code>."
+
+#: includes/class.yith-wcbk-theme.php:213
+msgid "Sorry, you are not allowed to update themes for this site."
+msgstr ""
+"Λυπούμαστε, δεν σας επιτρέπεται να ενημερώσετε θέματα για αυτό τον ιστότοπο."
+
+#: includes/class.yith-wcbk-theme.php:233
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+"Δεν μπόρεσε να γίνει σύνδεση με το σύστημα αρχείων. Παρακαλώ επιβεβαιώστε τα "
+"διαπιστευτήριά σας."
+
+#: includes/class.yith-wcbk-tools.php:93
+msgid "Booking product prices synchronized correctly!"
+msgstr "Οι τιμές προϊόντος κράτησης συγχρονίστηκαν με επιτυχία!"
+
+#: includes/class.yith-wcbk-tools.php:97
+msgid "You don't have any booking product in your store."
+msgstr "Δεν έχετε κανένα προϊόν κράτησης στο κατάστημά σας."
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:20
+msgid "New Booking (Admin)"
+msgstr "Νέα Κράτηση (Διαχειριστής)"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:21
+msgid "This email is sent to the admin when a booking is created."
+msgstr ""
+"Αυτό το email αποστέλλεται στον διαχειριστή κατα την δημιουργία μιας "
+"κράτησης."
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:23
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:23
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:24
+msgid "Booking #{booking_id} created"
+msgstr "Η κράτηση #{booking_id} δημιουργήθηκε"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:65
+#: includes/emails/class.yith-wcbk-email-booking-status.php:74
+msgid "Recipient(s)"
+msgstr "Παραλήπτης (ες)"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:67
+#: includes/emails/class.yith-wcbk-email-booking-status.php:76
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Εισάγετε παραλήπτες (διαχωρίστε με κόμμα) για αυτό το email. Προεπιλεγμένα "
+"σε <code>%s</code>."
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:20
+msgid "Booking status (Vendor)"
+msgstr "Κατάσταση κράτησης (Πωλητής)"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:21
+msgid "This email is sent to the vendor when a booking's status changes."
+msgstr ""
+"Αυτό το email στέλνεται στον πωλητή όταν αλλάζει η κατάσταση μιας κράτησης."
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:23
+#: includes/emails/class.yith-wcbk-email-booking-status.php:23
+msgid "Booking status changed"
+msgstr "Η κατάσταση κράτησης άλλαξε"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:24
+#: includes/emails/class.yith-wcbk-email-booking-status.php:24
+msgid "Booking #{booking_id} is now {status}"
+msgstr "Η κράτηση #{booking_id} είναι τώρα {status}"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:87
+#: includes/emails/class.yith-wcbk-email-booking-status.php:83
+msgid "Send email for these statuses"
+msgstr "Στείλετε ένα email για αυτές τις καταστάσεις"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:89
+#: includes/emails/class.yith-wcbk-email-booking-status.php:85
+msgid "Choose on which status(es) this email notification should be sent."
+msgstr ""
+"Επιλέξτε σε ποια κατάσταση(εις) να αποστέλλεται αυτή η ειδοποίηση email."
+
+#: includes/emails/class.yith-wcbk-email-booking-status.php:20
+msgid "Booking status"
+msgstr "Κατάσταση κράτησης"
+
+#: includes/emails/class.yith-wcbk-email-booking-status.php:21
+msgid ""
+"This email is sent to the administrator when a booking's status changes."
+msgstr ""
+"Αυτό το email στέλνεται στον διαχειριστή όταν η κατάσταση μιας κράτησης "
+"αλλάζει."
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:21
+msgid "Customer Booking Note"
+msgstr "Σημείωση Κράτησης Πελάτη"
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:22
+msgid "Customer Booking Note emails are sent when you add a note to a booking."
+msgstr ""
+"Τα email Σημείωσης Κράτησης Πελάτη αποστέλλονται όταν προστίθεται μια "
+"σημείωση σε μια κράτηση."
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:23
+msgid "A note has been added to your Booking #{booking_id}"
+msgstr "Μια σημείωση προστέθηκε στην Κράτηση #{booking_id}"
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:24
+msgid "Note added to your Booking #{booking_id}"
+msgstr "Η σημείωση προστέθηκε στην Κράτηση #{booking_id}"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:20
+msgid "Cancelled booking"
+msgstr "Ακυρωμένη κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:21
+msgid "This email is sent to customers when a booking is cancelled."
+msgstr "Αυτό το email αποστέλλεται στους πελάτες όταν μια κράτηση ακυρώνεται."
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:22
+msgid "Cancelled Booking"
+msgstr "Ακυρωμένη Κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:23
+msgid "Booking #{booking_id} was cancelled"
+msgstr "Η κράτηση #{booking_id} ακυρώθηκε"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:24
+msgid "Completed Booking"
+msgstr "Ολοκληρωμένη Κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:25
+msgid "This email is sent to customers when a booking is completed."
+msgstr ""
+"Αυτό το email αποστέλλεται στους πελάτες όταν μια κράτηση ολοκληρώνεται."
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:26
+msgid "Thanks for your Booking"
+msgstr "Ευχαριστούμε για την Κράτησή σας"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:27
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:28
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:85
+msgid "Booking #{booking_id} was completed"
+msgstr "Η κράτηση #{booking_id} ολοκληρώθηκε"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:83
+msgid "Custom Message"
+msgstr "Προσαρμοσμένο Μήνυμα"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:87
+msgid "Available placeholders: %s"
+msgstr "Διαθέσιμα placeholders: %s"
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:22
+msgid "Confirmed Booking"
+msgstr "Επιβεβαιωμένη Κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:21
+msgid "This email is sent to customers when a booking is confirmed."
+msgstr ""
+"Αυτό το email αποστέλλεται στους πελάτες όταν μια κράτηση επιβεβαιώνεται."
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:23
+msgid "Booking #{booking_id} is now confirmed"
+msgstr "Η κράτηση #{booking_id} μόλις επιβεβαιώθηκε"
+
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:21
+msgid "This email is sent to the customer when a booking is created."
+msgstr "Αυτό το email αποστέλλεται στον πελάτη όταν δημιουργείται μια κράτηση."
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:22
+msgid "Paid Booking"
+msgstr "Πληρωμένη Κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:21
+msgid "This email is sent to customers when a booking is paid."
+msgstr "Αυτό το email αποστέλλεται στους πελάτες όταν μια κράτηση πληρώνεται."
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:23
+msgid "Booking #{booking_id} is now paid"
+msgstr "Η κράτηση #{booking_id} μόλις πληρώθηκε"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:20
+msgid "Rejected Booking"
+msgstr "Απορριφθείσα Κράτηση"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:21
+msgid "This email is sent to the customer when a booking is not confirmed."
+msgstr ""
+"Αυτό το email αποστέλλεται στον πελάτη όταν μια κράτηση δεν επιβεβαιώνεται."
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:22
+msgid "Booking could not be confirmed"
+msgstr "Η κράτηση δεν μπόρεσε να επιβεβαιωθεί"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:23
+msgid "Booking #{booking_id} could not be confirmed"
+msgstr "Η κράτηση #{booking_id} δεν μπόρεσε να επιβεβαιωθεί"
+
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:21
+msgid "New Booking (Vendor)"
+msgstr "Νέα Κράτηση (Πωλητής)"
+
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:22
+msgid "This email is sent to the vendor when a booking is created."
+msgstr ""
+"Αυτό το email αποστέλλεται στον πωλητή κατα την δημιουργία μιας κράτησης."
+
+#: includes/emails/class.yith-wcbk-email.php:145
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: includes/emails/class.yith-wcbk-email.php:147
+msgid "Enable this email notification"
+msgstr "Ενεργοποιήστε αυτή την ειδοποίηση email"
+
+#: includes/emails/class.yith-wcbk-email.php:151
+msgid "Subject"
+msgstr "Θέμα"
+
+#: includes/emails/class.yith-wcbk-email.php:153
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Ελέγχει την γραμμή θέματος του email. Διατηρήστε κενό για να χρησιμοποιήσετε "
+"το προεπιλεγμένο θέμα: <code>%s</code>."
+
+#: includes/emails/class.yith-wcbk-email.php:159
+msgid "Email Heading"
+msgstr "Επικεφαλίδα Email"
+
+#: includes/emails/class.yith-wcbk-email.php:161
+msgid ""
+"This controls the main heading in the email notification. Leave blank to use "
+"the default heading: <code>%s</code>."
+msgstr ""
+"Ελέγχει την κύρια επικεφαλίδα της ειδοποίησης email. Διατηρήστε κενό για να "
+"χρησιμοποιήσετε την προεπιλεγμένη επικεφαλίδα: <code>%s</code>."
+
+#: includes/emails/class.yith-wcbk-email.php:167
+msgid "Email type"
+msgstr "Τύπος email"
+
+#: includes/emails/class.yith-wcbk-email.php:169
+msgid "Choose which email format to send."
+msgstr "Επιλέξτε ποια μορφή email να στέλνεται."
+
+#: includes/functions.yith-wcbk-core.php:8
+msgid "month"
+msgid_plural "months"
+msgstr[0] "μήνας"
+msgstr[1] "μήνες"
+
+#: includes/functions.yith-wcbk-core.php:9
+msgid "day"
+msgid_plural "days"
+msgstr[0] "ημέρα"
+msgstr[1] "ημέρες"
+
+#: includes/functions.yith-wcbk-core.php:10
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ώρα"
+msgstr[1] "ώρες"
+
+#: includes/functions.yith-wcbk-core.php:11
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "λεπτό"
+msgstr[1] "λεπτά"
+
+#: includes/functions.yith-wcbk-dates.php:9
+msgid "Week %d"
+msgstr "Εβδομάδα %d"
+
+#: includes/functions.yith-wcbk-dates.php:20
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: includes/functions.yith-wcbk-dates.php:21
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: includes/functions.yith-wcbk-dates.php:22
+msgid "March"
+msgstr "Μάρτιος"
+
+#: includes/functions.yith-wcbk-dates.php:23
+msgid "April"
+msgstr "Απρίλιος"
+
+#: includes/functions.yith-wcbk-dates.php:24
+msgid "May"
+msgstr "Μάιος"
+
+#: includes/functions.yith-wcbk-dates.php:25
+msgid "June"
+msgstr "Ιούνιος"
+
+#: includes/functions.yith-wcbk-dates.php:26
+msgid "July"
+msgstr "Ιούλιος"
+
+#: includes/functions.yith-wcbk-dates.php:27
+msgid "August"
+msgstr "Αύγουστος"
+
+#: includes/functions.yith-wcbk-dates.php:28
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: includes/functions.yith-wcbk-dates.php:29
+msgid "October"
+msgstr "Οκτώβριος"
+
+#: includes/functions.yith-wcbk-dates.php:30
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: includes/functions.yith-wcbk-dates.php:31
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: includes/functions.yith-wcbk-dates.php:69
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: includes/functions.yith-wcbk-dates.php:70
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: includes/functions.yith-wcbk-dates.php:71
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: includes/functions.yith-wcbk-dates.php:72
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: includes/functions.yith-wcbk-dates.php:73
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: includes/functions.yith-wcbk-dates.php:74
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: includes/functions.yith-wcbk-dates.php:75
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: includes/functions.yith-wcbk-labels.php:86
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s μήνας"
+msgstr[1] "%s μήνες"
+
+#: includes/functions.yith-wcbk-labels.php:87
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s μέρα"
+msgstr[1] "%s μέρες"
+
+#: includes/functions.yith-wcbk-labels.php:88
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s ώρα"
+msgstr[1] "%s ώρες"
+
+#: includes/functions.yith-wcbk-labels.php:89
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s λεπτό"
+msgstr[1] "%s λεπτά"
+
+#: includes/functions.yith-wcbk-labels.php:94
+msgid "month(s)"
+msgid_plural "&times; %s months"
+msgstr[0] "μήνας(ες)"
+msgstr[1] "&times; %s μήνες"
+
+#: includes/functions.yith-wcbk-labels.php:95
+msgid "day(s)"
+msgid_plural "&times; %s days"
+msgstr[0] "μέρα(ες)"
+msgstr[1] "&times; %s μέρες"
+
+#: includes/functions.yith-wcbk-labels.php:96
+msgid "hour(s)"
+msgid_plural "&times; %s hours"
+msgstr[0] "ώρα(ες)"
+msgstr[1] "&times; %s ώρες"
+
+#: includes/functions.yith-wcbk-labels.php:97
+msgid "minute(s)"
+msgid_plural "&times; %s minutes"
+msgstr[0] "λεπτό(ά)"
+msgstr[1] "&times; %s λεπτά"
+
+#: includes/functions.yith-wcbk-product.php:67
+msgid "Booked"
+msgstr "Έγινε κράτηση"
+
+#: includes/functions.yith-wcbk-product.php:68
+#: views/product-tabs/html-availability-tab.php:21
+msgid "Max bookings per unit"
+msgstr "Μέγιστες κρατήσεις ανά μονάδα"
+
+#: includes/functions.yith-wcbk-product.php:70
+msgid "Non Bookable"
+msgstr "Χωρίς Δυνατότητα Κράτησης"
+
+#: includes/functions.yith-wcbk-template.php:298
+msgid "Pay booking"
+msgstr "Πληρωμή κράτησης"
+
+#: includes/functions.yith-wcbk-template.php:306
+#: templates/booking/booking-actions.php:30
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: includes/functions.yith-wcbk-template.php:310
+msgid "Confirm booking"
+msgstr "Επιβεβαίωση κράτησης"
+
+#: includes/functions.yith-wcbk-template.php:314
+msgid "Reject booking"
+msgstr "Απόρριψη κράτησης"
+
+#: includes/integrations/class.yith-wcbk-deposits-integration.php:106
+msgid "Reason: balance order <a href=\"%s\">#%s</a> has been cancelled."
+msgstr "Αιτία: η παραγγελία υπολοίπου <a href=\"%s\">#%s</a> έχει ακυρωθεί."
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:457
+#: plugin-options/settings-options.php:139
+#: views/product-tabs/html-settings-tab.php:88
+#: views/product-tabs/html-settings-tab.php:121
+msgid "None"
+msgstr "Κανένας"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:461
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:523
+msgid "Vendor"
+msgstr "Πωλητής"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:482
+msgid "All"
+msgstr "Όλοι"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:483
+msgid "Mine"
+msgstr "Δικό μου"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:506
+msgid "Filter by Vendor"
+msgstr "Ταξινόμηση κατα Πωλητή"
+
+#: includes/integrations/plugins-list.php:8
+msgid ""
+"Show badges also on bookable products. Show them on product page, shop page "
+"and in the booking search popup"
+msgstr ""
+"Εμφάνιση εμβλημάτων σε προϊόντα κράτησης. Εμφανίστε τα στη σελίδα προϊόντος, "
+"στη σελίδα καταστήματος και στο popup αναζήτησης κράτησης"
+
+#: includes/integrations/plugins-list.php:20
+msgid "Enable Catalog Mode on bookable products"
+msgstr "Ενεργοποίηση Catalog Mode σε προϊόντα κράτησης"
+
+#: includes/integrations/plugins-list.php:32
+msgid "You can allow bookings with deposit/advance payment"
+msgstr ""
+"Μπορείτε να επιτρέψετε κρατήσεις με προκαταβολή/εκ των προτέρων πληρωμή"
+
+#: includes/integrations/plugins-list.php:44
+msgid "You can stylize the Booking email templates"
+msgstr "Μπορείτε να διαμορφώσετε τα πρότυπα email Κράτησης"
+
+#: includes/integrations/plugins-list.php:56
+msgid "You can allow Vendor to manage their bookings"
+msgstr "Μπορείτε να επιτρέψετε στον Πωλητή να διαχειρίζεται τις κρατήσεις του"
+
+#: includes/integrations/plugins-list.php:68
+msgid "You can enable quick view on your bookable products"
+msgstr ""
+"Μπορείτε να ενεργοποιήσετε την γρήγορη προβολή στα προϊόντα κράτησής σας"
+
+#: includes/integrations/plugins-list.php:80
+msgid "You can allow quote requests on your bookable products"
+msgstr "Μπορείτε να επιτρέψετε αιτήματα παραθέματος στα προϊόντα κράτησής σας"
+
+#: includes/integrations/plugins-list.php:92
+msgid ""
+"You can send an email to your customers and remember them to leave a review "
+"for your bookable products"
+msgstr ""
+"Μπορείτε να στείλετε ένα email στους πελάτες σας και να τους υπενθυμίσετε να "
+"αφήσουν μια κριτική στα προϊόντα κράτησής σας"
+
+#: includes/integrations/plugins-list.php:105
+msgid ""
+"Stay updated with your bookings: receive and send an SMS to your customers "
+"every time a booking status changes."
+msgstr ""
+"Παραμείνετε ενημερωμένοι για τις κρατήσεις σας: λάβετε και αποστείλετε ένα "
+"SMS στους πελάτες σας κάθε φορά που μια κατάσταση κράτησης αλλάζει."
+
+#: includes/integrations/plugins-list.php:118
+msgid "You can create sandbox environments and online test environments"
+msgstr ""
+"Μπορείτε να δημιουργήσετε ένα περιβάλλον sandbox και online περιβάλλοντα "
+"δοκιμής"
+
+#: includes/integrations/wpml/class.yith-wcbk-wpml-services.php:79
+msgid "WPML Languages"
+msgstr "Γλώσσες WPML"
+
+#: includes/objects/class.wc-product-booking.php:1694
+msgid "The selected start date has already passed"
+msgstr "Η επιλεγμένη ημέρα έναρξης έχει ήδη περάσει"
+
+#: includes/objects/class.wc-product-booking.php:1705
+msgid "The selected start date is not allowed; you cannot book it before %s"
+msgstr ""
+"Η επιλεγμένη ημέρα έναρξης δεν επιτρέπεται. Δεν μπορείτε να την κλείσετε "
+"πριν τις %s"
+
+#: includes/objects/class.wc-product-booking.php:1713
+msgid "The selected start day is not allowed"
+msgstr "Η επιλεγμένη ημέρα έναρξης δεν επιτρέπεται"
+
+#: includes/objects/class.wc-product-booking.php:1736
+msgid "Min duration: %s"
+msgstr "Ελάχιστη διάρκεια: %s"
+
+#: includes/objects/class.wc-product-booking.php:1749
+msgid "Max duration: %s"
+msgstr "Μέγιστη διάρκεια: %s"
+
+#: includes/objects/class.wc-product-booking.php:1757
+msgid "The selected duration is not allowed"
+msgstr "Η επιλεγμένη διάρκεια δεν επιτρέπεται"
+
+#: includes/objects/class.wc-product-booking.php:1781
+msgid "The end date is beyond available ones"
+msgstr "Η ημερομηνία λήξης έχει ξεπεράσει τις διαθέσιμες"
+
+#: includes/objects/class.wc-product-booking.php:2321
+#: views/product-tabs/html-costs-tab.php:160
+#: views/product-tabs/utility/html-price-rule.php:145
+msgid "Fixed base fee"
+msgstr "Σταθερή αρχική χρέωση"
+
+#: includes/objects/class.wc-product-booking.php:2323
+#: views/product-tabs/utility/html-people-type.php:79
+msgid "Base Price"
+msgstr "Αρχική Τιμή"
+
+#: includes/objects/class.wc-product-booking.php:2324
+msgid "Extra price for additional people"
+msgstr "Επιπλέον τιμή για επιπλέον άτομα"
+
+#: includes/objects/class.wc-product-booking.php:2325
+#: views/product-tabs/html-costs-tab.php:92
+msgid "Weekly discount"
+msgstr "Εβδομαδιαία έκπτωση"
+
+#: includes/objects/class.wc-product-booking.php:2326
+#: views/product-tabs/html-costs-tab.php:107
+msgid "Monthly discount"
+msgstr "Μηνιαία έκπτωση"
+
+#: includes/objects/class.wc-product-booking.php:2327
+#: views/product-tabs/html-costs-tab.php:120
+msgid "Last minute discount"
+msgstr "Έκπτωση τελευταίας στιγμής"
+
+#: includes/objects/class.wc-product-booking.php:2417
+msgid "%s%% weekly discount"
+msgstr "%s%% εβδομαδιαία έκπτωση"
+
+#: includes/objects/class.wc-product-booking.php:2421
+msgid "%s%% monthly discount"
+msgstr "%s%% μηνιαία έκπτωση"
+
+#: includes/objects/class.wc-product-booking.php:2903
+msgid "Free!"
+msgstr "Δωρεάν!"
+
+#: includes/objects/class.yith-wcbk-service.php:336
+#: includes/objects/class.yith-wcbk-service.php:349
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:76
+msgid "Generic Error"
+msgstr "Γενικό Σφάλμα"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:77
+msgid "ICS file seems to be empty"
+msgstr "Το αρχείο ICS φαίνεται να είναι άδειο"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:78
+msgid "Malformed ICS"
+msgstr "Κακόμορφο ICS"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:82
+msgid "Error %1$s: %2$s"
+msgstr "Σφάλμα %1$s: %2$s"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:25
+msgid "Display booking form"
+msgstr "Εμφάνιση φόρμας κράτησης"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:83
+msgid "The booking product form"
+msgstr "Η φόρμα προϊόντος κράτησης"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:28
+msgid "Display booking search form"
+msgstr "Εμφάνιση φόρμας αναζήτησης κράτησης"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:33
+msgid "Select a search form..."
+msgstr "Επιλέξτε μια φόρμας αναζήτησης…"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:39
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:44
+msgid "Search Form"
+msgstr "Φόρμα Αναζήτησης"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:51
+msgid "Hide in single product"
+msgstr "Απόκρυψη σε απλό προϊόν"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:113
+msgid "Create search booking form"
+msgstr "Δημιουργία φόρμας αναζήτησης κράτησης"
+
+#: init.php:30
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s είναι ενεργοποιημένο αλλά αναποτελεσματικό. Απαιτείται WooCommerce για τη "
+"σωστή λειτουργία."
+
+#: plugin-options/labels-options.php:8
+msgid "Labels"
+msgstr "Επιγραφές"
+
+#: plugin-options/labels-options.php:21
+msgid "Choose the text of \"%s\" label for booking products."
+msgstr "Επιλέξτε το κείμενο της επιγραφής “%s” για τα προϊόντα κράτησης."
+
+#: plugin-options/labels-options.php:22
+msgid "Leave empty to get the default label."
+msgstr "Αφήστε το κενό για να οριστεί η προεπιλεγμένη επιγραφή."
+
+#: plugin-options/settings-options.php:17
+msgid "General Options"
+msgstr "Γενικές Επιλογές"
+
+#: plugin-options/settings-options.php:23
+msgid "YITH Booking Theme"
+msgstr "Θέμα YITH Booking"
+
+#: plugin-options/settings-options.php:32
+msgid "Google Maps API Key"
+msgstr "Κλειδί API Χαρτών Google"
+
+#: plugin-options/settings-options.php:34
+msgid ""
+"Insert the Google Maps API Key. %1$sLearn how to use the Google Maps API Key"
+"%2$s"
+msgstr ""
+"Εισάγετε το Κλειδί API Χαρτών Google. %1$sΜάθετε πώς να χρησιμοποιήσετε το "
+"Κλειδί API Χαρτών Google%2$s"
+
+#: plugin-options/settings-options.php:42
+msgid "Google Maps Geocode API Key"
+msgstr "Κλειδί API Γεωκωδικοποίησης Χαρτών Google"
+
+#: plugin-options/settings-options.php:44
+msgid ""
+"Insert the Google Maps API Key for Geocode. %1$sLearn how to use the Google "
+"Maps API Key%2$s"
+msgstr ""
+"Εισάγετε το Κλειδί API Χαρτών Google για Γεωκωδικοποίηση. %1$sΜάθετε πώς να "
+"χρησιμοποιήσετε το Κλειδί API Χαρτών Google%2$s"
+
+#: plugin-options/settings-options.php:52
+msgid "Booking Categories"
+msgstr "Κατηγορίες Κράτησης"
+
+#: plugin-options/settings-options.php:57
+msgid ""
+"Choose the categories of the booking products that will be visible in the "
+"Search Form."
+msgstr ""
+"Επιλέξτε τις κατηγορίες των προϊόντων κράτησης που θα είναι ορατά στη Φόρμα "
+"Αναζήτησης."
+
+#: plugin-options/settings-options.php:58
+msgid "Leave empty to select all categories."
+msgstr "Αφήστε το κενό για να επιλέξετε όλες τις κατηγορίες."
+
+#: plugin-options/settings-options.php:65
+msgid "Reject bookings (days)"
+msgstr "Απόρριψη κρατήσεων (ημέρες)"
+
+#: plugin-options/settings-options.php:68
+msgid ""
+"When this limit is reached, the pending confirmation bookings will be "
+"automatically rejected."
+msgstr ""
+"Όταν αυτό το όριο συμπληρώνεται, οι κρατήσεις σε αναμονή επιβεβαίωσης θα "
+"απορρίπτονται."
+
+#: plugin-options/settings-options.php:69
+#: plugin-options/settings-options.php:83
+msgid "Leave blank to disable."
+msgstr "Αφήστε το κενό για να το απενεργοποιήσετε."
+
+#: plugin-options/settings-options.php:79
+msgid "Complete paid bookings (days)"
+msgstr "Ολοκλήρωση πληρωμένων κρατήσεων (ημέρες)"
+
+#: plugin-options/settings-options.php:82
+msgid ""
+"When this limit is reached, paid Bookings will be set to Completed "
+"automatically when the End Date exceeds the specified number of days."
+msgstr ""
+"Όταν αυτό το όριο συμπληρώνεται, οι πληρωμένες Κρατήσεις θα ορίζονται ως "
+"Ολοκληρωμένες αυτόματα όταν η Ημερομηνία Λήξης υπερβαίνει τον συγκεκριμένο "
+"αριθμό ημερών."
+
+#: plugin-options/settings-options.php:84
+msgid ""
+"Please note: it doesn't take into account hours/minutes since the check is "
+"executed daily."
+msgstr ""
+"Παρακαλώ σημειώστε: δεν λαμβάνει υπόψην ώρες/λεπτά λογαριασμού εφόσον ο "
+"έλεγχος εκτελείτε ημερησίως."
+
+#: plugin-options/settings-options.php:97
+msgid "Choose style for Booking Forms, Search Forms, Fields and so on"
+msgstr ""
+"Επιλέξτε το στυλ για τις Φόρμες Κρατήσεων, τις Φόρμες Αναζήτησης, Πεδία και "
+"ούτω καθεξής"
+
+#: plugin-options/settings-options.php:100
+msgid "Classic"
+msgstr "Κλασικό"
+
+#: plugin-options/settings-options.php:101
+msgid "Simple"
+msgstr "Απλό"
+
+#: plugin-options/settings-options.php:107
+#: views/settings-tabs/html-google-calendar.php:35
+msgid "Debug"
+msgstr "Αποσφαλμάτωση"
+
+#: plugin-options/settings-options.php:110
+msgid ""
+"If enabled, the plugin will add some bookings-related debug logs that will "
+"be available in the YITH > Booking > Logs tab."
+msgstr ""
+"Αν ενεργοποιηθεί, το πρόσθετο θα προσθέσει κάποια αρχεία καταγραφής "
+"αποσφαλμάτωσης κρατήσεων που θα είναι διαθέσιμα στο YITH > Κρατήσεις > "
+"Καρτέλα καταγραφών."
+
+#: plugin-options/settings-options.php:121
+msgid "Booking Form"
+msgstr "Φόρμα Κράτησης"
+
+#: plugin-options/settings-options.php:128
+msgid "Booking Form Position"
+msgstr "Θέση Φόρμας Κράτησης"
+
+#: plugin-options/settings-options.php:130
+msgid "Choose the position of the booking form in Single Product Page"
+msgstr "Επιλέξτε την θέση της φόρμας κράτησης στη Σελίδα Απλού Προϊόντος"
+
+#: plugin-options/settings-options.php:133
+msgid "Before summary"
+msgstr "Πριν από σύνοψη"
+
+#: plugin-options/settings-options.php:134
+msgid "After title"
+msgstr "Μετά από τίτλο"
+
+#: plugin-options/settings-options.php:135
+msgid "Before description"
+msgstr "Πριν από περιγραφή"
+
+#: plugin-options/settings-options.php:136
+msgid "After description"
+msgstr "Μετά από σύντομη περιγραφή"
+
+#: plugin-options/settings-options.php:137
+msgid "After summary"
+msgstr "Μετά από σύνοψη"
+
+#: plugin-options/settings-options.php:138
+msgid "Use Widget"
+msgstr "Χρησιμοποιήστε Μικροεφαρμογή"
+
+#: plugin-options/settings-options.php:146
+msgid "Months loaded in calendar"
+msgstr "Μήνες που φορτώνονται στο ημερολόγιο"
+
+#: plugin-options/settings-options.php:152
+msgid ""
+"Choose the number of months loaded in calendar. Other ones will be loaded in "
+"AJAX to improve performance (Suggested: 3)"
+msgstr ""
+"Επιλέξτε τον αριθμό μηνών που θα φορτώνεται στο ημερολόγιο. Οι υπόλοιποι θα "
+"φορτώνονται στο AJAX για την βελτίωση απόδοσης (προτείνονται: 3)"
+
+#: plugin-options/settings-options.php:158
+msgid "Date Picker Format"
+msgstr "Μορφή Επιλογέα Ημερομηνίας"
+
+#: plugin-options/settings-options.php:162
+msgid "Choose the date format for date-pickers"
+msgstr "Επιλέξτε τη μορφή ημερομηνιών για τους επιλογέες ημερομηνιών"
+
+#: plugin-options/settings-options.php:168
+msgid "Enable People Selector"
+msgstr "Ενεργοποίηση Eπιλογέα Ατόμων"
+
+#: plugin-options/settings-options.php:172
+msgid "If enabled, people will be shown in a unique field (suggested)."
+msgstr ""
+"Αν ενεργοποιηθεί, τα άτομα θα εμφανίζονται σε ένα μοναδικό πεδίο "
+"(προτείνεται)."
+
+#: plugin-options/settings-options.php:178
+msgid "Columns for people"
+msgstr "Στήλες για άτομα"
+
+#: plugin-options/settings-options.php:181
+msgid ""
+"Choose the number of columns for people fields shown in the Booking form"
+msgstr ""
+"Επιλέξτε τον αριθμό στηλών για τα πεδία ατόμων που εμφανίζονται στη φόρμα "
+"Κράτησης"
+
+#: plugin-options/settings-options.php:193
+msgid "Enable Unique Calendar Picker"
+msgstr "Ενεργοποίηση Επιλογέα Μοναδικού Ημερολογίου"
+
+#: plugin-options/settings-options.php:197
+msgid "If enabled, dates will be shown in a unique field (suggested)."
+msgstr ""
+"Αν ενεργοποιηθεί, οι ημερομηνίες θα εμφανίζονται σε ένα μοναδικό πεδίο "
+"(προτείνεται)."
+
+#: plugin-options/settings-options.php:202
+msgid "Columns for calendar range picker"
+msgstr "Στήλες για επιλογέα εύρους ημερολογίου"
+
+#: plugin-options/settings-options.php:205
+msgid ""
+"Choose the number of columns for calendar range picker fields shown in the "
+"Booking form"
+msgstr ""
+"Επιλέξτε τον αριθμό στηλών για τα πεδία επιλογέα εύρους ημερολογίου που "
+"εμφανίζονται στη φόρμα Κράτησης"
+
+#: plugin-options/settings-options.php:208
+msgid "One column"
+msgstr "Μια στήλη"
+
+#: plugin-options/settings-options.php:209
+msgid "Two columns"
+msgstr "Δυο στήλες"
+
+#: plugin-options/settings-options.php:220
+msgid "Display Date Picker inline"
+msgstr "Εμφάνιση του Επιλογέα Ημερομηνιών ενσωματωμένα"
+
+#: plugin-options/settings-options.php:225
+msgid ""
+"If enabled, the date-picker will be embedded in the page instead of showing "
+"as overlay."
+msgstr ""
+"Αν ενεργοποιηθεί, ο επιλογέας ημερομηνιών θα ενσωματωθεί στη σελίδα αντί να "
+"φαίνεται ως κάλυψη."
+
+#: plugin-options/settings-options.php:226
+msgid ""
+"Please note: this will affect the single date-pickers only; the \"Unique "
+"Calendar Picker\" will never be displayed inline."
+msgstr ""
+"Παρακαλώ σημειώστε: αυτό θα επηρεάζει μόνο τους επιλογέες μονών ημερομηνιών. "
+"O “Επιλογέας Μοναδικού Ημερολογίου” δεν θα εμφανιστεί ποτέ ενσωματωμένος."
+
+#: plugin-options/settings-options.php:232
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: plugin-options/settings-options.php:234
+msgid "Prices for services"
+msgstr "Τιμές για υπηρεσίες"
+
+#: plugin-options/settings-options.php:241
+msgid "Descriptions for services"
+msgstr "Περιγραφές για υπηρεσίες"
+
+#: plugin-options/settings-options.php:250
+msgid "Included services"
+msgstr "Υπηρεσίες που περιλαμβάνονται"
+
+#: plugin-options/settings-options.php:258
+msgid "Totals"
+msgstr "Συνολικά"
+
+#: plugin-options/settings-options.php:265
+msgid "Show to logged users only"
+msgstr "Εμφάνιση μόνο σε συνδεδεμένους χρήστες"
+
+#: plugin-options/settings-options.php:268
+msgid "If enabled, show the booking form to logged users only"
+msgstr ""
+"Αν ενεργοποιηθεί, θα εμφανίζετε την φόρμα κράτησης μόνο σε συνδεδεμένους "
+"χρήστες"
+
+#: plugin-options/settings-options.php:274
+msgid "Check min/max duration"
+msgstr "Έλεγχος ελάχιστης/μέγιστης διάρκειας"
+
+#: plugin-options/settings-options.php:277
+msgid ""
+"If enabled, the plugin considers the minimum and maximum duration to show "
+"available dates in the calendar"
+msgstr ""
+"Αν ενεργοποιηθεί, το πρόσθετο θα λαμβάνει υπόψη την ελάχιστη και μέγιστη "
+"διάρκεια για την εμφάνιση διαθέσιμων ημερομηνιών στο ημερολόγιο"
+
+#: plugin-options/settings-options.php:283
+msgid " Update non-available dates on loading (AJAX)"
+msgstr " Ενημέρωση μη διαθέσιμων ημερομηνιών κατα το φόρτωμα (AJAX)"
+
+#: plugin-options/settings-options.php:286
+msgid ""
+"If enabled, the plugin will update non-available dates in the calendar on "
+"page loading. You should activate it only if you use plugins to cache "
+"product pages"
+msgstr ""
+"Αν ενεργοποιηθεί, το πρόσθετο θα ενημερώνει μη διαθέσιμες ημερομηνίες στο "
+"ημερολόγιο κατα το φόρτωμα σελίδας. Θα πρέπει να το ενεργοποιήσετε μόνο αν "
+"χρησιμοποιείτε πρόσθετα για σελίδες προϊόντων cache"
+
+#: plugin-options/settings-options.php:292
+msgid "Disable day if no time is available"
+msgstr "Απενεργοποίηση ημέρας αν δεν υπάρχει διαθέσιμη ώρα"
+
+#: plugin-options/settings-options.php:296
+msgid "If enabled, hide days in calendar if no time is available."
+msgstr ""
+"Αν ενεργοποιηθεί, θα αποκρύπτει ημέρες στο ημερολόγιο αν δεν υπάρχει "
+"διαθέσιμη ώρα."
+
+#: plugin-options/settings-options.php:297
+msgid ""
+"Please note: enabling this option the calendar will show up to 3 months for "
+"hourly bookings and up to 1 month for per-minute bookings"
+msgstr ""
+"Παρακαλώ σημειώστε: ενεργοποιώντας την επιλογή το ημερολόγιο θα εμφανίζεται "
+"έως και 3 μήνες για ωριαίες κρατήσεις και έως 1 μήνα για κρατήσεις ανά λεπτό"
+
+#: plugin-options/settings-options.php:314
+msgid "Default Time Step"
+msgstr "Προεπιλεγμένο Χρονικό Βήμα"
+
+#: plugin-options/settings-options.php:316
+msgid "Choose the default time step in Daily Calendar"
+msgstr "Επιλέξτε το προεπιλεγμένο χρονικό βήμα στο Ημερήσιο Ημερολόγιο"
+
+#: plugin-options/settings-options.php:323
+msgid "Default Start Time"
+msgstr "Προεπιλεγμένη Ώρα Έναρξης"
+
+#: plugin-options/settings-options.php:325
+msgid "Choose the default start time in Daily Calendar (format: hh:mm)"
+msgstr ""
+"Επιλέξτε την προεπιλεγμένη ώρα έναρξης στο Ημερήσιο Ημερολόγιο (μορφή: hh:mm)"
+
+#: plugin-options/settings-options.php:334
+msgid "External Calendars"
+msgstr "Εξωτερικά Ημερολόγια"
+
+#: plugin-options/settings-options.php:341
+msgid "Sync Expiration"
+msgstr "Λήξη Συγχρονισμού"
+
+#: plugin-options/settings-options.php:343
+msgid "Choose the sync expiration for external calendars"
+msgstr "Επιλέξτε την λήξη συγχρονισμού για εξωτερικά ημερολόγια"
+
+#: plugin-options/settings-options.php:350
+msgid "Show externals in calendar"
+msgstr "Εμφάνιση εξωτερικών στο ημερολόγιο"
+
+#: plugin-options/settings-options.php:352
+msgid ""
+"If enabled, you'll see also external bookings (set in the Booking Sync tab "
+"of your products) in Booking Calendar"
+msgstr ""
+"Αν ενεργοποιηθεί, θα δείτε επίσης εξωτερικές κρατήσεις (ορίστε την καρτέλα "
+"Συγχρονισμού Κράτησης των προϊόντων σας) στο Ημερολόγιο Κράτησης"
+
+#: plugin-options/settings-options.php:373
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: plugin-options/settings-options.php:379
+msgid ""
+"<strong>YITH Booking</strong> theme installed, but you cannot activate it. "
+"If you are running a Multi Site installation, please enable it in "
+"<em>Network Admin -> Themes</em>."
+msgstr ""
+"Το θέμα <strong>YITH Booking</strong> έχει εγκατασταθεί, αλλά δεν μπορείτε "
+"να το ενεργοποιήσετε. Αν εκτελείτε εγκατάσταση Multi Site, παρακαλώ "
+"ενεργοποιήστε το στο <em>Διαχείριση Δικτύου -> Θέματα</em>."
+
+#: plugin-options/settings-options.php:382
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: plugin-options/settings-options.php:392
+msgid "Update (%s)"
+msgstr "Ενημέρωση (%s)"
+
+#: plugin-options/settings-options.php:392
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: plugin-options/settings-options.php:399
+msgid "Active"
+msgstr "Ενεργό"
+
+#: plugin-options/settings-options.php:400
+msgid ""
+"You are currently using our %1$s theme. You can change theme in "
+"%2$sAppearance > Themes%3$s"
+msgstr ""
+"Αυτή τη στιγμή χρησιμοποιείτε το θέμα μας %1$s. Μπορείτε να αλλάξετε θέμα "
+"στο %2$sΕμφάνιση > Θέματα%3$s"
+
+#: plugin-options/tools-options.php:13
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: plugin-options/tools-options.php:19
+msgid "Sync Booking Prices"
+msgstr "Συγχρονισμός Τιμών Κράτησης"
+
+#: plugin-options/tools-options.php:23
+msgid "Sync Booking Product Prices"
+msgstr "Συγχρονισμός Τιμών Προϊόντων Κράτησης"
+
+#: plugin-options/tools-options.php:27
+msgid "Booking Cache"
+msgstr "Cache Κράτησης"
+
+#: plugin-options/tools-options.php:39
+msgid "If enabled, booking data are stored in cache to speed up the site."
+msgstr ""
+"Αν ενεργοποιηθεί, τα δεδομένα κράτησης θα αποθηκεύονται στο cache για την "
+"επιτάχυνση του ιστοτόπου."
+
+#: plugin-options/tools-options.php:40
+msgid ""
+"Important: we suggest to <strong>keep it enabled</strong>; disable it only "
+"for testing purpose."
+msgstr ""
+"Σημαντικό: προτείνουμε να το <strong>κρατήσετε ενεργό</strong>: "
+"απενεργοποιήστε το μόνο για σκοπούς δοκιμής."
+
+#: plugin-options/tools-options.php:41
+msgid ""
+"Please note: you can disable this option only for 24 hours; so it will be "
+"automatically activated 24 hours after disabling it."
+msgstr ""
+"Παρακαλώ σημειώστε: μπορείτε να απενεργοποιήσετε αυτή την επιλογή μόνο για "
+"24 ώρες, οπότε θα ενεργοποιηθεί αυτόματα 24 ώρες αφού απενεργοποιηθεί."
+
+#: templates/booking/booking-actions.php:22
+msgid "Pay"
+msgstr "Πληρωμή"
+
+#: templates/booking/booking-details.php:16
+msgid "Booking Details"
+msgstr "Στοιχεία Κράτησης"
+
+#: templates/booking/booking-details.php:27
+#: templates/booking/pdf/booking-details.php:17
+#: templates/emails/email-booking-details.php:36
+#: templates/emails/plain/email-booking-details.php:14
+#: views/calendar/html-booking-calendar-single-booking-data.php:44
+#: views/html-booking-create.php:45
+msgid "Product"
+msgstr "Προϊόν"
+
+#: templates/booking/pdf/user-info.php:19
+msgid "User info"
+msgstr "Στοιχεία χρήστη"
+
+#: templates/booking/pdf/user-info.php:26
+msgid "First Name"
+msgstr "Όνομα"
+
+#: templates/booking/pdf/user-info.php:30
+msgid "Last Name"
+msgstr "Επώνυμο"
+
+#: templates/booking/pdf/user-info.php:34
+msgid "Email"
+msgstr "Email"
+
+#: templates/booking/search-form/booking-search-form.php:50
+#: templates/booking/search-form/fields/search.php:11
+#: views/metaboxes/html-search-form-metabox.php:16
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: templates/booking/search-form/fields/categories.php:31
+#: views/metaboxes/html-search-form-metabox.php:18
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: templates/booking/search-form/fields/location.php:19
+#: views/calendar/html-booking-calendar-single-booking-data.php:158
+#: views/metaboxes/html-search-form-metabox.php:17
+#: views/product-tabs/html-settings-tab.php:141
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: templates/booking/search-form/fields/location.php:27
+msgid "Distance (Km)"
+msgstr "Απόσταση (Χλμ)"
+
+#: templates/booking/search-form/fields/tags.php:28
+#: views/metaboxes/html-search-form-metabox.php:19
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: templates/booking/search-form/results/results.php:39
+msgid "Show more results..."
+msgstr "Εμφάνιση περισσότερων αποτελεσμάτων…"
+
+#: templates/emails/admin-booking-status-vendor.php:12
+#: templates/emails/admin-booking-status.php:12
+#: templates/emails/plain/admin-booking-status-vendor.php:6
+#: templates/emails/plain/admin-booking-status.php:6
+msgid "%s status changed to %s"
+msgstr "Η κατάσταση %s άλλαξε σε %s"
+
+#: templates/emails/admin-new-booking.php:16
+#: templates/emails/customer-new-booking.php:12
+#: templates/emails/vendor-new-booking.php:14
+msgid "%s has been created. It is now <strong>%s<strong>"
+msgstr "Μόλις δημιουργήθηκε %s. Πλέον είναι <strong>%s<strong>"
+
+#: templates/emails/customer-booking-note.php:12
+#: templates/emails/plain/customer-booking-note.php:10
+msgid "Hello, a note has just been added to your %s:"
+msgstr "Γεια σας, προστέθηκε μια σημείωση στο %s:"
+
+#: templates/emails/customer-booking-note.php:16
+#: templates/emails/plain/customer-booking-note.php:18
+msgid "For your reference, your booking details are shown below."
+msgstr "Αναφορικά προς τα στοιχεία κράτησής σας, βρίσκονται παρακάτω."
+
+#: templates/emails/customer-cancelled-booking.php:12
+#: templates/emails/plain/customer-cancelled-booking.php:6
+msgid "%s was cancelled!"
+msgstr "%s ακυρώθηκε!"
+
+#: templates/emails/customer-confirmed-booking.php:14
+#: templates/emails/plain/customer-confirmed-booking.php:6
+msgid "%s has been confirmed!"
+msgstr "%s έχει επιβεβαιωθεί!"
+
+#: templates/emails/customer-paid-booking.php:12
+#: templates/emails/plain/customer-paid-booking.php:6
+msgid "%s is now paid!"
+msgstr "%s έχει πληρωθεί!"
+
+#: templates/emails/customer-unconfirmed-booking.php:12
+#: templates/emails/plain/customer-unconfirmed-booking.php:6
+msgid "%s has not been confirmed!"
+msgstr "%s δεν έχει επιβεβαιωθεί!"
+
+#: templates/emails/plain/admin-new-booking.php:6
+#: templates/emails/plain/customer-new-booking.php:6
+#: templates/emails/plain/vendor-new-booking.php:6
+msgid "%s has been created. It is now %s"
+msgstr "Δημιουργήθηκε %s. Τώρα είναι %s"
+
+#: templates/myaccount/bookings.php:44
+msgid "Previous"
+msgstr "Προηγούμενo"
+
+#: templates/myaccount/bookings.php:50
+msgid "Next"
+msgstr "Επόμενο"
+
+#: templates/myaccount/bookings.php:58
+msgid "Go to the Shop"
+msgstr "Μετάβαση στο Κατάστημα"
+
+#: templates/myaccount/bookings.php:60
+msgid "No booking has been made yet."
+msgstr "Δεν έχει δημιουργηθεί κράτηση ακόμη."
+
+#: templates/myaccount/view-booking.php:20
+msgid "%1$s was placed on %2$s and is currently %3$s."
+msgstr "%1$s τοποθετήθηκε στις %2$s και αυτή τη στιγμή είναι %3$s."
+
+#: templates/single-product/add-to-cart/bookable.php:23
+msgid "<strong>%s</strong>: on %s"
+msgstr "<strong>%s</strong>: στις %s"
+
+#: templates/single-product/add-to-cart/bookable.php:25
+msgid "<strong>%s</strong>: from %s to %s"
+msgstr "<strong>%s</strong>: από %s έως %s"
+
+#: templates/single-product/add-to-cart/booking-form/dates/month.php:33
+msgid "Start month"
+msgstr "Μήνας έναρξης"
+
+#: templates/single-product/add-to-cart/booking-form/meta.php:21
+#: templates/single-product/add-to-cart/booking-form/meta.php:25
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: templates/single-product/add-to-cart/booking-form/persons/people-selector.php:68
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: templates/single-product/add-to-cart/booking-form/totals-list.php:28
+msgid "Total"
+msgstr "Σύνολο"
+
+#: templates/single-product/add-to-cart/booking.php:21
+msgid "You must be logged in to book this product!"
+msgstr "Πρέπει να συνδεθείτε για να κάνετε κράτηση του προϊόντος!"
+
+#: views/calendar/html-booking-calendar-action-bar.php:44
+#: views/html-booking-create.php:53
+msgid "Select a booking product..."
+msgstr "Επιλέξτε ένα προϊόν κράτησης…"
+
+#: views/calendar/html-booking-calendar-action-bar.php:51
+#: views/calendar/html-booking-calendar-single-booking-data.php:52
+#: views/metaboxes/html-booking-meta-data.php:59
+msgid "Deleted Product #%s"
+msgstr "Διαγραμμένο Προϊόν #%s"
+
+#: views/calendar/html-booking-calendar-action-bar.php:98
+msgid "Month"
+msgstr "Μήνας"
+
+#: views/calendar/html-booking-calendar-action-bar.php:102
+msgid "Day"
+msgstr "Μέρα"
+
+#: views/calendar/html-booking-calendar-action-bar.php:120
+msgid "Quick search..."
+msgstr "Γρήγορη αναζήτηση…"
+
+#: views/calendar/html-booking-calendar-day.php:55
+#: views/metaboxes/html-booking-meta-data.php:202
+msgid "All Day"
+msgstr "Όλη μέρα"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:156
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:157
+#: views/product-tabs/utility/html-add-service.php:25
+#: views/settings-tabs/html-logs.php:172
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:159
+msgid "UID"
+msgstr "UID"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:160
+msgid "Calendar Name"
+msgstr "Όνομα Ημερολογίου"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:161
+msgid "Source"
+msgstr "Πηγή"
+
+#: views/html-booking-create.php:69
+msgid "Don't assign this booking to any order."
+msgstr "Να μην γίνει αντιστοίχιση της κράτησης με παραγγελία."
+
+#: views/html-booking-create.php:76
+msgid "Assign this booking to an order:"
+msgstr "Αντιστοιχείστε αυτή την κράτηση με μια παραγγελία:"
+
+#: views/html-booking-create.php:85
+msgid "Create new order"
+msgstr "Δημιουργία νέας παραγγελίας"
+
+#: views/html-booking-create.php:96
+msgid "Details"
+msgstr "Στοιχεία"
+
+#: views/html-booking-create.php:100
+msgid "Select a booking product to see details"
+msgstr "Επιλέξτε ένα προϊόν κράτησης για να δείτε τα στοιχεία"
+
+#: views/metaboxes/html-booking-meta-actions.php:60
+msgid "force sync"
+msgstr "επιβολή συγχρονισμού"
+
+#: views/metaboxes/html-booking-meta-actions.php:69
+msgid "Save %s"
+msgstr "Αποθήκευση %s"
+
+#: views/metaboxes/html-booking-meta-actions.php:70
+msgid "Save/update the %s"
+msgstr "Αποθήκευση/ενημέρωση του %s"
+
+#: views/metaboxes/html-booking-meta-data.php:27
+msgid "General Details"
+msgstr "Γενικά Στοιχεία"
+
+#: views/metaboxes/html-booking-meta-data.php:30
+msgid "Booking creation date:"
+msgstr "Ημερομηνία δημιουργίας κράτησης:"
+
+#: views/metaboxes/html-booking-meta-data.php:32
+msgid "h"
+msgstr "ω"
+
+#: views/metaboxes/html-booking-meta-data.php:35
+msgid "m"
+msgstr "μ"
+
+#: views/metaboxes/html-booking-meta-data.php:40
+msgid "Booking status:"
+msgstr "Κατάσταση κράτησης:"
+
+#: views/metaboxes/html-booking-meta-data.php:65
+msgid "Booking Product:"
+msgstr "Προϊόν Κράτησης:"
+
+#: views/metaboxes/html-booking-meta-data.php:69
+msgid "View product"
+msgstr "Προβολή προϊόντος"
+
+#: views/metaboxes/html-booking-meta-data.php:77
+msgid "Order:"
+msgstr "Παραγγελία:"
+
+#: views/metaboxes/html-booking-meta-data.php:82
+msgid "View order"
+msgstr "Προβολή παραγγελίας"
+
+#: views/metaboxes/html-booking-meta-data.php:102
+#: views/metaboxes/html-booking-meta-data.php:149
+msgid "N.D."
+msgstr "Χωρίς ημερομηνία"
+
+#: views/metaboxes/html-booking-meta-data.php:116
+msgid "User:"
+msgstr "Χρήστης:"
+
+#: views/metaboxes/html-booking-meta-data.php:122
+msgid "View user"
+msgstr "Προβολή χρήστη"
+
+#: views/metaboxes/html-booking-meta-data.php:165
+msgid "Booking Date"
+msgstr "Ημερομηνία Κράτησης"
+
+#: views/metaboxes/html-booking-meta-notes.php:27
+msgid "added on %1$s at %2$s"
+msgstr "προστέθηκε στο %1$s στις %2$s"
+
+#: views/metaboxes/html-booking-meta-notes.php:33
+msgid "There are no notes."
+msgstr "Δεν υπάρχουν σημειώσεις."
+
+#: views/metaboxes/html-booking-meta-notes.php:38
+msgid "Add note"
+msgstr "Προσθέστε σημείωση"
+
+#: views/metaboxes/html-booking-meta-notes.php:38
+msgid ""
+"Add a note for your reference, or add a customer note (the user will be "
+"notified)."
+msgstr ""
+"Προσθέστε μια σημείωση για την αναφορά σας, ή προσθέστε μια σημείωση για τον "
+"πελάτη (ο χρήστης θα ειδοποιηθεί)."
+
+#: views/metaboxes/html-booking-meta-notes.php:42
+msgid "Note type"
+msgstr "Τύπος σημείωσης"
+
+#: views/metaboxes/html-booking-meta-notes.php:44
+msgid "Private note"
+msgstr "Προσωπική σημείωση"
+
+#: views/metaboxes/html-booking-meta-notes.php:45
+msgid "Note to customer"
+msgstr "Σημείωση προς πελάτη"
+
+#: views/metaboxes/html-booking-meta-notes.php:47
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: views/metaboxes/html-search-form-metabox.php:54
+msgid "People field"
+msgstr "Πεδίο ατόμων"
+
+#: views/metaboxes/html-search-form-metabox.php:59
+msgid "People type field"
+msgstr "Πεδίο τύπου ατόμων"
+
+#: views/metaboxes/html-search-form-metabox.php:63
+msgid "Label"
+msgstr "Επιγραφή"
+
+#: views/product-tabs/html-availability-tab.php:15
+msgid "Booking terms"
+msgstr "Όροι κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:22
+msgid ""
+"Select the maximum number of bookings allowed for each unit. Set 0 (zero) "
+"for unlimited."
+msgstr ""
+"Επιλέξτε τον μέγιστο επιτρεπόμενο αριθμό κρατήσεων για κάθε μονάδα. Ορίστε 0 "
+"(μηδέν) για απεριόριστο."
+
+#: views/product-tabs/html-availability-tab.php:35
+msgid "Minimum booking duration"
+msgstr "Ελάχιστη διάρκεια κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:36
+msgid "Set the minimum booking duration that customers can select."
+msgstr ""
+"Ορίστε την ελάχιστη διάρκεια κράτησης που μπορούν να επιλέξουν οι πελάτες."
+
+#: views/product-tabs/html-availability-tab.php:55
+msgid "Maximum booking duration"
+msgstr "Μέγιστη διάρκεια κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:56
+msgid "Set the maximum booking duration that customers can select."
+msgstr ""
+"Ορίστε την μέγιστη διάρκεια κράτησης που μπορούν να επιλέξουν οι πελάτες."
+
+#: views/product-tabs/html-availability-tab.php:76
+msgid "Confirmation required"
+msgstr "Απαιτείται επιβεβαίωση"
+
+#: views/product-tabs/html-availability-tab.php:77
+msgid "Select if the admin has to confirm a booking before accepting it."
+msgstr ""
+"Επιλέξτε αν ο διαχειριστής πρέπει να επιβεβαιώσει μια κράτηση πριν την "
+"αποδεχτεί."
+
+#: views/product-tabs/html-availability-tab.php:88
+msgid "Cancellation available"
+msgstr "Ακύρωση διαθέσιμη"
+
+#: views/product-tabs/html-availability-tab.php:89
+msgid "Select if the customer can cancel the booking."
+msgstr "Επιλέξτε αν ο πελάτης μπορεί να ακυρώσει την κράτηση."
+
+#: views/product-tabs/html-availability-tab.php:100
+msgid "The booking can be cancelled up to"
+msgstr "Η κράτηση μπορεί να ακυρωθεί μέχρι"
+
+#: views/product-tabs/html-availability-tab.php:116
+#: views/product-tabs/html-availability-tab.php:262
+#: views/product-tabs/html-availability-tab.php:289
+#: views/product-tabs/html-settings-tab.php:58
+msgid "Day(s)"
+msgstr "Μέρα(ες)"
+
+#: views/product-tabs/html-availability-tab.php:117
+#: views/product-tabs/html-availability-tab.php:261
+#: views/product-tabs/html-availability-tab.php:288
+#: views/product-tabs/html-settings-tab.php:57
+msgid "Month(s)"
+msgstr "Μήνας(ες)"
+
+#: views/product-tabs/html-availability-tab.php:122
+msgid "before the booking start date"
+msgstr "πριν την ημερομηνία έναρξης κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:134
+msgid "Booking preferences"
+msgstr "Προτιμήσεις κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:142
+msgid "Check-in time"
+msgstr "Ώρα τσεκ ιν"
+
+#: views/product-tabs/html-availability-tab.php:143
+msgid "Insert check-in time for your customers"
+msgstr "Εισάγετε ώρα τσεκ ιν για τους πελάτες σας"
+
+#: views/product-tabs/html-availability-tab.php:154
+msgid "Check-out time"
+msgstr "Ώρα τσεκ άουτ"
+
+#: views/product-tabs/html-availability-tab.php:155
+msgid "Insert check-out time for your customers"
+msgstr "Εισάγετε ώρα τσεκ άουτ για τους πελάτες σας"
+
+#: views/product-tabs/html-availability-tab.php:166
+msgid "Allowed Start Days"
+msgstr "Επιτρεπόμενες Ημέρες Έναρξης"
+
+#: views/product-tabs/html-availability-tab.php:167
+msgid ""
+"Select on which days the booking can start. Leave empty if it can start "
+"without any limit on any day of the week."
+msgstr ""
+"Επιλέξτε τις ήμερες που μπορεί να ξεκινήσει η κράτηση. Αφήστε κενό αν μπορεί "
+"να ξεκινήσει οποιαδήποτε μέρα της εβδομάδας, χωρίς όριο."
+
+#: views/product-tabs/html-availability-tab.php:181
+msgid "Daily Start Time"
+msgstr "Ημερήσια Ώρα Έναρξης"
+
+#: views/product-tabs/html-availability-tab.php:182
+msgid "Insert the start time for every day of the week."
+msgstr "Εισάγετε την ώρα έναρξης για κάθε μέρα της εβδομάδας."
+
+#: views/product-tabs/html-availability-tab.php:193
+msgid "Buffer time"
+msgstr "Χρόνος buffer"
+
+#: views/product-tabs/html-availability-tab.php:194
+msgid "Time for preparation or cleanup between two bookings."
+msgstr "Χρόνος για προετοιμασία ή καθαριότητα μεταξύ δυο κρατήσεων."
+
+#: views/product-tabs/html-availability-tab.php:213
+msgid "Time increment based on duration"
+msgstr "Χρόνος αύξησης βάσει διάρκειας"
+
+#: views/product-tabs/html-availability-tab.php:214
+msgid ""
+"Select if the time increment of your booking is based on booking duration. "
+"By default the time increment is 1 hour for hourly bookings and 15 minutes "
+"for per-minute bookings. Example: if enabled and your booking duration is 3 "
+"hours, the time increment will be 3 hours, so you'll see the following time "
+"slots: 8:00 - 11:00 - 14:00 - 17:00"
+msgstr ""
+"Επιλέξτε αν ο χρόνος αύξησης της κράτησης βασίζεται στη διάρκεια κράτησης. Ο "
+"χρόνος αύξησης είναι προεπιλεγμένα στη 1 ώρα για ωριαίες κρατήσεις και 15 "
+"λεπτά για ανα λεπτό κρατήσεις. Παράδειγμα: αν ενεργοποιηθεί, και η διάρκεια "
+"κράτησής σας είναι 3 ώρες, η ώρα αύξησης θα είναι 3 ώρες, οπότε θα δείτε τα "
+"ακόλουθα χρονικά εύρη: 8:00 - 11:00 - 14:00 - 17:00"
+
+#: views/product-tabs/html-availability-tab.php:224
+msgid "Time increment including buffer"
+msgstr "Χρόνος αύξησης συμπεριλαμβανομένου buffer"
+
+#: views/product-tabs/html-availability-tab.php:225
+msgid ""
+"Select if you want to include buffer time to the time increment. Example: if "
+"enabled and the booking duration is 1 hour and you set a buffer of 1 hour, "
+"the time increment will be 1 hour + 1 hour, so you'll see the following time "
+"slots: 8:00 - 10:00 - 12:00 - 14:00"
+msgstr ""
+"Επιλέξτε αν θέλετε να περιλαμβάνεται ο χρόνος buffer στον χρόνο αύξησης. "
+"Παράδειγμα: αν ενεργοποιηθεί, και η διάρκεια της κράτησης είναι 1 ώρα, και "
+"ορίσετε buffer 1 ώρας, ο χρόνος αύξησης θα είναι 1 ώρα + 1 ώρα, οπότε θα "
+"δείτε τα ακόλουθα χρονικά εύρη: 8:00 - 10:00 - 12:00 - 14:00"
+
+#: views/product-tabs/html-availability-tab.php:238
+msgid "Booking window"
+msgstr "Παράθυρο κράτησης"
+
+#: views/product-tabs/html-availability-tab.php:245
+msgid "Minimum advance reservation"
+msgstr "Ελάχιστη εκ των προτέρων κράτηση"
+
+#: views/product-tabs/html-availability-tab.php:246
+msgid ""
+"Insert the minimum advance reservation for the booking. For example: if you "
+"set it to 10 days, customers can book now a booking that will start in 10 "
+"days"
+msgstr ""
+"Εισάγετε την ελάχιστη εκ των προτέρων κράτηση για το προϊόν κράτησης. Για "
+"παράδειγμα: αν ορίσετε 10 μέρες, οι πελάτες θα μπορούν να κλείνουν τώρα μια "
+"κράτηση που θα ξεκινάει σε 10 μέρες"
+
+#: views/product-tabs/html-availability-tab.php:263
+#: views/product-tabs/html-settings-tab.php:59
+msgid "Hour(s)"
+msgstr "Ώρα(ες)"
+
+#: views/product-tabs/html-availability-tab.php:271
+msgid "Maximum advance reservation"
+msgstr "Μέγιστη εκ των προτέρων κράτηση"
+
+#: views/product-tabs/html-availability-tab.php:272
+msgid ""
+"Insert the maximum advance reservation for the booking. For example: if you "
+"set it to 6 months, customers can only book within 6 months."
+msgstr ""
+"Εισάγετε την μέγιστη εκ των προτέρων κράτηση για το προϊόν κράτησης. Για "
+"παράδειγμα: αν ορίσετε 6 μήνες, οι πελάτες θα μπορούν να κάνουν κράτηση μόνο "
+"εντός 6 μηνών."
+
+#: views/product-tabs/html-availability-tab.php:287
+msgid "Year(s)"
+msgstr "Έτος(η)"
+
+#: views/product-tabs/html-availability-tab.php:302
+msgid "Additional availability rules"
+msgstr "Επιπλέον κανόνες διαθεσιμότητας"
+
+#: views/product-tabs/html-availability-tab.php:304
+#: views/product-tabs/html-costs-tab.php:201
+#: views/product-tabs/utility/html-people-types.php:18
+#: views/settings-tabs/html-global-availability-rules.php:12
+#: views/settings-tabs/html-global-price-rules.php:13
+msgid "Expand all"
+msgstr "Ανάπτυξη όλων"
+
+#: views/product-tabs/html-availability-tab.php:305
+#: views/product-tabs/html-costs-tab.php:202
+#: views/product-tabs/utility/html-people-types.php:19
+#: views/settings-tabs/html-global-availability-rules.php:13
+#: views/settings-tabs/html-global-price-rules.php:14
+msgid "Collapse all"
+msgstr "Σύμπτυξη όλων"
+
+#: views/product-tabs/html-availability-tab.php:309
+#: views/settings-tabs/html-global-availability-rules.php:17
+msgid ""
+"You can create advanced rules to enable/disable booking availability for "
+"specific dates or months"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε προηγμένους κανόνες για να ενεργοποιήσετε/"
+"απενεργοποιήσετε την διαθεσιμότητα κράτησης για συγκεκριμένες ημερομηνίες ή "
+"μήνες"
+
+#: views/product-tabs/html-costs-tab.php:14
+msgid "Standard Prices"
+msgstr "Σταθερές Τιμές"
+
+#: views/product-tabs/html-costs-tab.php:20
+#: views/product-tabs/utility/html-price-rule.php:126
+msgid "Base price for %s"
+msgstr "Αρχική τιμή για %s"
+
+#: views/product-tabs/html-costs-tab.php:21
+msgid "Set your booking price here."
+msgstr "Εισάγετε την τιμή κράτησης εδώ."
+
+#: views/product-tabs/html-costs-tab.php:40
+#: views/product-tabs/html-costs-tab.php:180
+#: views/product-tabs/utility/html-extra-cost-custom.php:50
+#: views/product-tabs/utility/html-extra-cost.php:44
+msgid "Multiply by the number of people"
+msgstr "Πολλαπλασιάστε επί αριθμού ατόμων"
+
+#: views/product-tabs/html-costs-tab.php:55
+msgid "Extra price of"
+msgstr "Επιπλέον τιμή του"
+
+#: views/product-tabs/html-costs-tab.php:56
+msgid ""
+"Here you can set an extra cost for each person added to the specified number."
+msgstr ""
+"Εδώ μπορείτε να ορίσετε ένα επιπλέον κόστος για κάθε άτομο που προστέθηκε "
+"στο συγκεκριμένο αριθμό."
+
+#: views/product-tabs/html-costs-tab.php:69
+msgid "for every person added to"
+msgstr "για κάθε άτομο που προστέθηκε στο"
+
+#: views/product-tabs/html-costs-tab.php:85
+msgid "Discounts"
+msgstr "Εκπτώσεις"
+
+#: views/product-tabs/html-costs-tab.php:93
+msgid ""
+"Encourage users to book longer stays by offering weekly and monthly "
+"discounts."
+msgstr ""
+"Ενθαρρύνετε τους χρήστες να κλείνουν διαμονές διαρκείας προσφέροντας "
+"εβδομαδιαίες και μηνιαίες εκπτώσεις."
+
+#: views/product-tabs/html-costs-tab.php:121
+msgid "Encourage users to book by offering last minute discounts."
+msgstr ""
+"Ενθαρρύνετε τους χρήστες να κάνουν κράτηση προσφέροντας εκπτώσεις την "
+"τελευταία στιγμή."
+
+#: views/product-tabs/html-costs-tab.php:135
+msgid "Days before arrival"
+msgstr "Μέρες πριν την άφιξη"
+
+#: views/product-tabs/html-costs-tab.php:156
+msgid "Leave empty if you don't need to charge extra costs"
+msgstr "Αφήστε το κενό αν δεν θέλετε να χρεώνετε επιπλέον κόστη"
+
+#: views/product-tabs/html-costs-tab.php:167
+#: views/product-tabs/utility/html-extra-cost-custom.php:31
+#: views/product-tabs/utility/html-extra-cost.php:25
+msgid "Set the cost..."
+msgstr "Ορίστε το κόστος…"
+
+#: views/product-tabs/html-costs-tab.php:199
+msgid "Advanced Price Rules"
+msgstr "Προηγμένοι Κανόνες Τιμών"
+
+#: views/product-tabs/html-costs-tab.php:206
+#: views/settings-tabs/html-global-price-rules.php:18
+msgid ""
+"You can create advanced rules to set different prices for specific "
+"conditions (dates, months, durations)."
+msgstr ""
+"Μπορείτε να δημιουργήσετε προηγμένους κανόνες για να ορίσετε διαφορετικές "
+"τιμές για συγκεκριμένες συνθήκες (ημερομηνίες, μήνες, διάρκειες)."
+
+#: views/product-tabs/html-people-tab.php:16
+msgid "People settings"
+msgstr "Ρυθμίσεις ατόμων"
+
+#: views/product-tabs/html-people-tab.php:22
+msgid "Enable people option"
+msgstr "Ενεργοποίηση επιλογής ατόμων"
+
+#: views/product-tabs/html-people-tab.php:23
+msgid ""
+"Check this box if the booking can be made only by a specific number of "
+"people."
+msgstr ""
+"Κάντε κλικ στο κουτί αν η κράτηση μπορεί να γίνει μόνο από συγκεκριμένο "
+"αριθμό ατόμων."
+
+#: views/product-tabs/html-people-tab.php:33
+msgid "Minimum number of people"
+msgstr "Ελάχιστος αριθμός ατόμων"
+
+#: views/product-tabs/html-people-tab.php:34
+msgid "Select the minimum number of people per booking."
+msgstr "Επιλέξτε τον ελάχιστο αριθμό ατόμων ανά κράτηση."
+
+#: views/product-tabs/html-people-tab.php:45
+msgid "Maximum number of people"
+msgstr "Μέγιστος αριθμός ατόμων"
+
+#: views/product-tabs/html-people-tab.php:46
+msgid "Select the maximum number of people per booking."
+msgstr "Επιλέξτε τον μέγιστο αριθμό ατόμων ανά κράτηση."
+
+#: views/product-tabs/html-people-tab.php:57
+msgid "Count people as separated bookings"
+msgstr "Αρίθμηση ατόμων ως ξεχωριστές κρατήσεις"
+
+#: views/product-tabs/html-people-tab.php:58
+msgid ""
+"If you need to book only for a fixed number of people and you set the number "
+"in \"Max bookings per unit\" option, check this option to count each person "
+"as a separate booking."
+msgstr ""
+"Αν θέλετε να κάνετε κράτηση μόνο για σταθερό αριθμό ατόμων και ορίσετε τον "
+"αριθμό στην επιλογή “Μέγιστες κρατήσεις ανά μονάδα”, κάντε κλικ στην επιλογή "
+"για να μετρήσετε κάθε άτομο σαν μια ξεχωριστή κράτηση."
+
+#: views/product-tabs/html-people-tab.php:60
+msgid ""
+"Example: you set 10 people for a Yoga class and you set 10 in \"Max bookings "
+"per unit\" option; every person will be a separate booking until number 10 "
+"is reached."
+msgstr ""
+"Παράδειγμα: αν ορίσετε 10 άτομα για ένα μάθημα γιόγκα και ορίσετε 10 στην "
+"επιλογή “Μέγιστες κρατήσεις ανά μονάδα”, τότε κάθε άτομο θα είναι μια "
+"ξεχωριστή κράτηση έως ότου συμπληρωθεί ο αριθμός 10."
+
+#: views/product-tabs/html-people-tab.php:70
+msgid "Enable people types"
+msgstr "Ενεργοποίηση τύπων ατόμων"
+
+#: views/product-tabs/html-people-tab.php:71
+msgid ""
+"You can use types, for example, to set different prices for different "
+"people. Example: Adult 30 $, Child 10 $."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε τύπους για να ορίσετε διαφορετικές τιμές για "
+"κάθε άτομο. Παράδειγμα: Ενήλικας 30 €, Παιδί 10 €."
+
+#: views/product-tabs/html-services-tab.php:24
+msgid "select one or more services..."
+msgstr "επιλογή μιας ή περισσότερων υπηρεσιών…"
+
+#: views/product-tabs/html-services-tab.php:31
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+#: views/product-tabs/html-services-tab.php:32
+msgid "Deselect all"
+msgstr "Αποεπιλογή όλων"
+
+#: views/product-tabs/html-services-tab.php:37
+msgid "Insert services available for this product"
+msgstr "Εισάγετε τις διαθέσιμες υπηρεσίες για αυτό το προϊόν"
+
+#: views/product-tabs/html-services-tab.php:38
+msgid ""
+"Click on the field to add a service available for this product or click on "
+"'Select all' to add all services"
+msgstr ""
+"Κάντε κλικ στο πεδίο για να προσθέσετε μια νέα διαθέσιμη υπηρεσία για αυτό "
+"το προϊόν ή κάντε κλικ στο ‘Επιλογή Όλων’ για να προσθέσετε όλες τις "
+"υπηρεσίες"
+
+#: views/product-tabs/html-services-tab.php:47
+#: views/product-tabs/html-services-tab.php:52
+msgid "Create new service"
+msgstr "Δημιουργία νέας υπηρεσίας"
+
+#: views/product-tabs/html-services-tab.php:61
+#: views/product-tabs/utility/html-people-types.php:69
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: views/product-tabs/html-settings-tab.php:22
+msgid "Booking Duration"
+msgstr "Διάρκεια Κράτησης"
+
+#: views/product-tabs/html-settings-tab.php:24
+msgid "Set if your customers can book for minutes, hours, days or months"
+msgstr ""
+"Ορίστε αν οι πελάτες σας μπορούν να κλείνουν ανά λεπτά, ώρες, μέρες ή μήνες"
+
+#: views/product-tabs/html-settings-tab.php:32
+msgid "Customer can book units of"
+msgstr "Ο πελάτης μπορεί κλείνει μονάδες των"
+
+#: views/product-tabs/html-settings-tab.php:33
+msgid "Fixed units of"
+msgstr "Σταθερές μονάδες των"
+
+#: views/product-tabs/html-settings-tab.php:60
+msgid "Minute(s)"
+msgstr "Λεπτό(ά)"
+
+#: views/product-tabs/html-settings-tab.php:69
+msgid "Enable calendar range picker"
+msgstr "Ενεργοποίηση επιλογέα εύρους ημερολογίου"
+
+#: views/product-tabs/html-settings-tab.php:70
+msgid "Enable or disable the calendar range picker in product page."
+msgstr ""
+"Ενεργοποίηση ή απενεργοποίηση του επιλογέα εύρους ημερολογίου στη σελίδα "
+"προϊόντος."
+
+#: views/product-tabs/html-settings-tab.php:80
+msgid "Default start date in booking form"
+msgstr "Προεπιλεγμένη ημερομηνία έναρξης της φόρμας κράτησης"
+
+#: views/product-tabs/html-settings-tab.php:81
+msgid "Insert the day to show as default in Start Date field of booking form."
+msgstr ""
+"Εισάγετε την προεπιλεγμένη ημέρα που θα εμφανίζεται στο πεδίο Ημερομηνίας "
+"Έναρξης της φόρμας κράτησης."
+
+#: views/product-tabs/html-settings-tab.php:89
+msgid "Today"
+msgstr "Σήμερα"
+
+#: views/product-tabs/html-settings-tab.php:90
+msgid "Tomorrow"
+msgstr "Αύριο"
+
+#: views/product-tabs/html-settings-tab.php:91
+#: views/product-tabs/html-settings-tab.php:122
+msgid "First available"
+msgstr "Πρώτη διαθέσιμη"
+
+#: views/product-tabs/html-settings-tab.php:92
+msgid "Custom Date"
+msgstr "Προσαρμοσμένη Ημερομηνία"
+
+#: views/product-tabs/html-settings-tab.php:102
+msgid "Custom default start date"
+msgstr "Προσαρμοσμένη προεπιλεγμένη ημερομηνία έναρξης"
+
+#: views/product-tabs/html-settings-tab.php:103
+msgid ""
+"Insert the custom date to show as default in Start Date field of booking "
+"form."
+msgstr ""
+"Εισάγετε την προσαρμοσμένη προεπιλεγμένη ημερομηνία που θα εμφανίζεται στο "
+"πεδίο Ημερομηνία Έναρξης της φόρμας κράτησης."
+
+#: views/product-tabs/html-settings-tab.php:113
+msgid "Default start time in booking form"
+msgstr "Προεπιλεγμένη ώρα έναρξης της φόρμας κράτησης"
+
+#: views/product-tabs/html-settings-tab.php:114
+msgid "Insert the time to show as default in Time field of booking form."
+msgstr ""
+"Εισάγετε την προεπιλεγμένη ώρα που θα εμφανίζεται στο πεδίο Ώρας της φόρμας "
+"κράτησης."
+
+#: views/product-tabs/html-settings-tab.php:128
+msgid "Full day booking"
+msgstr "Κράτηση πλήρους ημέρας"
+
+#: views/product-tabs/html-settings-tab.php:129
+msgid ""
+"Choose whether the booking will be active or not for the full day (Example: "
+"for a booking from day 1 to day 2, day 2 will be fully booked only if this "
+"option is active)"
+msgstr ""
+"Επιλέξτε αν θέλετε η κράτηση να είναι ενεργοποιημένη ή όχι για όλη την ημέρα "
+"(Παράδειγμα: για μια κράτηση από την ημέρα 1 έως την ημέρα 2, η ημέρα 2 θα "
+"είναι πλήρως κλεισμένη μόνο αν αυτή η επιλογή είναι ενεργοποιημένη)"
+
+#: views/product-tabs/html-settings-tab.php:138
+#: views/settings-tabs/html-google-calendar.php:26
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: views/product-tabs/html-settings-tab.php:142
+msgid ""
+"Set your Google Maps API Keys in %s and then enter your address in this "
+"field."
+msgstr ""
+"Εισάγετε τα Κλειδιά API Χαρτών Google στο %s και μετά εισάγετε την διεύθυνσή "
+"σας στο πεδίο."
+
+#: views/product-tabs/html-settings-tab.php:144
+msgid "You can put a map in product page by using the %s shortcode."
+msgstr ""
+"Μπορείτε να εισάγετε έναν χάρτη στη σελίδα προϊόντος χρησιμοποιώντας τον "
+"μικροκώδικα %s."
+
+#: views/product-tabs/html-sync-tab.php:23
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: views/product-tabs/html-sync-tab.php:24
+msgid "Download"
+msgstr "Κατέβασμα"
+
+#: views/product-tabs/html-sync-tab.php:32
+msgid "Export Future ICS URL"
+msgstr "Εξαγωγή Μελλοντικού URL ICS"
+
+#: views/product-tabs/html-sync-tab.php:44
+msgid "Import ICS Calendars"
+msgstr "Εισαγωγή Ημερολογίων ICS"
+
+#: views/product-tabs/html-sync-tab.php:52
+msgid "Last Sync"
+msgstr "Τελευταίος Συγχρονισμός"
+
+#: views/product-tabs/utility/html-add-service.php:10
+msgid "Service name"
+msgstr "Όνομα υπηρεσίας"
+
+#: views/product-tabs/utility/html-availability-rule.php:41
+#: views/product-tabs/utility/html-price-rule.php:66
+msgid "Rule name"
+msgstr "Όνομα κανόνα"
+
+#: views/product-tabs/utility/html-availability-rule.php:54
+msgid "Rule type"
+msgstr "Τύπος κανόνα"
+
+#: views/product-tabs/utility/html-availability-rule.php:56
+msgid ""
+"Rules assigned with a <strong>specific date</strong> are valid only for the "
+"year selected. Example: you want to disable bookings from 1st August to 15th "
+"August of the current year."
+msgstr ""
+"Οι κανόνες που έχουν οριστεί με <strong>συγκεκριμένη ημερομηνία</strong> "
+"είναι έγκυροι μόνο για τον επιλεγμένο χρόνο. Παράδειγμα: θέλετε να "
+"απενεργοποιήσετε τις κρατήσεις από την 1η Αυγούστου έως τις 15 Αυγούστου του "
+"τρέχοντα μήνα."
+
+#: views/product-tabs/utility/html-availability-rule.php:58
+msgid ""
+"Rules assigned with <strong>generic dates</strong>  are valid without any "
+"time limit, until you disable them. Example: you want to disable bookings "
+"for August each year, or all Sunday days of the year."
+msgstr ""
+"Οι κανόνες που έχουν οριστεί με <strong>γενικές ημερομηνίες</strong>  είναι "
+"έγκυροι χωρίς κανένα χρονικό όριο, μέχρι να τους απενεργοποιήσετε. "
+"Παράδειγμα: θέλετε να απενεργοποιήσετε τις κρατήσεις για τον Αύγουστο κάθε "
+"χρόνο, ή όλες τις Κυριακές του χρόνου."
+
+#: views/product-tabs/utility/html-availability-rule.php:67
+msgid "Specific date"
+msgstr "Συγκεκριμένη ημερομηνία"
+
+#: views/product-tabs/utility/html-availability-rule.php:68
+msgid "Generic dates"
+msgstr "Γενικές ημερομηνίες"
+
+#: views/product-tabs/utility/html-availability-rule.php:126
+msgid "Add extra rules for specific days of the week"
+msgstr "Προσθέστε επιπλέον κανόνες για συγκεκριμένες ημέρες της εβδομάδας"
+
+#: views/product-tabs/utility/html-availability-rule.php:143
+msgid "Add extra rules for specific time ranges of the days"
+msgstr "Προσθέστε επιπλέον κανόνες για συγκεκριμένα χρονικά εύρη ημερών"
+
+#: views/product-tabs/utility/html-availability-rule.php:154
+msgid "Set these dates as bookable/non-bookable."
+msgstr "Ορίστε αυτές τις ημερομηνίες προς κράτηση/χωρίς δυνατότητα κράτησης."
+
+#: views/product-tabs/utility/html-availability-rule.php:163
+#: views/product-tabs/utility/html-availability-rule.php:191
+msgid "Non-bookable"
+msgstr "Χωρίς δυνατότητα κράτησης"
+
+#: views/product-tabs/utility/html-availability-rule.php:195
+msgid "No change"
+msgstr "Χωρίς αλλαγή"
+
+#: views/product-tabs/utility/html-availability-rule.php:226
+#: views/product-tabs/utility/html-price-rule.php:165
+msgid "Add rule"
+msgstr "Προσθήκη κανόνα"
+
+#: views/product-tabs/utility/html-availability-rule.php:228
+#: views/product-tabs/utility/html-price-rule.php:167
+msgid "Delete rule"
+msgstr "Διαγραφή κανόνα"
+
+#: views/product-tabs/utility/html-availability-rules.php:30
+#: views/product-tabs/utility/html-price-rules.php:31
+msgid "Add new rule"
+msgstr "Προσθήκη νέου κανόνα"
+
+#: views/product-tabs/utility/html-extra-cost-custom.php:23
+msgid "Set the name..."
+msgstr "Ορίστε το όνομα…"
+
+#: views/product-tabs/utility/html-extra-cost-custom.php:67
+#: views/product-tabs/utility/html-extra-cost.php:61
+msgid "Multiply by duration"
+msgstr "Πολλαπλασιάστε επί διαρκείας"
+
+#: views/product-tabs/utility/html-extra-costs.php:42
+msgid "Add a new cost"
+msgstr "Προσθήκη νέου κόστους"
+
+#: views/product-tabs/utility/html-imported-calendars.php:10
+msgid "Name"
+msgstr "Όνομα"
+
+#: views/product-tabs/utility/html-imported-calendars.php:11
+msgid "URL"
+msgstr "URL"
+
+#: views/product-tabs/utility/html-imported-calendars.php:36
+msgid "Add ICS calendar"
+msgstr "Προσθήκη ημερολογίου ICS"
+
+#: views/product-tabs/utility/html-people-type.php:54
+msgid "Minimum"
+msgstr "Ελάχιστος"
+
+#: views/product-tabs/utility/html-people-type.php:64
+msgid "Maximum"
+msgstr "Μέγιστος"
+
+#: views/product-tabs/utility/html-people-type.php:75
+msgid ""
+"Enter a minimum number required and a maximum number available of this type. "
+"Example: you can set min 1 adult or leave it empty."
+msgstr ""
+"Εισάγετε έναν ελάχιστο απαιτούμενο αριθμό και ένα μέγιστο αριθμό διαθέσιμο "
+"για αυτόν τον τύπο. Παράδειγμα: μπορείτε να ορίσετε ελάχιστο 1 ενήλικα ή να "
+"το αφήσετε κενό."
+
+#: views/product-tabs/utility/html-people-type.php:88
+msgid "Base Fee"
+msgstr "Αρχική Χρέωση"
+
+#: views/product-tabs/utility/html-people-type.php:98
+msgid ""
+"Enter a customized base price and fixed base fee for this type. These prices "
+"will override prices set in Booking Prices."
+msgstr ""
+"Εισάγετε μια προσαρμοσμένη αρχική τιμή και σταθερή αρχική χρέωση για αυτόν "
+"τον τύπο. Αυτές οι τιμές θα παρακάμψουν τις τιμές που έχουν οριστεί στις "
+"Τιμές Κρατήσεων."
+
+#: views/product-tabs/utility/html-people-types.php:16
+msgid "People types"
+msgstr "Τύποι ατόμων"
+
+#: views/product-tabs/utility/html-people-types.php:38
+#: views/product-tabs/utility/html-people-types.php:43
+msgid "Create new type"
+msgstr "Δημιουργία νέου τύπου"
+
+#: views/product-tabs/utility/html-people-types.php:49
+msgid "People type"
+msgstr "Τύπος ατόμων"
+
+#: views/product-tabs/utility/html-people-types.php:83
+msgid "You can create people types in %sBookings > People%s"
+msgstr "Μπορείτε να δημιουργήσετε τύπους ατόμων στο %sΚρατήσεις > Άτομα%s"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:23
+#: views/product-tabs/utility/html-price-rule.php:35
+msgid "Custom date range"
+msgstr "Εύρος προσαρμοσμένης ημερομηνίας"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:24
+#: views/product-tabs/utility/html-price-rule.php:36
+msgid "Range of months"
+msgstr "Εύρος μηνών"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:25
+#: views/product-tabs/utility/html-price-rule.php:37
+msgid "Range of weeks"
+msgstr "Εύρος εβδομάδων"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:26
+#: views/product-tabs/utility/html-price-rule.php:38
+msgid "Range of days"
+msgstr "Εύρος ημερών"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:27
+#: views/product-tabs/utility/html-price-rule.php:39
+msgid "People count"
+msgstr "Αρίθμηση ατόμων"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:28
+#: views/product-tabs/utility/html-price-rule.php:40
+msgid "Unit count"
+msgstr "Αρίθμηση μονάδας"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:29
+#: views/product-tabs/utility/html-price-rule.php:41
+msgid "Time range"
+msgstr "Εύρος ώρας"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:52
+#: views/settings-tabs/html-logs.php:18 views/settings-tabs/html-logs.php:170
+msgid "Type"
+msgstr "Τύπος"
+
+#: views/product-tabs/utility/html-price-rule.php:98
+msgid "Add new condition"
+msgstr "Προσθήκη νέας συνθήκης"
+
+#: views/product-tabs/utility/html-price-rule.php:107
+msgid "Conditions"
+msgstr "Συνθήκες"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:10
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:12
+msgid "Credentials"
+msgstr "Διαπιστευτήρια"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:11
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:13
+msgid "Access"
+msgstr "Πρόσβαση"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:14
+msgid "Click here to access"
+msgstr "Κάντε κλικ για πρόσβαση"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:17
+msgid ""
+"Please note: you should add the following URI to the <strong>Allowed "
+"Redirect URI</strong> in your ID client OAuth 2.0"
+msgstr ""
+"Παρακαλώ σημειώστε: πρέπει να προσθέσετε το ακόλουθο URI στην "
+"<strong>Επιτρεπόμενη Αναδιεύθυνση URI</strong> στο ID πελάτη OAuth 2.0"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:17
+msgid "Client ID"
+msgstr "ID Πελάτη"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:18
+msgid "Client Secret"
+msgstr "Μυστικό Πελάτη"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:24
+msgid "To use this integration you should:"
+msgstr "Για να χρησιμοποιήσετε αυτή τη διασύνδεση πρέπει:"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:26
+msgid "create a project in %s<strong>Google Developers Console</strong>%s"
+msgstr ""
+"να δημιουργήσετε ένα πρότζεκτ στην %s<strong>Κονσόλα Προγραμματιστών Google</"
+"strong>%s"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:27
+msgid ""
+"enable the <strong>Google Calendar API</strong> in <strong>Your Project > "
+"Library</strong>"
+msgstr ""
+"να ενεργοποιήσετε το <strong>API Google Ημερολογίου</strong> στο <strong>Το "
+"πρότζεκτ σας > Βιβλιοθήκη</strong>"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:28
+msgid ""
+"create an <strong>OAuth Client ID</strong> for a <strong>Web application</"
+"strong> in <strong>Your Project > Credentials > Create Credentials</strong>"
+msgstr ""
+"να δημιουργήσετε ένα <strong>ID Πελάτη OAuth</strong> για <strong>Εφαρμογή "
+"δικτύου</strong> στο <strong>Το πρότζεκτ σας > Διαπιστευτήρια > Δημιουργία "
+"Διαπιστευτηρίων</strong>"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:29
+msgid ""
+"add the following URI to the <strong>Allowed Redirect URI</strong> in your "
+"ID client OAuth 2.0"
+msgstr ""
+"να προσθέσετε το ακόλουθο URI στην <strong>Επιτρεπόμενη Αναδιεύθυνση URI</"
+"strong> στο ID πελάτη OAuth 2.0"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:39
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: views/settings-tabs/google-calendar-views/html-delete-secret-form.php:9
+msgid "Delete Client Secret"
+msgstr "Διαγραφή Μυστικού Πελάτη"
+
+#: views/settings-tabs/google-calendar-views/html-logout-form.php:9
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:12
+msgid "Select a calendar"
+msgstr "Επιλογή ημερολογίου"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:14
+msgid "- Disabled -"
+msgstr "- Απενεργοποιημένο -"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:25
+msgid "Save Options"
+msgstr "Αποθήκευση Επιλογών"
+
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:14
+msgid ""
+"Please note: your WordPress Timezone <code>%1$s</code> is different by your "
+"Google Calendar Timezone <code>%2$s</code>"
+msgstr ""
+"Παρακαλώ σημειώστε: η Ζώνη ώρας WordPress <code>%1$s</code> διαφέρει από την "
+"Ζώνη ώρας Ημερολογίου Google <code>%2$s</code>"
+
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:16
+msgid "Timezone <code>%s</code>"
+msgstr "Ζώνη ώρας <code>%s</code>"
+
+#: views/settings-tabs/html-global-availability-rules.php:10
+msgid "Global availability rules"
+msgstr "Γενικοί κανόνες διαθεσιμότητας"
+
+#: views/settings-tabs/html-global-availability-rules.php:30
+#: views/settings-tabs/html-global-price-rules.php:31
+msgid "Save rules"
+msgstr "Αποθήκευση κανόνων"
+
+#: views/settings-tabs/html-global-price-rules.php:11
+msgid "Global price rules"
+msgstr "Γενικοί κανόνες τιμής"
+
+#: views/settings-tabs/html-google-calendar.php:6
+msgid "Google Calendar: %s bookings updated!"
+msgstr "Ημερολόγιο Google: %s κρατήσεις ενημερώθηκαν!"
+
+#: views/settings-tabs/html-google-calendar.php:6
+msgid "Google Calendar: no booking to update!"
+msgstr "Ημερολόγιο Google: δεν υπάρχει κράτηση για ενημέρωση!"
+
+#: views/settings-tabs/html-google-calendar.php:45
+msgid "select to enable debug"
+msgstr "επιλογή ενεργοποίησης αποσφαλμάτωσης"
+
+#: views/settings-tabs/html-google-calendar.php:51
+msgid "Synchronize"
+msgstr "Συγχρονισμός"
+
+#: views/settings-tabs/html-google-calendar.php:56
+msgid "on booking creation"
+msgstr "στην δημιουργία κράτησης"
+
+#: views/settings-tabs/html-google-calendar.php:57
+msgid "on booking update"
+msgstr "στην ενημέρωση κράτησης"
+
+#: views/settings-tabs/html-google-calendar.php:58
+msgid "on booking status update"
+msgstr "στην ενημέρωση κατάστασης κράτησης"
+
+#: views/settings-tabs/html-google-calendar.php:59
+msgid "on booking deletion"
+msgstr "στην διαγραφή κράτησης"
+
+#: views/settings-tabs/html-google-calendar.php:80
+msgid "Add note on sync"
+msgstr "Πρόσθεση σημείωσης κατα τον συγχρονισμό"
+
+#: views/settings-tabs/html-google-calendar.php:90
+msgid "select to enable adding note to bookings on Google Calendar sync"
+msgstr ""
+"επιλογή ενεργοποίησης της πρόσθεσης σημείωσης στις κρατήσεις κατα τον "
+"συγχρονισμό Ημερολογίου Google"
+
+#: views/settings-tabs/html-google-calendar.php:96
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: views/settings-tabs/html-google-calendar.php:108
+msgid "Syncronize not syncronized bookings"
+msgstr "Συγχρονισμός μη συγχρονισμένων κρατήσεων"
+
+#: views/settings-tabs/html-google-calendar.php:109
+msgid "Sync bookings"
+msgstr "Συγχρονισμός κρατήσεων"
+
+#: views/settings-tabs/html-google-calendar.php:114
+msgid "Syncronize all bookings (Force)"
+msgstr "Συγχρονισμός όλων των κρατήσεων (Επιβολή)"
+
+#: views/settings-tabs/html-google-calendar.php:115
+msgid "Force sync bookings"
+msgstr "Επιβολή συγχρονισμού κρατήσεων"
+
+#: views/settings-tabs/html-logs.php:19 views/settings-tabs/html-logs.php:171
+msgid "Group"
+msgstr "Ομάδα"
+
+#: views/settings-tabs/html-logs.php:20 views/settings-tabs/html-logs.php:173
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: views/settings-tabs/html-logs.php:24
+msgid "Asc"
+msgstr "Αυξ"
+
+#: views/settings-tabs/html-logs.php:25
+msgid "Desc"
+msgstr "Φθιν"
+
+#: views/settings-tabs/html-logs.php:56
+msgid "Warning: Booking Logger is not enabled"
+msgstr "Προειδοποίηση: δεν έχει ενεργοποιηθεί Booking Logger"
+
+#: views/settings-tabs/html-logs.php:64
+msgid "Delete Logs"
+msgstr "Διαγραφή Αρχείου Καταγραφής"
+
+#: views/settings-tabs/html-logs.php:78 views/settings-tabs/html-logs.php:89
+msgid "Any"
+msgstr "Οποιαδήποτε"
+
+#: views/settings-tabs/html-logs.php:118
+msgid "Filter"
+msgstr "Ταξινόμηση"
+
+#: views/settings-tabs/html-logs.php:125
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s αντικείμενο"
+msgstr[1] "%s αντικείμενα"
+
+#: views/settings-tabs/html-logs.php:202
+msgid "No result"
+msgstr "Κανένα αποτέλεσμα"
+
+#: views/settings-tabs/html-single-integration.php:38
+msgid "(needs %1$s plugin – version %2$s or greater)"
+msgstr "(χρειάζεται το πρόσθετο %1$s – έκδοση %2$s ή μεγαλύτερη)"
+
+#: views/settings-tabs/html-single-integration.php:46
+msgid "Get Plugin"
+msgstr "Αποκτήστε το Πρόσθετο"
+
+#: views/settings-tabs/html-single-integration.php:52
+msgid "Deactivate integration"
+msgstr "Απενεργοποίηση διασύνδεσης"
+
+#: views/settings-tabs/html-single-integration.php:54
+msgid "This integration is automatically active"
+msgstr "Η διασύνδεση ενεργοποιήθηκε αυτόματα"
+
+#: views/settings-tabs/html-single-integration.php:58
+msgid "Activate integration"
+msgstr "Ενεργοποίηση διασύνδεσης"
+
+#: views/taxonomies/service/wpml/html-add-service.php:17
+#: views/taxonomies/service/wpml/html-edit-service.php:25
+msgid "Name (%s)"
+msgstr "Όνομα (%s)"
+
+#: views/taxonomies/service/wpml/html-add-service.php:26
+#: views/taxonomies/service/wpml/html-edit-service.php:10
+msgid "WPML translations"
+msgstr "Μεταφράσεις WPML"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Booking and Appointment for WooCommerce</strong></code> "
+"allows you to create and manage Booking Products. You can create monthly/"
+"daily/hourly/per-minute booking products with Services and People by setting "
+"costs and availability. You can also synchronize your booking products with "
+"external services such as Booking.com or Airbnb. Moreover, it includes "
+"Google Calendar integration, Google Maps, Search Forms, YITH Booking theme, "
+"and many other features! <a href=\"https://yithemes.com/\" target=\"_blank"
+"\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+"Το <code><strong>YITH Booking and Appointment for WooCommerce</strong></"
+"code> σας επιτρέπει να δημιουργείτε και διαχειρίζεστε Προϊόντα Κράτησης. "
+"Μπορείτε να δημιουργήσετε μηνιαία/ημερήσια/ωριαία/ανά λεπτό προϊόντα "
+"κράτησης με Υπηρεσίες και Άτομα ορίζοντας κόστη και διαθεσιμότητα. Μπορείτε "
+"επίσης να κάνετε συγχρονισμό των προϊόντων κράτησης με εξωτερικές υπηρεσίες "
+"όπως το Booking.com ή Airbnb. Ακόμη, περιλαμβάνεται διασύνδεση με το "
+"Ημερολόγιο Google, Χάρτες Google, Φόρμες Αναζήτησης, θέμα YITH Booking, και "
+"πολλά άλλα χαρακτηριστικά! <a href=\"https://yithemes.com/\" target=\"_blank"
+"\">Βρείτε περισσότερα πρόσθετα για το ηλεκτρονικό σας κατάστημα στο "
+"<strong>YITH</strong></a>"
+
+#: includes/booking/abstract.yith-wcbk-booking.php:49
+msgctxt "Booking name"
+msgid "Booking #%s"
+msgstr "Κράτηση #%s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:289
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:297
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:325
+#: views/calendar/html-booking-calendar-single-booking-data.php:86
+#: views/calendar/html-booking-calendar-single-booking-data.php:95
+#: views/calendar/html-booking-calendar-single-booking-data.php:120
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:303
+msgctxt "Order number by X"
+msgid "%s by %s"
+msgstr "%s από %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:313
+msgctxt "Deleted Order:#123 (deleted)"
+msgid "#%s (deleted)"
+msgstr "#%s (διεγράφη)"
+
+#: includes/class.yith-wcbk-admin.php:155
+msgctxt "Settings tab name"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class.yith-wcbk-admin.php:156
+msgctxt "Settings tab name"
+msgid "Availability rules"
+msgstr "Κανόνες διαθεσιμότητας"
+
+#: includes/class.yith-wcbk-admin.php:157
+msgctxt "Settings tab name"
+msgid "Price rules"
+msgstr "Κανόνες τιμών"
+
+#: includes/class.yith-wcbk-admin.php:158
+msgctxt "Settings tab name"
+msgid "Labels"
+msgstr "Επιγραφές"
+
+#: includes/class.yith-wcbk-admin.php:159
+msgctxt "Settings tab name"
+msgid "Integrations"
+msgstr "Διασυνδέσεις"
+
+#: includes/class.yith-wcbk-admin.php:160
+msgctxt "Settings tab name"
+msgid "Google Calendar"
+msgstr "Ημερολόγιο Google"
+
+#: includes/class.yith-wcbk-admin.php:161
+msgctxt "Settings tab name"
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: includes/class.yith-wcbk-admin.php:162
+msgctxt "Settings tab name"
+msgid "Logs"
+msgstr "Καταγραφές"
+
+#: includes/class.yith-wcbk-ajax.php:469 includes/class.yith-wcbk-ajax.php:568
+#: includes/class.yith-wcbk-ajax.php:618
+msgctxt "Error"
+msgid "Required POST variable not set"
+msgstr "Απαιτούμενη παραλλαγή POST δεν έχει οριστεί"
+
+#: includes/class.yith-wcbk-ajax.php:547 includes/class.yith-wcbk-ajax.php:605
+#: includes/class.yith-wcbk-ajax.php:646
+msgctxt "Error"
+msgid "Product not found"
+msgstr "Το προϊόν δεν βρέθηκε"
+
+#: includes/class.yith-wcbk-language.php:36
+msgctxt "Text of add-to-cart-button for booking products"
+msgid "Add to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: includes/class.yith-wcbk-language.php:49
+msgctxt "Add-to-cart button text for booking products"
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: includes/class.yith-wcbk-language.php:50
+msgctxt "Add-to-cart button text for booking products"
+msgid "Request Confirmation"
+msgstr "Επιβεβαίωση Αιτήματος"
+
+#: includes/class.yith-wcbk-post-types.php:90
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr "Κρατήσεις"
+
+#: includes/class.yith-wcbk-post-types.php:121
+msgctxt "Admin menu name"
+msgid "People"
+msgstr "Άτομα"
+
+#: includes/class.yith-wcbk-post-types.php:155
+msgctxt "Admin menu name"
+msgid "Search Forms"
+msgstr "Φόρμες Αναζήτησης"
+
+#: includes/class.yith-wcbk-post-types.php:189
+msgctxt "Admin menu name"
+msgid "Extra Costs"
+msgstr "Επιπλέον Κόστη"
+
+#: includes/class.yith-wcbk-post-types.php:255
+msgctxt "Admin menu name"
+msgid "Booking Services"
+msgstr "Υπηρεσίες Κράτησης"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:198
+msgctxt "Admin: type of product"
+msgid "Booking Product"
+msgstr "Προϊόν Κράτησης"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:159
+msgctxt "Edit action for services"
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:309
+#: includes/class.yith-wcbk-service-tax-admin.php:427
+msgctxt "Price for person type: ex. Price for Children"
+msgid "Price for %s"
+msgstr "Τιμή για %s"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:313
+#: includes/class.yith-wcbk-service-tax-admin.php:432
+msgctxt "e.g. Select this service price for Children/Adults"
+msgid "Select this service price for %s. Leave empty to use default price"
+msgstr ""
+"Επιλέξτε αυτή την τιμή υπηρεσίας για %s. Διατηρήστε κενό για να "
+"χρησιμοποιήσετε την προεπιλεγμένη τιμή"
+
+#: includes/functions.yith-wcbk-booking.php:15
+msgctxt "Booking Status"
+msgid "Unpaid"
+msgstr "Μη πληρωμένη"
+
+#: includes/functions.yith-wcbk-booking.php:16
+msgctxt "Booking Status"
+msgid "Paid"
+msgstr "Πληρώθηκε"
+
+#: includes/functions.yith-wcbk-booking.php:17
+msgctxt "Booking Status"
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: includes/functions.yith-wcbk-booking.php:18
+msgctxt "Booking Status"
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+#: includes/functions.yith-wcbk-booking.php:19
+msgctxt "Booking Status"
+msgid "Pending Confirmation"
+msgstr "Επιβεβαίωση σε αναμονή"
+
+#: includes/functions.yith-wcbk-booking.php:20
+msgctxt "Booking Status"
+msgid "Confirmed"
+msgstr "Επιβεβαιώθηκε"
+
+#: includes/functions.yith-wcbk-booking.php:21
+msgctxt "Booking Status"
+msgid "Rejected"
+msgstr "Απορρίφθηκε"
+
+#: includes/functions.yith-wcbk-booking.php:26
+msgctxt "Booking Status"
+msgid "Cancelled by customer"
+msgstr "Ακυρώθηκε από πελάτη"
+
+#: includes/functions.yith-wcbk-dates.php:59
+msgctxt "Short day name"
+msgid "Mon"
+msgstr "Δευ"
+
+#: includes/functions.yith-wcbk-dates.php:60
+msgctxt "Short day name"
+msgid "Tue"
+msgstr "Τρι"
+
+#: includes/functions.yith-wcbk-dates.php:61
+msgctxt "Short day name"
+msgid "Wed"
+msgstr "Τετ"
+
+#: includes/functions.yith-wcbk-dates.php:62
+msgctxt "Short day name"
+msgid "Thu"
+msgstr "Πεμ"
+
+#: includes/functions.yith-wcbk-dates.php:63
+msgctxt "Short day name"
+msgid "Fri"
+msgstr "Παρ"
+
+#: includes/functions.yith-wcbk-dates.php:64
+msgctxt "Short day name"
+msgid "Sat"
+msgstr "Σαβ"
+
+#: includes/functions.yith-wcbk-dates.php:65
+msgctxt "Short day name"
+msgid "Sun"
+msgstr "Κυρ"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:548
+msgctxt "Filter by Vendor name"
+msgid "Filter by %s"
+msgstr "Ταξινόμηση κατά %s"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:27
+msgctxt "Widget Name"
+msgid "Booking Product Form"
+msgstr "Φόρμα Προϊόντος Κράτησης"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:30
+msgctxt "Widget Name"
+msgid "Booking Search Form"
+msgstr "Φόρμα Αναζήτησης Κράτησης"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:38
+msgctxt "Default title for booking search form widget"
+msgid "Booking Search Form"
+msgstr "Φόρμα Αναζήτησης Κράτησης"
+
+#: templates/booking/booking-details.php:40
+#: templates/booking/pdf/booking-details.php:30
+#: templates/emails/email-booking-details.php:53
+#: templates/emails/plain/email-booking-details.php:19
+#: templates/myaccount/bookings-table.php:59
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:101
+msgctxt "Order number by Username"
+msgid "%s by %s"
+msgstr "%s από %s"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:107
+msgctxt "#123 (deleted)"
+msgid "#%s (deleted)"
+msgstr "#%s (διεγράφη)"
+
+#: views/metaboxes/html-booking-meta-data.php:21
+msgctxt "Booking #123 details"
+msgid "%s details"
+msgstr "%s στοιχεία"
+
+#: views/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"While you visit our site, we’ll track information concerning users’ "
+"bookings: date, number of people, services added and all other information "
+"about the booking."
+msgstr ""
+"Κατα την επίσκεψή σας στον ιστότοπό μας, θα εντοπίσουμε πληροφορίες σχετικά "
+"με τις κρατήσεις χρηστών: ημερομηνία, αριθμός ατόμων, υπηρεσίες που "
+"προστέθηκαν και λοιπές πληροφορίες σχετικά με την κράτηση."
+
+#: views/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access to information "
+"about customer bookings."
+msgstr ""
+"Μέλη της ομάδας μας έχουν πρόσβαση στις πληροφορίες που μας παρέχετε. Για "
+"παράδειγμα, Διαχειριστές και Διαχειριστές Καταστήματος έχουν πρόσβαση σε "
+"πληροφορίες κρατήσεων πελατών."
+
+#: views/privacy/html-policy-content-share.php:2
+msgctxt "Privacy Policy Content"
+msgid ""
+"If you sync the whole calendar with a shared or public calendar on Google"
+msgstr ""
+"Αν γίνει συγχρονισμός σε ολόκληρο το ημερολόγιο με ένα κοινοποιημένο ή "
+"δημόσιο ημερολόγιο στο Google"
+
+#: views/privacy/html-policy-content-share.php:4
+msgctxt "Privacy Policy Content"
+msgid "We share the calendar with booking information through Google Calendar"
+msgstr ""
+"Μοιραζόμαστε το ημερολόγιο με τις πληροφορίες κράτησης μέσω του Ημερολογίου "
+"Google"
+
+#: views/privacy/html-policy-content-share.php:7
+msgctxt "Privacy Policy Content"
+msgid ""
+"If you sync the availability calendar of some of your booking products with "
+"external services like booking.com or Airbnb"
+msgstr ""
+"Αν γίνει συγχρονισμός του ημερολογίου διαθεσιμότητας σε μερικά από τα "
+"προϊόντα κράτησής σας με εξωτερικές. υπηρεσίες όπως booking.com ή Airbnb"
+
+#: views/privacy/html-policy-content-share.php:10
+msgctxt "Privacy Policy Content"
+msgid ""
+"We share the availability calendars with external services, such as booking."
+"com or Airbnb, as we sell our bookable products through these portals, to "
+"sync the availability information and prevent overbooking."
+msgstr ""
+"Μοιραζόμαστε τα ημερολόγια διαθεσιμότητας με εξωτερικές υπηρεσίες, όπως το "
+"booking.com ή Airbnb, καθώς πωλούμε τα προϊόντα κράτησής μας μέσω αυτών των "
+"πυλών, για τον συγχρονισμό πληροφοριών και την αποφυγή υπερκράτησης."
+
+#: views/settings-tabs/html-google-calendar.php:16
+msgctxt "Settings tab title"
+msgid "Google Calendar"
+msgstr "Ημερολόγιο Google"
+
+#: views/settings-tabs/html-integrations.php:10
+msgctxt "Settings tab title"
+msgid "Integrations"
+msgstr "Διασυνδέσεις"
+
+#: views/settings-tabs/html-logs.php:62
+msgctxt "Settings tab title"
+msgid "Logs"
+msgstr "Καταγραφές"
+
+#: views/settings-tabs/html-logs.php:75
+msgctxt "Label in Logs tab"
+msgid "Limit"
+msgstr "Όριο"
+
+#: views/settings-tabs/html-logs.php:77
+msgctxt "Label in Logs tab"
+msgid "Group"
+msgstr "Ομάδα"
+
+#: views/settings-tabs/html-logs.php:88
+msgctxt "Label in Logs tab"
+msgid "Type"
+msgstr "Τύπος"
+
+#: views/settings-tabs/html-logs.php:99
+msgctxt "Label in Logs tab"
+msgid "Order by"
+msgstr "Ταξινόμηση κατα"
+
+#: views/settings-tabs/html-single-integration.php:20
+msgctxt "text of integration badge"
+msgid "New"
+msgstr "Νέο"

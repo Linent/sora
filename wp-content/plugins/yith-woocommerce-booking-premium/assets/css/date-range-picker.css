@@ -1,0 +1,95 @@
+/**
+ * Date Range Picker
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+.yith-wcbk-date-range-picker {
+    border-radius : 2px;
+    border        : 1px solid #d1d1d1;
+    background    : #f1f1f1;
+    width         : 100%;
+    position      : relative;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker,
+.yith-wcbk-booking-form .yith-wcbk-date-range-picker input.yith-wcbk-date-picker,
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker--formatted,
+.yith-wcbk-booking-form .yith-wcbk-date-range-picker input.yith-wcbk-date-picker--formatted {
+    background  : transparent;
+    border      : none;
+    float       : left;
+    width       : 50% !important;
+    padding     : 12px 14px;
+    font-size   : 15px;
+    line-height : 1;
+}
+
+.yith-wcbk-date-range-picker__arrow {
+    position : absolute;
+    float    : left;
+    width    : 18px;
+    left     : calc(50% - 9px);
+    top      : calc(50% - 9px);
+    z-index  : 5;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker--formatted::placeholder,
+.yith-wcbk-booking-form .yith-wcbk-date-range-picker input.yith-wcbk-date-picker--formatted::placeholder {
+    opacity : 0.5;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted {
+    color : #00a699;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::placeholder {
+    color   : #00a699;
+    opacity : 1;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::-webkit-input-placeholder {
+    color : #00a699;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted:-moz-placeholder {
+    color : #00a699;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted:-ms-input-placeholder {
+    color : #00a699;
+}
+
+.yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::-ms-input-placeholder {
+    color : #00a699;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted {
+    background    : #00a699 !important;
+    color         : #fff !important;
+    border-radius : 14px !important;
+    border        : 10px solid #fff;
+    padding       : 2px 4px;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::placeholder {
+    color   : #fff;
+    opacity : 1;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::-webkit-input-placeholder {
+    color : #fff;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted:-moz-placeholder {
+    color : #fff;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted:-ms-input-placeholder {
+    color : #fff;
+}
+
+.yith-booking--simple-style .yith-wcbk-date-range-picker input.yith-wcbk-date-picker:focus + input.yith-wcbk-date-picker--formatted::-ms-input-placeholder {
+    color : #fff;
+}

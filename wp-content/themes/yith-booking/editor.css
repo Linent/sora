@@ -1,0 +1,6 @@
+.editor-post-title__block .editor-post-title__input,
+.edit-post-visual-editor, .edit-post-visual-editor p,
+.editor-styles-wrapper .mce-content-body,
+.editor-rich-text__tinymce {
+    font-family : Montserrat, sans-serif;
+}

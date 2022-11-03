@@ -1,0 +1,128 @@
+/**
+ * People Selector
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+.yith-wcbk-people-selector {
+    position    : relative;
+    user-select : none;
+    width       : 100%;
+    box-shadow  : none;
+    box-sizing  : border-box;
+    color       : #686868;
+}
+
+.yith-wcbk-people-selector__toggle-handler {
+    position      : relative;
+    padding       : 0.4375em;
+    min-height    : 38px;
+    line-height   : 38px;
+    background    : #f7f7f7;
+    border        : 1px solid #d1d1d1;
+    border-radius : 2px;
+    cursor        : pointer;
+}
+
+.yith-wcbk-people-selector--opened .yith-wcbk-people-selector__toggle-handler {
+    border-radius : 2px 2px 0 0;
+}
+
+.yith-wcbk-people-selector__toggle-handler__icon {
+    position   : absolute;
+    right      : 10px;
+    top        : 50%;
+    transform  : translateY(-50%);
+    transition : all 0.3s ease-in-out;
+}
+
+.yith-wcbk-people-selector--opened .yith-wcbk-people-selector__toggle-handler__icon {
+    transform : translateY(-50%) rotateZ(179deg);
+}
+
+.yith-wcbk-people-selector__fields-container {
+    display          : none;
+    position         : absolute;
+    padding          : 0.4375em;
+    width            : 100%;
+    background       : #f7f7f7;
+    border           : 1px solid #d1d1d1;
+    border-radius    : 0 0 2px 2px;
+    border-top-width : 0;
+    z-index          : 9999;
+}
+
+.yith-wcbk-people-selector__field {
+    padding : 10px 0;
+}
+
+.yith-wcbk-people-selector__field__title {
+    float       : left;
+    line-height : 26px;
+}
+
+.yith-wcbk-people-selector__field__totals {
+    float   : right;
+    display : table;
+}
+
+.yith-wcbk-people-selector__field__plus,
+.yith-wcbk-people-selector__field__minus,
+.yith-wcbk-people-selector__field__total {
+    display        : table-cell;
+    vertical-align : middle;
+}
+
+.yith-wcbk-people-selector__field__total {
+    width       : 40px;
+    text-align  : center;
+    line-height : 26px;
+}
+
+.yith-wcbk-people-selector__field__plus,
+.yith-wcbk-people-selector__field__minus {
+    cursor           : pointer;
+    text-align       : center;
+    line-height      : 1;
+    position         : relative;
+    -ms-touch-action : manipulation;
+    touch-action     : manipulation;
+    border           : 1px solid #008489;
+    background       : transparent;
+    width            : 26px;
+    height           : 26px;
+}
+
+.yith-wcbk-people-selector__field__button--disabled {
+    opacity : 0.2;
+}
+
+.yith-wcbk-people-selector__field__plus-wrap,
+.yith-wcbk-people-selector__field__minus-wrap {
+    display           : inline-block;
+    position          : absolute;
+    top               : 50%;
+    left              : 50%;
+    -webkit-transform : translate(-50%, -50%);
+    -ms-transform     : translate(-50%, -50%);
+    transform         : translate(-50%, -50%);
+    color             : #008489;
+    font-size         : 16px;
+}
+
+.yith-wcbk-people-selector__fields-container__footer {
+    padding : 15px 0 5px 0;
+}
+
+.yith-wcbk-people-selector__fields-container__footer .yith-wcbk-people-selector__close-handler {
+    float     : right;
+    font-size : 16px;
+    cursor    : pointer;
+    color     : #008489;
+}
+
+.yith-wcbk-people-selector__fields-container__footer .yith-wcbk-people-selector__close-handler:hover {
+    text-decoration : underline;
+    color           : #009fa4;
+}

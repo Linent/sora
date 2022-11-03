@@ -1,0 +1,1636 @@
+/**
+ * Admin style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ *
+ * Contents:
+ *  1.  Booking Product Wc Panel
+ *  2.  Availability Table
+ *  3.  Settings Table
+ *  4.  Booking Status
+ *  5.  Booking WP LIST
+ *  6.  Settings TAB
+ *  7.  Availability TAB
+ *  8.  Costs TAB
+ *  9.  Sync TAB
+ *  9a. Booking Services
+ *  10. Product Settings Table
+ *  11. Hide "add booking services" for vendors
+ *  12. Time Select
+ *  13. Google Calendar
+ *  14. Switch
+ *  15. Create Booking
+ *  16. Panel Settings
+ *  17. Fields and Utils
+ *
+ */
+
+/* ==========================================
+ *  1. Booking Product Wc Panel
+ * ==========================================
+ */
+
+input[type="number"].mini {
+    width : 4em !important;
+}
+
+/* ------ Product Metabox Tabs Icon --------- */
+#woocommerce-product-data ul.wc-tabs li.yith_booking_settings_tab a:before {
+    font-family : "Dashicons";
+    content     : '\f102' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_availability_tab a:before {
+    font-family : "WooCommerce";
+    content     : '\e00e' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_people_tab a:before {
+    font-family : "WooCommerce";
+    content     : '\e03a' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_costs_tab a:before {
+    font-family : "WooCommerce";
+    content     : '\e01f' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_services_tab a:before {
+    font-family : "WooCommerce";
+    content     : '\e027' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_sync_tab a:before {
+    font-family : "Dashicons";
+    content     : '\f463' !important;
+}
+
+#woocommerce-product-data ul.wc-tabs li.yith_booking_resources_tab a:before {
+    font-family : "WooCommerce";
+    content     : '\e01e' !important;
+}
+
+/* ---------- Booking Cost Table ----------------- */
+#yith-wcbk-booking-costs-table select {
+    min-width : 50px;
+}
+
+/* ==========================================
+ *  2. Availability Table
+ * ==========================================
+ */
+
+.yith-wcbk-availability-rules__expand-collapse,
+.yith-wcbk-price-rules__expand-collapse,
+.yith-wcbk-people-types__expand-collapse {
+    position            : absolute;
+    right               : 20px;
+    top                 : 50%;
+    transform           : translateY(-50%);
+    cursor              : pointer;
+    border-radius       : 2px;
+    user-select         : none;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    -webkit-user-select : none;
+    -o-user-select      : none;
+}
+
+.yith-wcbk-availability-rules__expand-collapse:after,
+.yith-wcbk-price-rules__expand-collapse:after,
+.yith-wcbk-people-types__expand-collapse:after {
+    content     : "\f347";
+    font-family : Dashicons;
+    font-size   : 15px;
+    position    : absolute;
+    right       : 13px;
+    top         : 50%;
+    transform   : translateY(-50%) translateY(2px);
+    transition  : transform .3s;
+}
+
+.yith-wcbk-availability-rules__expand-collapse.yith-wcbk-availability-rules__expand-collapse--collapse:after,
+.yith-wcbk-price-rules__expand-collapse.yith-wcbk-price-rules__expand-collapse--collapse:after,
+.yith-wcbk-people-types__expand-collapse.yith-wcbk-people-types__expand-collapse--collapse:after {
+    transform : translateY(-50%) rotateZ(180deg);
+}
+
+.yith-wcbk-availability-rules__expand-collapse span,
+.yith-wcbk-price-rules__expand-collapse span,
+.yith-wcbk-people-types__expand-collapse span {
+    padding       : 5px 33px 5px 15px;
+    background    : #f1f1f1;
+    color         : #666;
+    font-weight   : 600;
+    border-radius : 50px;
+}
+
+.yith-wcbk-availability-rules__expand-collapse.yith-wcbk-availability-rules__expand-collapse--collapse .yith-wcbk-availability-rules__expand,
+.yith-wcbk-price-rules__expand-collapse.yith-wcbk-price-rules__expand-collapse--collapse .yith-wcbk-price-rules__expand,
+.yith-wcbk-people-types__expand-collapse.yith-wcbk-people-types__expand-collapse--collapse .yith-wcbk-people-types__expand {
+    display : none;
+}
+
+.yith-wcbk-availability-rules__expand-collapse:not(.yith-wcbk-availability-rules__expand-collapse--collapse) .yith-wcbk-availability-rules__collapse,
+.yith-wcbk-price-rules__expand-collapse:not(.yith-wcbk-price-rules__expand-collapse--collapse) .yith-wcbk-price-rules__collapse,
+.yith-wcbk-people-types__expand-collapse:not(.yith-wcbk-people-types__expand-collapse--collapse) .yith-wcbk-people-types__collapse {
+    display : none;
+}
+
+.woocommerce_options_panel input.yith-wcbk-availability-rule__title-field,
+.woocommerce_options_panel input.yith-wcbk-price-rule__title-field,
+input.yith-wcbk-availability-rule__title-field,
+input.yith-wcbk-price-rule__title-field,
+.yith-plugin-ui .yith-plugin-fw input.yith-wcbk-availability-rule__title-field,
+.yith-plugin-ui .yith-plugin-fw input.yith-wcbk-price-rule__title-field {
+    width     : 100%;
+    max-width : 480px;
+}
+
+.yith-plugin-ui .yith-plugin-fw input.yith-wcbk-availability-rule__title-field,
+.yith-plugin-ui .yith-plugin-fw input.yith-wcbk-price-rule__title-field,
+.yith-plugin-ui .yith-plugin-fw input[type=text] {
+    height  : 38px;
+    padding : 8px 10px;
+}
+
+.yith-wcbk-availability-rule__day__label,
+.yith-wcbk-form-field__container .yith-wcbk-availability-rule__day__label {
+    width        : 50px;
+    padding-left : 0;
+    box-sizing   : border-box;
+}
+
+.yith-wcbk-price-rule__conditions .yith-wcbk-settings-section__content__actions {
+    padding-top    : 0;
+    padding-bottom : 5px;
+}
+
+.yith-wcbk-availability-rule__from-to-row .yith-wcbk-admin-date-picker:disabled,
+.yith-wcbk-availability-rule__from-to-row .yith-wcbk-month-range-select:disabled {
+    display : none;
+}
+
+.yith-wcbk-availability-rule__bookable-day {
+    float : left;
+}
+
+.yith-wcbk-availability-rule__bookable-day--yes {
+    background : #007593;
+    color      : #fff;
+}
+
+.yith-wcbk-availability-rule__bookable-day--no {
+    background : #ad1f39;
+    color      : #fff;
+}
+
+.yith-wcbk-availability-default-row, .yith-wcbk-costs-default-row {
+    display : none;
+}
+
+#yith-wcbk-availability-hidden-utils-fields {
+    display : none;
+}
+
+td.yith-wcbk-availability-delete, td.yith-wcbk-availability-anchor {
+    width : 30px;
+}
+
+#yith-wcbk-availability-rules__pre-new-rule .yith-wcbk-availability-rules__delete-rule,
+#yith-wcbk-availability-rules__pre-new-rule .yith-wcbk-settings-section-box__title {
+    display : none;
+}
+
+#yith-wcbk-availability-rules__pre-new-rule .yith-wcbk-settings-section-box__content {
+    padding-top : 15px;
+}
+
+@media only screen and (max-width : 500px) {
+    .yith-wcbk-availability-rule__bookable {
+        float      : none !important;
+        margin-top : 20px;
+        width      : 100%;
+    }
+
+    .yith-wcbk-availability-rule__bookable div {
+        width       : 50%;
+        display     : block;
+        float       : left;
+        box-sizing  : border-box;
+        text-align  : center;
+        padding     : 5px 0;
+        white-space : nowrap
+    }
+}
+
+/* ==========================================
+ *  3. Settings Table
+ * ==========================================
+ */
+.yith-wcbk-booking-settings-table {
+    width           : calc(100% - 20px);
+    border-collapse : collapse;
+    margin          : 10px;
+    background      : #fff;
+    border          : 1px solid #eaeaea;
+}
+
+.yith-wcbk-booking-settings-table tr {
+    width      : 100%;
+    background : #fff;
+    border     : 1px solid #eaeaea;
+}
+
+.yith-wcbk-booking-settings-table th {
+    padding : 10px;
+}
+
+.yith-wcbk-booking-settings-table td {
+    padding       : 10px 5px;
+    background    : #fff;
+    border-top    : 1px solid #eaeaea;
+    border-bottom : 1px solid #eaeaea;
+    position      : relative;
+}
+
+.yith-wcbk-booking-settings-table select,
+.yith-wcbk-booking-settings-table input[type=text],
+.yith-wcbk-booking-settings-table input[type=number] {
+    box-shadow  : none;
+    height      : 28px;
+    line-height : 1;
+}
+
+.yith-wcbk-booking-settings-table-full-width-fields select,
+.yith-wcbk-booking-settings-table-full-width-fields input {
+    width : 100% !important;
+}
+
+/* ==========================================
+ *  4. Booking Status
+ * ==========================================
+ */
+.yith-booking-status {
+    border-radius    : 3px;
+    padding          : 8px 12px;
+    font-size        : 13px;
+    background-color : #797979;
+    color            : #fff;
+    font-weight      : 400;
+    display          : inline-block;
+    text-align       : center;
+    cursor           : default;
+}
+
+.yith-booking-status.unpaid {
+    background-color : #797979;
+}
+
+.yith-booking-status.paid {
+    background-color : #0b8043;
+}
+
+.yith-booking-status.completed {
+    background : #0073aa !important;
+}
+
+.yith-booking-status.cancelled {
+    background : #d81b60 !important;
+}
+
+.yith-booking-status.pending-confirm {
+    background : #f6bf26 !important;
+}
+
+.yith-booking-status.confirmed {
+    background : #039be5 !important;
+}
+
+.yith-booking-status.unconfirmed {
+    background : #333 !important;
+}
+
+/* ==========================================
+ *  5. Booking WP LIST
+ * ==========================================
+ */
+
+.edit-php.post-type-yith_booking .widefat td {
+    vertical-align : middle;
+    padding        : 1em 0.5em;
+}
+
+.edit-php.post-type-yith_booking .wp-list-table .check-column {
+    padding        : 1em 0.5em !important;
+    vertical-align : middle;
+}
+
+.edit-php.post-type-yith_booking .wp-list-table tfoot th,
+.edit-php.post-type-yith_booking .wp-list-table thead th {
+    padding : .45em .5em;
+}
+
+.edit-php.post-type-yith_booking th.sortable a,
+.edit-php.post-type-yith_booking th.sorted a {
+    padding : 0;
+}
+
+.edit-php.post-type-yith_booking .order-status {
+    margin-top : 5px;
+    font-size  : 11px;
+}
+
+@media screen and (min-width : 782px) {
+    .post-type-yith_booking .row-actions {
+        padding-left : 5px;
+        display      : inline-block;
+        float        : right;
+    }
+}
+
+/* ------------ Actions ----------- */
+.widefat .column-booking_actions a.button {
+    float         : left;
+    margin        : 0 6px 6px 0;
+    cursor        : pointer;
+    height        : 35px !important;
+    width         : 35px !important;
+    border-radius : 50%;
+    border        : none;
+    box-shadow    : 0 0 0 8px rgba(0, 0, 0, 0);
+    background    : transparent;
+    transition    : all .2s ease-in-out;
+    color         : #464649;
+}
+
+.widefat .column-booking_actions a.button:hover {
+    background  : rgba(0, 0, 0, 0.04);
+    box-shadow  : 0 0 0 2px rgba(0, 0, 0, 0.04);
+    color       : #00a9ef;
+    font-weight : 800;
+}
+
+.widefat .column-booking_actions a.button:after {
+    padding-top : 5px;
+}
+
+.widefat .column-booking_actions {
+    width : 165px;
+}
+
+.widefat small.meta {
+    display : block;
+    color   : #999;
+    margin  : 3px 0;
+}
+
+.booking_actions .paid,
+.booking_actions .view,
+.booking_actions .confirmed,
+.booking_actions .unconfirmed,
+.booking_actions .get-pdf-customer,
+.booking_actions .get-pdf-admin {
+    display     : block;
+    text-indent : -9999px;
+    position    : relative;
+    padding     : 0 !important;
+    height      : 2em !important;
+    width       : 2em;
+}
+
+.booking_actions .paid:after,
+.booking_actions .view:after,
+.booking_actions .confirmed:after,
+.booking_actions .unconfirmed:after {
+    font-family            : WooCommerce;
+    text-indent            : 0;
+    position               : absolute;
+    width                  : 100%;
+    height                 : 100%;
+    speak                  : none;
+    font-variant           : normal;
+    text-transform         : none;
+    -webkit-font-smoothing : antialiased;
+    top                    : 0;
+    left                   : 0;
+    line-height            : 1.85;
+    margin                 : 0;
+    text-align             : center;
+    font-weight            : 400;
+}
+
+.booking_actions .paid:after {
+    content : "\e017"
+}
+
+.booking_actions .view:after {
+    content : "\e010";
+}
+
+.booking_actions .confirmed:after {
+    content : "\e009"
+}
+
+.booking_actions .unconfirmed:after {
+    content : "\e602";
+}
+
+.booking_actions .get-pdf-customer:after,
+.booking_actions .get-pdf-admin:after {
+    font-family            : Dashicons;
+    text-indent            : 0;
+    position               : absolute;
+    width                  : 100%;
+    height                 : 100%;
+    speak                  : none;
+    font-variant           : normal;
+    text-transform         : none;
+    -webkit-font-smoothing : antialiased;
+    top                    : 0;
+    left                   : 0;
+    line-height            : 1.85;
+    margin                 : 0;
+    text-align             : center;
+    font-weight            : 400;
+    content                : "\f498";
+
+}
+
+.booking_actions .get-pdf-admin:before {
+    content       : "admin";
+    position      : absolute;
+    bottom        : 3px;
+    left          : 0;
+    width         : 100%;
+    z-index       : 10;
+    display       : block;
+    text-indent   : 0;
+    text-align    : center;
+    font-size     : 7px;
+    line-height   : 10px;
+    font-weight   : 600;
+    border-radius : 3px;
+}
+
+/* ------------ Google Calendar Sync ----------- */
+.wp-list-table .yith-wcbk-google-calendar-sync-head {
+    display     : block;
+    text-indent : -9999px;
+    position    : relative;
+    height      : 1em;
+    width       : 1em;
+    margin      : 0 auto;
+    font-size   : 17px;
+}
+
+.wp-list-table .yith-wcbk-google-calendar-sync-head:after {
+    content         : '';
+    background      : url(../../images/google-calendar.png);
+    background-size : contain;
+    position        : absolute;
+    width           : 25px;
+    height          : 25px;
+    top             : -5px;
+    left            : -5px;
+}
+
+.wp-list-table .column-google-calendar-sync {
+    width      : 25px;
+    text-align : center;
+}
+
+.wp-list-table .column-google-calendar-sync .yith-wcbk-google-calendar-sync-status {
+    color : #a0a0a0;
+}
+
+.wp-list-table .column-google-calendar-sync .yith-wcbk-google-calendar-sync-status.sync {
+    color : #4382ec;
+}
+
+/* ------------ Responsive ----------- */
+@media only screen and (max-width : 782px) {
+    .wp-list-table .column-google-calendar-sync {
+        text-align : left;
+    }
+}
+
+#yith_booking_services_tab .select2-container {
+    width : 50%;
+}
+
+/* ==========================================
+ *  6. Settings TAB
+ * ==========================================
+ */
+
+#yith-wcbk-settings-tab-title {
+    font-size      : 13px;
+    font-weight    : 600;
+    padding        : 5px 10px;
+    color          : #2a8db0;
+    text-transform : uppercase;
+}
+
+#yith-wcbk-settings-tab-wrapper {
+    background    : #fff;
+    margin-bottom : 20px;
+    margin-right  : 15px;
+}
+
+#yith-wcbk-settings-tab-wrapper .yith-wcbk-settings-section__title h3 {
+    padding : 35px 20px;
+}
+
+#yith-wcbk-settings-tab-wrapper > .yith-wcbk-settings-section {
+    border     : 1px solid #d8d8d8;
+    border-top : 0;
+}
+
+#yith-wcbk-settings-tab-wrapper .yith-wcbk-settings-content {
+    padding : 10px;
+}
+
+#yith-wcbk-settings-tab-wrapper .form-field {
+    padding : 10px;
+}
+
+#yith-wcbk-settings-tab-wrapper .form-field label {
+    width       : 150px;
+    display     : inline-block;
+    max-width   : 50%;
+    font-weight : 600;
+    font-size   : 1.1em;
+}
+
+#yith-wcbk-booking-availability-table input[type=text], #yith-wcbk-booking-availability-table select {
+    width         : 150px;
+    border-radius : 3px;
+    margin        : 0 5px;
+}
+
+#yith-wcbk-booking-availability-table input, #yith-wcbk-booking-availability-table select, #yith-wcbk-booking-availability-table label {
+    float : none;
+}
+
+#yith-wcbk-booking-availability-table label {
+    margin : 0;
+}
+
+.yith-plugin-ui #yith_wcbk_panel_settings td.forminp-checkbox.two-cols fieldset {
+    width : 100%;
+}
+
+/* ==========================================
+ *  7. Global Availability and Price Rules
+ * ==========================================
+ */
+
+#yith-wcbk-settings-tab-wrapper .yith-wcbk-availability-rules__expand-collapse,
+#yith-wcbk-settings-tab-wrapper .yith-wcbk-price-rules__expand-collapse {
+    top : calc(50% + 10px);
+}
+
+#yith-wcbk-settings-tab-wrapper .yith-wcbk-settings-section__content {
+    padding : 0 20px 20px 20px;
+}
+
+/* ==========================================
+ *  8. Costs TAB
+ * ==========================================
+ */
+
+.yith-wcbk-extra-cost--custom {
+    position : relative;
+}
+
+.yith-wcbk-extra-cost--custom:before {
+    content        : "\f464";
+    font-family    : Dashicons;
+    position       : absolute;
+    left           : 161px;
+    font-size      : 17px;
+    pointer-events : none;
+}
+
+.yith-wcbk-extra-cost--custom .yith-wcbk-extra-cost__name {
+    width       : 180px !important;
+    margin-left : -190px;
+    line-height : inherit !important;
+}
+
+input.yith-wcbk-extra-cost__name {
+    border        : none;
+    box-shadow    : none;
+    padding       : 0 20px 0 0;
+    font-size     : inherit;
+    line-height   : 2.1em;
+    border-bottom : 1px solid #ddd;
+}
+
+input.yith-wcbk-extra-cost__name:focus,
+input.yith-wcbk-extra-cost__name:active {
+    box-shadow : none;
+}
+
+.yith-wcbk-extra-cost__name::-webkit-input-placeholder,
+.yith-wcbk-extra-cost__cost::-webkit-input-placeholder {
+    font-size : 12px;
+    color     : #aaa;
+}
+
+.yith-wcbk-extra-cost__name::-moz-placeholder,
+.yith-wcbk-extra-cost__cost::-moz-placeholder {
+    font-size : 12px;
+    color     : #aaa;
+}
+
+.yith-wcbk-extra-cost__name:-ms-input-placeholder,
+.yith-wcbk-extra-cost__cost:-ms-input-placeholder {
+    font-size : 12px;
+    color     : #aaa;
+}
+
+.yith-wcbk-extra-cost__name:-moz-placeholder,
+.yith-wcbk-extra-cost__cost:-moz-placeholder {
+    font-size : 12px;
+    color     : #aaa;
+}
+
+.yith-wcbk-extra-cost__delete {
+    font-size     : 20px;
+    cursor        : pointer;
+    margin-left   : 5px;
+    width         : 20px;
+    height        : 20px;
+    transition    : all .3s ease-in-out;
+    background    : transparent;
+    border-radius : 50%;
+    box-shadow    : 0 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.yith-wcbk-extra-cost__delete:hover {
+    background : rgba(0, 0, 0, 0.03);
+    box-shadow : 0 0 0 10px rgba(0, 0, 0, 0.03);
+    color      : #e7004f;
+}
+
+.yith-wcbk-price-rule__condition *:disabled {
+    display : none;
+}
+
+.yith-wcbk-price-rule__condition {
+    position  : relative;
+    display   : flex;
+    width     : 100%;
+    padding   : 5px 20px 5px 0;
+    flex-wrap : wrap;
+}
+
+.yith-wcbk-price-rule__condition__delete-condition {
+    font-size     : 20px;
+    cursor        : pointer;
+    margin-left   : 5px;
+    width         : 20px;
+    height        : 20px;
+    transition    : all .3s ease-in-out;
+    background    : transparent;
+    border-radius : 50%;
+    box-shadow    : 0 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.yith-wcbk-price-rule__condition__delete-condition:hover {
+    background : rgba(0, 0, 0, 0.03);
+    box-shadow : 0 0 0 10px rgba(0, 0, 0, 0.03);
+    color      : #e7004f;
+}
+
+#yith-wcbk-price-rules__pre-new-rule .yith-wcbk-price-rules__delete-rule,
+#yith-wcbk-price-rules__pre-new-rule .yith-wcbk-settings-section-box__title {
+    display : none;
+}
+
+#yith-wcbk-price-rules__pre-new-rule .yith-wcbk-settings-section-box__content {
+    padding-top : 15px;
+}
+
+@media (max-width : 1650px) {
+    .post-type-product .yith-wcbk-price-rule__condition {
+        padding : 10px 20px 20px 0;
+    }
+
+    .post-type-product .yith-wcbk-price-rule__condition:nth-child(n+2) {
+        border-top : 1px solid #eee;
+    }
+
+    .post-type-product .yith-wcbk-price-rule__condition:last-child:not(:first-child) {
+        border-bottom : 1px solid #eee;
+    }
+}
+
+.yith-wcbk-price-rule__condition__field-with-label {
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    margin-right    : 15px;
+    min-width       : 150px;
+}
+
+.yith-wcbk-price-rule__condition__delete-condition__wrapper {
+    min-width : 0;
+}
+
+.yith-wcbk-price-rule__condition__field-with-label label {
+    padding-left : 0;
+    line-height  : 1.5;
+    height       : 20px;
+}
+
+.yith-wcbk-costs-default-row {
+    display : none;
+}
+
+.yith-wcbk-costs-range-column-ranges, .yith-wcbk-costs-range-column-costs {
+    width   : 100%;
+    display : block;
+}
+
+.yith-wcbk-costs-range-column-costs {
+    margin  : 20px 0 0 0;
+    display : none;
+}
+
+.yith-wcbk-costs-range-column-costs * {
+    vertical-align : middle;
+}
+
+.yith-wcbk-costs-range-column-ranges input, .yith-wcbk-costs-range-column-ranges select {
+    width : 200px;
+}
+
+td.yith-wcbk-costs-anchor {
+    width : 30px;
+}
+
+.yith-wcbk-costs-actions-column {
+    vertical-align : top;
+    text-align     : right;
+    padding-top    : 14px !important;
+    padding-right  : 9px !important;
+}
+
+.yith-wcbk-costs-toggle-visible {
+    cursor : pointer;
+}
+
+.yith-wcbk-costs-toggle-visible:hover {
+    color : #009ad2;
+}
+
+/* ==========================================
+ *  9. Sync TAB
+ * ==========================================
+ */
+
+._yith_booking_sync_export_future_ics_url input {
+    padding    : 6px 10px;
+    box-shadow : none;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table {
+    width           : 100%;
+    border-collapse : collapse;
+    background      : #fff;
+    border          : 1px solid #eaeaea;
+    text-align      : left;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table tr {
+    width      : 100%;
+    background : #fff;
+    border     : 1px solid #eaeaea;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table th {
+    padding : 10px;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table tfoot th {
+    font-weight : inherit;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table td {
+    padding       : 10px 5px;
+    background    : #fff;
+    border-top    : 1px solid #eaeaea;
+    border-bottom : 1px solid #eaeaea;
+    position      : relative;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table input[type=text],
+.woocommerce_options_panel .yith-wcbk-product-sync-imported-calendars-table input[type=text] {
+    float       : none;
+    width       : 100%;
+    box-shadow  : none;
+    height      : 28px;
+    line-height : 1;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table td.yith-wcbk-product-sync-imported-calendars-table__delete-column {
+    padding    : 10px 6px 5px;
+    text-align : center;
+}
+
+.yith-wcbk-product-sync-imported-calendars-table td .delete {
+    font-size     : 20px;
+    cursor        : pointer;
+    width         : 20px;
+    height        : 20px;
+    transition    : all .3s ease-in-out;
+    background    : transparent;
+    border-radius : 50%;
+    box-shadow    : 0 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.yith-wcbk-product-sync-imported-calendars-table td .delete:hover {
+    background : rgba(0, 0, 0, 0.03);
+    box-shadow : 0 0 0 10px rgba(0, 0, 0, 0.03);
+    color      : #e7004f;
+}
+
+/* ==========================================
+ *  9a. Booking Services
+ * ==========================================
+ */
+
+#_yith_wcbk_booking_services + .select2-container {
+    margin-bottom : 15px;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection--multiple li.select2-selection__choice {
+    border        : 0;
+    background    : #4e8ba2;
+    padding       : 4px 30px 6px 15px;
+    color         : #fff;
+    position      : relative;
+    border-radius : 50px;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection--multiple .select2-selection__choice__remove {
+    color : inherit;
+}
+
+#_yith_wcbk_booking_services + .select2-container--default.select2-container--focus .select2-selection--multiple,
+#_yith_wcbk_booking_services + .select2-container--default.select2-container--open .select2-selection--multiple {
+    border        : 1px solid #ddd !important;
+    border-bottom : 2px solid #4e8ba2 !important;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection--multiple li.select2-search.select2-search--inline {
+    display  : block;
+    float    : none;
+    margin   : 0;
+    position : relative;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection--multiple li.select2-search.select2-search--inline input {
+    display   : block;
+    width     : 100% !important;
+    padding   : 5px 10px 5px 30px;
+    font-size : 18px;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection--multiple li.select2-search.select2-search--inline:not(:first-child) input {
+    margin-top : 6px;
+    border-top : 1px solid #e5e5e5;
+}
+
+#_yith_wcbk_booking_services + .select2-container .select2-selection::before {
+    content     : "\f179";
+    font-family : "Dashicons";
+    position    : absolute;
+    bottom      : 3px;
+    left        : 6px;
+    font-size   : 25px;
+}
+
+#_yith_wcbk_booking_services + .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    padding     : 0;
+    font-size   : 18px;
+    line-height : 0;
+    position    : absolute;
+    top         : 13px;
+    right       : 7px;
+    font-weight : 500;
+}
+
+#_yith_wcbk_booking_services + .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:after {
+    display : none;
+}
+
+/* ==========================================
+ *  10. Product Settings Table
+ * ==========================================
+ */
+.yith-wcbk-product-settings-table {
+    width : 100%;
+}
+
+.yith-wcbk-product-settings-table td.yith-wcbk-product-settings-table__label,
+.yith-wcbk-product-settings-table td.yith-wcbk-product-settings-table__field {
+    padding        : 10px;
+    vertical-align : top;
+}
+
+.woocommerce_options_panel .yith-wcbk-product-settings-table label {
+    float  : none;
+    margin : 0;
+    width  : auto;
+}
+
+.yith-wcbk-product-settings-table td.yith-wcbk-product-settings-table__label {
+    width : 160px;
+}
+
+#_yith_booking_location,
+._yith_booking_sync_export_future_ics_url input[type=text] {
+    width : 50%;
+}
+
+/* ==========================================
+ *  11. Hide "add booking services" for vendors
+ * ==========================================
+ */
+.vendor_limited_access #yith_booking_service-adder {
+    display : none;
+}
+
+/* ==========================================
+ *  12. Time Select
+ * ==========================================
+ */
+.yith-wcbk-time-select__container {
+    position   : relative;
+    display    : inline-block;
+    border     : 1px solid #ddd;
+    box-shadow : inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    background : #fff;
+    width      : 132px;
+}
+
+.yith-plugin-ui .yith-plugin-fw .yith-wcbk-time-select__container {
+    box-shadow    : none;
+    border-radius : 8px;
+    overflow      : hidden;
+}
+
+.yith-wcbk-time-select__container select.yith-wcbk-time-select-hour,
+.yith-wcbk-time-select__container select.yith-wcbk-time-select-minute {
+    width         : 50px !important;
+    border        : none !important;
+    box-shadow    : none !important;
+    margin        : 0 !important;
+    border-radius : 0 !important;
+    height        : auto !important;
+    padding       : 3px 5px !important;
+    min-width     : 0 !important;
+}
+
+.yith-wcbk-time-select__container select.yith-wcbk-time-select-hour {
+    border-right : 1px solid #ddd !important;
+}
+
+.yith-wcbk-time-select__icon {
+    position       : absolute;
+    top            : 0;
+    right          : 0;
+    background     : #fff;
+    color          : #555;
+    border-left    : 1px solid #ddd;
+    height         : 100%;
+    padding        : 0 7px;
+    pointer-events : none;
+}
+
+.yith-wcbk-time-select__icon span {
+    position  : relative;
+    font-size : 17px;
+    width     : 17px;
+    height    : 17px;
+    top       : 50%;
+    transform : translateY(-50%);
+}
+
+/* ==========================================
+ *  13. Google Calendar
+ * ==========================================
+ */
+#yith-wcbk-settings-tab-wrapper #yith-wcbk-google-calendar-tab__left {
+    position     : relative;
+    float        : left;
+    margin-right : 20px;
+    width        : 480px;
+    box-sizing   : border-box;
+    padding      : 0;
+    text-align   : center;
+}
+
+#yith-wcbk-settings-tab-wrapper.google-calendar input {
+    float : none;
+}
+
+.yith-wcbk-google-calendar-notices {
+    width         : 100%;
+    margin-bottom : 10px;
+}
+
+.yith-wcbk-google-calendar-notice {
+    display       : block;
+    padding       : 5px 7px;
+    width         : 100%;
+    margin-bottom : 5px;
+    border-left   : 3px solid;
+    text-align    : left;
+    color         : #828d95;
+}
+
+.yith-wcbk-google-calendar-notice.error {
+    color : #ba0049;
+}
+
+.yith-wcbk-google-calendar-notice.info {
+    color : #0077a8;
+}
+
+.yith-wcbk-google-calendar-profile * {
+    box-sizing : border-box;
+}
+
+.yith-wcbk-google-calendar-profile__image {
+    float         : left;
+    width         : 96px;
+    height        : 96px;
+    margin-right  : 10px;
+    border        : 4px solid #eee;
+    border-radius : 50%;
+    overflow      : hidden;
+}
+
+.yith-wcbk-google-calendar-profile__image img {
+    width : 100%;
+}
+
+.yith-wcbk-google-calendar-profile__data {
+    float      : left;
+    width      : 60%;
+    padding    : 5px;
+    text-align : left;
+    height     : 96px;
+    position   : relative;
+}
+
+.yith-wcbk-google-calendar-profile__title {
+    font-size   : 24px;
+    font-weight : 400;
+    position    : absolute;
+    top         : 50%;
+    transform   : translateY(-50%);
+    line-height : 1.2em;
+}
+
+.yith-wcbk-google-calendar-timezone-info {
+    margin-top  : 10px;
+    line-height : 1.8;
+    font-size   : 14px;
+    color       : #555;
+}
+
+.yith-wcbk-google-calendar-how-to {
+    margin-top : 20px;
+    color      : #555;
+}
+
+.yith-wcbk-google-calendar-how-to a {
+    color : #555;
+}
+
+.yith-wcbk-google-calendar-actions__container {
+    display    : table;
+    width      : 100%;
+    margin-top : 10px;
+}
+
+.yith-wcbk-google-calendar-actions {
+    display        : table-cell;
+    vertical-align : middle;
+}
+
+.yith-wcbk-google-calendar-action {
+    margin  : 5px;
+    display : inline-block;
+}
+
+.yith-wcbk-google-calendar-access-form {
+    margin-bottom : 10px;
+}
+
+#yith-wcbk-settings-tab-wrapper.google-calendar input[type=text] {
+    width : 100%;
+    margin-bottom: 10px;
+}
+
+#yith-wcbk-settings-tab-wrapper.google-calendar #yith-wcbk-google-calendar-redirect-uri {
+    width : calc(100% - 40px);
+}
+
+#yith-wcbk-settings-tab-wrapper.google-calendar #yith-wcbk-google-calendar-redirect-uri + .yith-wcbk-copy-to-clipboard {
+    padding : 9px 5px;
+}
+
+.yith-wcbk-google-calendar-access-steps {
+    padding    : 0 0 24px;
+    margin     : 0;
+    list-style : none outside;
+    overflow   : hidden;
+    color      : #ccc;
+    width      : 100%;
+    display    : -webkit-inline-box;
+    display    : -webkit-inline-flex;
+    display    : inline-flex;
+    cursor     : default;
+}
+
+.yith-wcbk-google-calendar-access-steps li {
+    width         : 100%;
+    float         : left;
+    padding       : 0 0 .8em;
+    margin        : 0;
+    text-align    : center;
+    position      : relative;
+    border-bottom : 2px solid #ccc;
+    line-height   : 1.2em;
+}
+
+.yith-wcbk-google-calendar-access-steps li.active {
+    border-color : #007593;
+    color        : #007593;
+    font-weight  : 600;
+}
+
+.yith-wcbk-google-calendar-access-steps li::before {
+    content       : '';
+    border        : 2px solid #ccc;
+    border-radius : 100%;
+    width         : 8px;
+    height        : 8px;
+    position      : absolute;
+    bottom        : 0;
+    left          : 50%;
+    margin-left   : -6px;
+    margin-bottom : -7px;
+    background    : #fff;
+}
+
+.yith-wcbk-google-calendar-access-steps li.active::before {
+    border-color : #007593;
+}
+
+.yith-wcbk-google-calendar-access-form a.yith-wcbk-google-calendar-button,
+.yith-wcbk-google-calendar-access-form input,
+.yith-wcbk-google-calendar-access-form button {
+    margin : 5px 0;
+}
+
+.yith-wcbk-google-calendar-options {
+    padding : 15px 0;
+}
+
+.yith-wcbk-google-calendar-options table {
+    width : 100%;
+}
+
+.yith-wcbk-google-calendar-options table th,
+.yith-wcbk-google-calendar-options table td {
+    padding    : 5px;
+    text-align : left;
+    width      : 50%;
+}
+
+.yith-wcbk-google-calendar-options select {
+    width : 100%;
+}
+
+.yith-wcbk-google-calendar-options input[type=submit] {
+    margin-top : 25px;
+}
+
+.yith-wcbk-google-calendar-button {
+    display         : inline-block;
+    padding         : 13px 30px;
+    background      : #007593;
+    border-radius   : 4px;
+    border          : none;
+    text-transform  : uppercase;
+    font-size       : 12px;
+    cursor          : pointer;
+    font-weight     : 600;
+    text-decoration : none;
+    color           : #fff !important;
+    box-shadow      : none;
+    line-height     : 100%;
+    white-space     : nowrap;
+}
+
+.yith-wcbk-google-calendar-button:hover, .yith-wcbk-google-calendar-button:active, .yith-wcbk-google-calendar-button:focus {
+    background : #0b89a9;
+    outline    : none;
+}
+
+.yith-wcbk-google-calendar-button.logout {
+    background : #3d4248;
+}
+
+.yith-wcbk-google-calendar-button.logout:hover {
+    background : #828d95;
+}
+
+.yith-wcbk-google-calendar-button.delete-client-secret {
+    background : #af0216;
+}
+
+.yith-wcbk-google-calendar-button.delete-client-secret:hover {
+    background : #f90220;
+}
+
+#yith-wcbk-google-calendar-tab__right {
+    width         : calc(100% - 500px);
+    position      : relative;
+    float         : left;
+    box-sizing    : border-box;
+    padding       : 0 !important;
+    margin-bottom : 40px;
+    border-left   : 1px solid #eee;
+}
+
+#yith-wcbk-google-calendar-tab__right .yith-wcbk-settings-section {
+    border : none;
+}
+
+#yith-wcbk-google-calendar-tab__right table {
+    border-collapse : collapse;
+}
+
+#yith-wcbk-google-calendar-tab__right table th,
+#yith-wcbk-google-calendar-tab__right table td {
+    padding        : 10px 0;
+    vertical-align : baseline;
+}
+
+#yith-wcbk-google-calendar-tab__right table th {
+    text-align    : left;
+    font-weight   : 600;
+    padding-right : 15px;
+    min-width     : 150px;
+}
+
+#yith-wcbk-google-calendar-tab__right .description {
+    display : block;
+}
+
+#yith-wcbk-google-calendar-settings-synchronize-booking-events-container label {
+    float       : none;
+    font-size   : 11px;
+    font-weight : 600;
+}
+
+#yith-wcbk-google-calendar-settings-synchronize-booking-events-container > div {
+    clear  : both;
+    margin : 8px 0;
+}
+
+@media (max-width : 1160px) {
+    #yith-wcbk-google-calendar-tab__right {
+        width       : 100%;
+        border      : none;
+        margin-left : -20px;
+    }
+}
+
+/* ==========================================
+ *  14. Switch
+ * ==========================================
+ */
+.yith-wcbk-switch {
+    position : relative;
+    display  : inline-block;
+    width    : 36px;
+    height   : 20px;
+}
+
+.yith-wcbk-switch input {
+    display : none !important;
+}
+
+.yith-wcbk-switch-slider {
+    position           : absolute;
+    cursor             : pointer;
+    top                : 0;
+    left               : 0;
+    right              : 0;
+    bottom             : 0;
+    background-color   : #a4a4a4;
+    -webkit-transition : .4s;
+    transition         : .4s;
+    border-radius      : 10px;
+}
+
+.yith-wcbk-switch-slider:before {
+    position           : absolute;
+    content            : "";
+    height             : 16px;
+    width              : 16px;
+    left               : 2px;
+    bottom             : 2px;
+    background-color   : white;
+    -webkit-transition : .4s;
+    transition         : .4s;
+    border-radius      : 50%;
+}
+
+.yith-wcbk-switch input:checked + .yith-wcbk-switch-slider {
+    background-color : #0073aa;
+}
+
+.yith-wcbk-switch input:checked + .yith-wcbk-switch-slider:before {
+    -webkit-transform : translateX(16px);
+    -ms-transform     : translateX(16px);
+    transform         : translateX(16px);
+}
+
+/* ==========================================
+ *  15. Create Booking
+ * ==========================================
+ */
+#yith-wcbk-create-booking-page-wrap {
+    background : #fff;
+    padding    : 36px 40px;
+    margin-top : 20px;
+    box-shadow : 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    max-width  : 600px;
+}
+
+#yith-wcbk-create-booking-page-wrap h2 {
+    font-size   : 24px;
+    font-weight : 200;
+    padding     : 15px 0 36px;
+    margin      : 0;
+}
+
+#yith-wcbk-create-booking-page-wrap th[scope="row"] {
+    font-weight    : 600;
+    text-transform : uppercase;
+    text-align     : right;
+    width          : 100px;
+}
+
+#yith-wcbk-create-booking-form-wrap {
+    max-width : 400px;
+}
+
+#yith-wcbk-create-booking-form-wrap .yith-wcbk-form-section {
+    padding : 0 0 10px 0;
+    clear   : both;
+}
+
+#yith-wcbk-create-booking-form-wrap .yith-wcbk-month-picker-wrapper {
+    max-width : none;
+    width     : 100%;
+}
+
+#yith-wcbk-create-booking-form-wrap input {
+    width : 100%;
+}
+
+#yith-wcbk-create-booking-form-wrap input[type=checkbox] {
+    width : 1rem;
+}
+
+#yith-wcbk-create-booking-form-wrap .price {
+    width         : 100%;
+    margin-bottom : 20px;
+    text-align    : center;
+    font-size     : 16px;
+    font-weight   : 600;
+}
+
+#yith-wcbk-create-booking-page-wrap .yith-wcbk-create-booking {
+
+}
+
+#yith-wcbk-create-booking-page-wrap .yith-wcbk-create-booking {
+    border         : none;
+    border-radius  : 4px;
+    margin         : 0;
+    display        : inline-block;
+    padding        : 10px 30px;
+    font-size      : 16px;
+    text-transform : none;
+    background     : #00a699;
+    color          : #fff;
+    cursor         : pointer;
+}
+
+#yith-wcbk-create-booking-page-wrap .yith-wcbk-create-booking:hover {
+    background : #41b7ae;
+    color      : #fff;
+    opacity    : 1;
+}
+
+#yith-wcbk-create-booking-page-wrap .yith-wcbk-create-booking:disabled {
+    cursor : not-allowed;
+}
+
+#yith-wcbk-create-booking-page-wrap .blockUI.blockOverlay::before {
+    display : none;
+}
+
+#yith-wcbk-create-booking-page-wrap .yith-wcbk-block-ui-element {
+    top       : 50% !important;
+    left      : 50% !important;
+    transform : translateX(-50%) translateY(-50%) !important;
+}
+
+/* ==========================================
+ *  16. Panel Settings
+ * ==========================================
+ */
+.yith-wcbk-settings-theme-actions__active-status {
+    display         : inline-block;
+    text-decoration : none;
+    color           : #2da385;
+    margin-right    : 15px;
+    border-radius   : 3px;
+    font-weight     : 500;
+    text-transform  : uppercase;
+    padding         : 7px 0;
+}
+
+.yith-wcbk-settings-theme-actions__button {
+    display         : inline-block;
+    border-radius   : 3px;
+    text-transform  : uppercase;
+    padding         : 7px 14px;
+    background      : #ebe9eb;
+    text-decoration : none;
+    color           : #515151;
+    font-weight     : 500;
+    font-size       : 0.9em;
+    margin-right    : 6px;
+}
+
+.yith-wcbk-settings-theme-actions__button:hover,
+.yith-wcbk-settings-theme-actions__button:focus,
+.yith-wcbk-settings-theme-actions__button:active {
+    color      : #515151;
+    background : #dad8da;
+}
+
+.yith-wcbk-settings-theme-actions__button:last-child {
+    border-right : none;
+}
+
+.yith-wcbk-settings-theme-actions__message {
+    margin-top : 6px;
+}
+
+/* ==========================================
+ *  17. Fields and Utils
+ * ==========================================
+ */
+
+#ui-datepicker-div.yith-wcbk-datepicker.ui-widget-content {
+    z-index : 9999999 !important;
+}
+
+.yith-wcbk-anchor {
+    width       : 30px;
+    font-size   : 30px;
+    line-height : 22px;
+    cursor      : move;
+}
+
+.yith-wcbk-anchor:hover {
+    color : #009ad2;
+}
+
+.yith-wcbk-delete {
+    font-size   : 30px;
+    width       : 30px;
+    line-height : 22px;
+}
+
+.yith-wcbk-delete:hover {
+    color  : #d20909;
+    cursor : pointer;
+}
+
+.yith-wcbk-bottom-actions {
+    width      : 100%;
+    padding    : 10px;
+    box-sizing : border-box;
+    margin-top : 10px;
+}
+
+.yith-wcbk-bottom-actions .yith-wcbk-desc {
+    font-style : italic;
+    clear      : both;
+    display    : block;
+    margin-top : 20px;
+}
+
+.yith-wcbk-center {
+    text-align : center;
+}
+
+.yith-wcbk-right {
+    text-align : right;
+}
+
+.yith-wcbk-hidden-utils-fields {
+    display : none;
+}
+
+#yith_wcbk_panel_labels input[type=text]::-webkit-input-placeholder {
+    color : #bbb;
+}
+
+#yith_wcbk_panel_labels input[type=text]::-moz-placeholder {
+    color : #bbb;
+}
+
+#yith_wcbk_panel_labels input[type=text]:-ms-input-placeholder {
+    color : #bbb;
+}
+
+#yith_wcbk_panel_labels input[type=text]:-moz-placeholder {
+    color : #bbb;
+}
+
+/**
+ * Effects
+ */
+
+.yith-wcbk-effect--shake {
+    animation           : yith-wcbk-effect--shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform           : translate3d(0, 0, 0);
+    backface-visibility : hidden;
+    perspective         : 1000px;
+}
+
+.yith-wcbk-effect--wiggle {
+    animation           : yith-wcbk-effect--wiggle 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform           : translate3d(0, 0, 0);
+    backface-visibility : hidden;
+    perspective         : 1000px;
+}
+
+@keyframes yith-wcbk-effect--shake {
+    10%, 90% {
+        transform : translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform : translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform : translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform : translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes yith-wcbk-effect--wiggle {
+    0% {
+        transform : rotate(-3deg);
+    }
+    20% {
+        transform : rotate(15deg);
+    }
+    40% {
+        transform : rotate(-10deg);
+    }
+    60% {
+        transform : rotate(5deg);
+    }
+    90% {
+        transform : rotate(-1deg);
+    }
+    100% {
+        transform : rotate(0);
+    }
+}

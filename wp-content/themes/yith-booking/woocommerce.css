@@ -1,0 +1,162 @@
+.site-content-header .images {
+    width : 100%;
+}
+
+.site-content-header .woocommerce-product-gallery__image {
+    display : none;
+}
+
+.site-content-header .woocommerce-product-gallery__image:first-child {
+    display : block;
+}
+
+.site-content-header .woocommerce-product-gallery__image {
+    height         : 250px;
+    overflow       : hidden;
+    vertical-align : middle;
+    position       : relative;
+}
+
+.site-content-header .woocommerce-product-gallery__image img {
+    position   : absolute;
+    top        : 50%;
+    left       : 50%;
+    transform  : translateY(-50%) translateX(-50%);
+    min-height : 250px;
+    min-width  : 100%;
+    max-width  : none;
+    width      : auto !important;
+    transition : transform .3s ease-in-out;
+}
+
+.site-content-header .woocommerce-product-gallery__image:hover img {
+    transform : translateY(-50%) translateX(-50%) scale(1.1);
+}
+
+.site-content-header .woocommerce-product-gallery__image--placeholder {
+    display : none;
+}
+
+.site-content-header .woocommerce div.product div.images .flex-control-thumbs li {
+    width : 10%;
+}
+
+.site-content-header .yith-booking-woocommerce-images {
+    position : relative;
+}
+
+.site-content-header .yith-booking-woocommerce-images .open-gallery {
+    position      : absolute;
+    left          : 20px;
+    bottom        : 20px;
+    border-radius : 4px;
+    background    : #fff;
+    padding       : 8px 16px;
+    font-size     : 14px;
+    color         : #777;
+    line-height   : 18px;
+    cursor        : pointer;
+    box-shadow    : 0 1px 1px 1px rgba(0, 0, 0, 0.14);
+    transition    : all .4s;
+}
+
+.site-content-header .yith-booking-woocommerce-images .open-gallery:hover {
+    color      : #444;
+    box-shadow : 0 1px 1px 1px rgba(0, 0, 0, 0.14), 0 1px 6px 1px rgba(0, 0, 0, 0.2);
+    transform  : scale(1.03);
+}
+
+.woocommerce .site-content {
+    padding-top : 4%;
+}
+
+.yith-booking-has-woocommerce-gallery-in-header.woocommerce #content div.product div.summary,
+.yith-booking-has-woocommerce-gallery-in-header.woocommerce div.product div.summary,
+.yith-booking-has-woocommerce-gallery-in-header.woocommerce-page #content div.product div.summary,
+.yith-booking-has-woocommerce-gallery-in-header.woocommerce-page div.product div.summary {
+    width : 100%;
+    float : none;
+}
+
+.woocommerce .entry-summary {
+    margin-right : 0;
+    margin-left  : 0;
+}
+
+#content div.product div.images,
+#content div.product div.summary {
+    width : 46.42857%;
+}
+
+.woocommerce div.product .entry-summary .product_meta {
+    margin-top : 1em;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border-radius : 0;
+    border-bottom : none;
+    margin        : 0 -3px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    border-radius : 0;
+    border-bottom : none;
+    font-weight   : 400;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after {
+    display : none;
+}
+
+.woocommerce div.product .woocommerce-tabs h2 {
+    margin-top : 0;
+}
+
+.woocommerce td.product-name dl.variation p {
+    word-wrap : normal;
+}
+
+.woocommerce #secondary {
+    margin-top : 0;
+}
+
+/**
+ *  >= 783px
+ */
+@media screen and (min-width : 48.9375em) {
+    .woocommerce .site-content {
+        padding-top : 30px;
+    }
+}
+
+/**
+ *  >= 910px
+ */
+@media screen and (min-width : 56.875em) {
+    .site-content-header .woocommerce-product-gallery__image {
+        height : 350px;
+    }
+
+    .site-content-header .woocommerce-product-gallery__image img {
+        min-height : 350px;
+    }
+}
+
+/**
+ *  >= 1200px
+ */
+
+@media screen and (min-width : 75em) {
+    .site-content-header .woocommerce-product-gallery__image {
+        height : 450px;
+    }
+
+    .site-content-header .woocommerce-product-gallery__image img {
+        min-height : 450px;
+    }
+}
+
+
+
+

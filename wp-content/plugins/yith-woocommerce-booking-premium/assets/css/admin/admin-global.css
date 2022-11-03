@@ -1,0 +1,77 @@
+/**
+ * Admin Global style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ * Contents:
+ *  1. Globals
+ *  2. Admin Menu Booking Bubbles
+ *  3. Booking Menu Icon
+ *  4. Booking Product WP LIST
+ */
+
+/* ==========================================
+ *  1. Globals
+ * ==========================================
+ */
+.yith-wcbk-clearfix:before,
+.yith-wcbk-clearfix:after {
+    content : "";
+    display : table;
+}
+
+.yith-wcbk-clearfix:after {
+    clear : both;
+}
+
+.yith-wcbk-clearfix {
+    zoom : 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* ==========================================
+ *  2. Admin Menu Booking Bubbles
+ * ==========================================
+ */
+#adminmenu .yith-wcbk-booking-menu-bubble {
+    display               : inline-block;
+    background-color      : #797979;
+    color                 : #fff;
+    font-size             : 9px;
+    line-height           : 17px;
+    font-weight           : 600;
+    margin                : 1px 0 0 2px;
+    vertical-align        : top;
+    -webkit-border-radius : 10px;
+    border-radius         : 10px;
+    z-index               : 26;
+    padding               : 0 6px;
+}
+
+#adminmenu .yith-wcbk-booking-menu-bubble.unpaid {
+    background-color : #797979;
+}
+
+#adminmenu .yith-wcbk-booking-menu-bubble.pending-confirm {
+    background-color : #f6bf26;
+}
+
+/* ==========================================
+ *  3. Booking Menu Icon
+ * ==========================================
+ */
+.menu-icon-yith_booking .dashicons-calendar:before {
+    content     : '\e00e';
+    font-family : WooCommerce;
+}
+
+/* ==========================================
+ *  4. Booking Product WP LIST
+ * ==========================================
+ */
+table.wp-list-table span.product-type.booking:before {
+    content : '\e00e';
+}
+
+.edit-php.post-type-product .column-taxonomy-yith_booking_service {
+    width: 100px;
+}

@@ -1,0 +1,303 @@
+/**
+ * Datepicker style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+/* Date Picker Input */
+
+input.yith-wcbk-date-picker,
+input.yith-wcbk-date-picker--formatted {
+    padding    : 0;
+    margin     : 0;
+    background : transparent;
+    border     : none;
+    box-sizing : border-box;
+}
+
+input.yith-wcbk-date-picker {
+    opacity  : 0;
+    position : absolute;
+    z-index  : 0;
+}
+
+input.yith-wcbk-date-picker--formatted {
+    position : relative;
+    z-index  : 1;
+}
+
+.yith-wcbk-date-picker-wrapper {
+    position : relative;
+    width    : 100%;
+}
+
+.yith-wcbk-date-picker-wrapper input.yith-wcbk-date-picker--formatted {
+    padding-right : 30px;
+}
+
+.yith-wcbk-date-picker-wrapper .yith-wcbk-booking-date-icon {
+    position   : absolute;
+    right      : 10px;
+    top        : 50%;
+    transform  : translateY(-50%);
+    transition : all 0.3s ease-in-out;
+    z-index    : 5;
+}
+
+.yith-wcbk-date-picker-wrapper input.yith-wcbk-date-picker:focus + .yith-wcbk-date-picker--formatted + .yith-wcbk-booking-date-icon {
+    transform : translateY(-50%) rotateZ(179deg);
+}
+
+/* Date Picker Calendar */
+#ui-datepicker-div.yith-wcbk-datepicker.ui-widget-content,
+.yith-wcbk-date-picker--inline .ui-widget-content {
+    font-family   : Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width         : 300px;
+    background    : #fff;
+    border-radius : 3px;
+    padding       : 0;
+    overflow      : hidden;
+    border        : none;
+    box-shadow    : 0 0 0 1px #bbb inset !important;
+}
+
+.yith-wcbk-date-picker--inline .ui-widget-content {
+    width : 100%;
+}
+
+.yith-wcbk-datepicker .ui-datepicker-header,
+.yith-wcbk-date-picker--inline .ui-datepicker-header {
+    background    : #353840;
+    border-radius : 0;
+    border        : none;
+    color         : #e3e4ea;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-title,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-title {
+    font-size   : 13px;
+    line-height : 40px;
+}
+
+.yith-wcbk-datepicker .ui-widget-content .ui-state-hover,
+.yith-wcbk-datepicker .ui-widget-content .ui-state-focus,
+.yith-wcbk-date-picker--inline .ui-widget-content .ui-state-hover,
+.yith-wcbk-date-picker--inline .ui-widget-content .ui-state-focus {
+    border-radius : 0;
+    border        : none;
+}
+
+.yith-wcbk-datepicker .ui-state-hover,
+.yith-wcbk-datepicker .ui-widget-content .ui-state-hover,
+.yith-wcbk-datepicker .ui-widget-header .ui-state-hover,
+.yith-wcbk-datepicker .ui-state-focus,
+.yith-wcbk-datepicker .ui-widget-content .ui-state-focus,
+.yith-wcbk-datepicker .ui-widget-header .ui-state-focus,
+.yith-wcbk-date-picker--inline .ui-state-hover,
+.yith-wcbk-date-picker--inline .ui-widget-content .ui-state-hover,
+.yith-wcbk-date-picker--inline .ui-widget-header .ui-state-hover,
+.yith-wcbk-date-picker--inline .ui-state-focus,
+.yith-wcbk-date-picker--inline .ui-widget-content .ui-state-focus,
+.yith-wcbk-date-picker--inline .ui-widget-header .ui-state-focus {
+    background : transparent;
+}
+
+.yith-wcbk-datepicker .ui-widget-header .ui-icon,
+.yith-wcbk-date-picker--inline .ui-widget-header .ui-icon {
+    background : transparent;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next-hover,
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-next-hover,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-next {
+    right  : 2px;
+    top    : 7px;
+    cursor : pointer;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-prev-hover,
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-prev,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-prev-hover,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-prev {
+    left   : 2px;
+    top    : 7px;
+    cursor : pointer;
+
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next-hover,
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next-hover,
+.yith-wcbk-date-picker--inline.ui-datepicker .ui-datepicker-next-hover,
+.yith-wcbk-date-picker--inline.ui-datepicker .ui-datepicker-next-hover {
+    color : #c6c6c6;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-prev span,
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next span,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-prev span,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-next span {
+    position : static;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-prev span:after,
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next span:after,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-prev span:after,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-next span:after {
+    font-family            : Dashicons;
+    text-indent            : 0;
+    position               : absolute;
+    width                  : 100%;
+    height                 : 100%;
+    speak                  : none;
+    font-variant           : normal;
+    text-transform         : none;
+    -webkit-font-smoothing : antialiased;
+    top                    : 0;
+    left                   : 0;
+    line-height            : 1.85;
+    margin                 : 0;
+    text-align             : center;
+    font-weight            : 400;
+    color                  : #f1f1f1;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-prev span:after,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-prev span:after {
+    content : "\f341";
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-next span:after,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-next span:after {
+    content : "\f345";
+}
+
+.yith-wcbk-datepicker.ui-datepicker table,
+.yith-wcbk-date-picker--inline .ui-datepicker table {
+    width     : 90%;
+    margin    : 5%;
+    border    : none;
+    font-size : 12px;
+}
+
+.yith-wcbk-datepicker.ui-datepicker tr,
+.yith-wcbk-date-picker--inline .ui-datepicker tr {
+    border : 0;
+}
+
+.yith-wcbk-datepicker.ui-datepicker th,
+.yith-wcbk-date-picker--inline .ui-datepicker th {
+    padding : .1em;
+}
+
+.yith-wcbk-datepicker.ui-datepicker td,
+.yith-wcbk-date-picker--inline .ui-datepicker td{
+    padding: 1px !important;
+}
+
+.yith-wcbk-datepicker .ui-state-default,
+.yith-wcbk-datepicker.ui-widget-content .ui-state-default,
+.yith-wcbk-datepicker .ui-widget-header .ui-state-default,
+.yith-wcbk-date-picker--inline .ui-state-default,
+.yith-wcbk-date-picker--inline .ui-widget-content .ui-state-default,
+.yith-wcbk-date-picker--inline .ui-widget-header .ui-state-default {
+    border      : none;
+    background  : transparent;
+    font-weight : 400;
+    color       : #555;
+}
+
+.yith-wcbk-datepicker.ui-datepicker td span,
+.yith-wcbk-datepicker.ui-datepicker td a,
+.yith-wcbk-date-picker--inline .ui-datepicker td span,
+.yith-wcbk-date-picker--inline .ui-datepicker td a {
+    text-align : center;
+    position   : relative;
+}
+
+.yith-booking--classic-style .yith-wcbk-datepicker.ui-datepicker td span,
+.yith-booking--classic-style .yith-wcbk-datepicker.ui-datepicker td a,
+.yith-booking--classic-style .yith-wcbk-date-picker--inline .ui-datepicker td span,
+.yith-booking--classic-style .yith-wcbk-date-picker--inline .ui-datepicker td a {
+    width         : 30px;
+    height        : 30px;
+    border-radius : 50%;
+    padding-top   : 6px;
+    box-sizing    : border-box;
+}
+
+.yith-wcbk-datepicker.ui-datepicker td a.ui-state-highlight:before,
+.yith-wcbk-date-picker--inline .ui-datepicker td a.ui-state-highlight:before {
+    content       : '';
+    width         : 25px;
+    height        : 25px;
+    position      : absolute;
+    top           : -2px;
+    left          : 6px;
+    border-radius : 50%;
+    background    : #e3e5e8;
+    z-index       : -1;
+}
+
+.yith-wcbk-datepicker.ui-datepicker td a.ui-state-active,
+.yith-wcbk-date-picker--inline .ui-datepicker td a.ui-state-active {
+    color : #fff;
+}
+
+.yith-wcbk-datepicker.ui-datepicker td a.ui-state-active:before,
+.yith-wcbk-date-picker--inline .ui-datepicker td a.ui-state-active:before {
+    content       : '';
+    width         : 25px;
+    height        : 25px;
+    background    : #353840;
+    position      : absolute;
+    top           : 50%;
+    left          : 50%;
+    transform     : translateX(-50%) translateY(-50%);
+    border-radius : 50%;
+    z-index       : -1;
+}
+
+.yith-booking--classic-style .yith-wcbk-datepicker.ui-datepicker td a.ui-state-active,
+.yith-booking--classic-style .yith-wcbk-date-picker--inline .ui-datepicker td a.ui-state-active {
+    background : #353840;
+    color      : #fff;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-buttonpane {
+    border     : none;
+    background : transparent;
+    height     : 30px;
+}
+
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-buttonpane {
+    display : none;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-buttonpane .ui-datepicker-current,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-buttonpane .ui-datepicker-current {
+    display : none !important;
+}
+
+.yith-wcbk-datepicker.ui-datepicker .ui-datepicker-buttonpane .ui-datepicker-close,
+.yith-wcbk-date-picker--inline .ui-datepicker .ui-datepicker-buttonpane .ui-datepicker-close {
+    text-transform : none;
+    border         : none;
+    background     : transparent;
+    font-weight    : 400;
+    color          : #555;
+    font-size      : 13px;
+    margin         : 0;
+}
+
+.yith-wcbk-datepicker--static {
+    position  : absolute !important;
+    top       : auto !important;
+    left      : auto !important;
+    max-width : 100% !important;
+}
+
+.yith_wcbk_booking_product_form_widget .yith-wcbk-datepicker--static {
+    min-width : 100% !important;
+}
